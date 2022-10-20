@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               We are careful to put any and all changes to the vanilla game behind toggles, so that if desired you can
-              play it in all of it&apos;s 1996 glory
+              play it in all of it&apos;s 1998 glory
             </p>
           </div>
 
@@ -79,8 +79,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Higher Framerate</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                  iste dolor cupiditate blanditiis ratione.
+                  No longer constrained by 90s console hardware, your experience will now be as silky smooth as your modern GPU and monitor can handle!
                 </dd>
               </div>
 
@@ -107,8 +106,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Built in randomizer</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                  iste dolor cupiditate blanditiis ratione.
+                  Shuffle what rewards you get from things like chests, skulltulas, and more! Endless replayability! No patching required! 
                 </dd>
               </div>
 
@@ -135,8 +133,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Misc Cheats & Enhancements</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                  iste dolor cupiditate blanditiis ratione.
+                  Make your own fun! With a plethora of enhancement options available, you're guaranteed to find a new way to play!
                 </dd>
               </div>
 
@@ -163,8 +160,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Multi-Platform</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                  iste dolor cupiditate blanditiis ratione.
+                  Switch? Linux? Mac? You want it? It's yours, my friend. As long as you have the right hardware.
                 </dd>
               </div>
             </dl>
