@@ -31,8 +31,19 @@ const Home: NextPage = () => {
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg"
                   >
                     Join the Discord to Download
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      />
                     </svg>
                   </a>
                 </div>
@@ -79,7 +90,8 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Higher Framerate</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  No longer constrained by 90s console hardware, your experience will now be as silky smooth as your modern GPU and monitor can handle!
+                  No longer constrained by 90s console hardware, your experience will now be as silky smooth as your
+                  modern GPU and monitor can handle!
                 </dd>
               </div>
 
@@ -106,7 +118,8 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Built in randomizer</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Shuffle what rewards you get from things like chests, skulltulas, and more! Endless replayability! No patching required! 
+                  Shuffle what rewards you get from things like chests, skulltulas, and more! Endless replayability! No
+                  patching required!
                 </dd>
               </div>
 
@@ -133,7 +146,8 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Misc Cheats & Enhancements</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Make your own fun! With a plethora of enhancement options available, you're guaranteed to find a new way to play!
+                  Make your own fun! With a plethora of enhancement options available, you&apos;re guaranteed to find a
+                  new way to play!
                 </dd>
               </div>
 
@@ -160,7 +174,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Multi-Platform</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Switch? Linux? Mac? You want it? It's yours, my friend. As long as you have the right hardware.
+                  Switch? Linux? Mac? You want it? It&apos;s yours, my friend. As long as you have the right hardware.
                 </dd>
               </div>
             </dl>
