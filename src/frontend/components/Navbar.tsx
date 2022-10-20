@@ -11,13 +11,17 @@ export const Navbar: FC<{}> = () => {
   return (
     <nav className="bg-zinc-800 drop-shadow-xl text-white text-sm">
       <div className="mx-auto max-w-screen-md flex py-4">
-        <div className="sm:flex hidden items-center">
-          <Image src={logo} alt="Ship of Harkinian Logo" height={50} width={50} />
-          <div>
-            <div className="text-5xl font-extrabold">Ship</div>
-            <div className="text-sm font-bold text-zinc-300">OF HARKINIAN</div>
-          </div>
-        </div>
+        <Link href="/">
+          <a>
+            <div className="sm:flex hidden items-center">
+              <Image src={logo} alt="Ship of Harkinian Logo" height={50} width={50} />
+              <div>
+                <div className="text-5xl font-extrabold">Ship</div>
+                <div className="text-sm font-bold text-zinc-300">OF HARKINIAN</div>
+              </div>
+            </div>
+          </a>
+        </Link>
         <div className="flex items-center flex-1 justify-center sm:justify-end">
           {router.route !== '/' && (
             <Link href="/">
