@@ -23,21 +23,17 @@ const Home: NextPage = () => {
               </div>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"></p>
               <div className="mt-5 sm:mt-8 sm:flex justify-center">
-                <div className="rounded-md shadow">
-                  <Link href="/download">
-                    <a className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg">
-                      Download
-                    </a>
-                  </Link>
-                </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="https://discord.com/invite/shipofharkinian"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-100 px-8 py-3 text-base font-medium text-red-700 hover:bg-red-200 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-red-700 md:py-4 md:px-10 md:text-lg"
                   >
-                    Join the Discord
+                    Join the Discord to Download
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
                   </a>
                 </div>
               </div>
