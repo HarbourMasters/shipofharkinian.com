@@ -180,6 +180,23 @@ const Home: NextPage = () => {
             </dl>
           </div>
         </div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10">
+          <div className="lg:text-center">
+            <h2 className="text-lg font-semibold text-red-600">Latest Direct</h2>
+          </div>
+          <div className="mt-5">
+            <iframe
+              className="mx-auto mb-6"
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/wRxZ_WlZI4s?controls=0"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </>
   );
