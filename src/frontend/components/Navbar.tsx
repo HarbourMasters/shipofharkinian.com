@@ -41,7 +41,7 @@ export const Navbar: FC<{}> = () => {
             </a>
           </Link>
           <a
-            className="py-2 px-4 m-1 hover:bg-zinc-700 rounded-full"
+            className="py-2 px-4 m-1 flex items-center hover:bg-zinc-700 rounded-full"
             href="https://discord.com/invite/shipofharkinian"
             target="_blank"
             rel="noreferrer"
@@ -53,7 +53,7 @@ export const Navbar: FC<{}> = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-6 h-6"
+              className="ml-2 w-5 h-5"
             >
               <path
                 stroke-linecap="round"
