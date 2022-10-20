@@ -4,6 +4,72 @@ export default ({ children }) => <MdxLayout title="Changelog">{children}</MdxLay
 
 <h1 className="text-center">Changelog</h1>
 
+### Zhora Foxtrot (4.0.5)
+October 20th 2022
+
+#### Bug Fixes
+
+- Fixes regression preventing boots and tunics from being equipped while under water
+
+### Zhora Echo (4.0.4)
+October 20th 2022
+
+#### Bug Fixes
+
+- Cosmetic Sword Trail causing crash
+- Cuts down on excess rando lookups in z_en_item00
+- Adds extra entry to obj_lift FallTimerDurations (Nintendo Switch)
+
+#### Tweaks
+
+- Tunics/Boots on C-buttons are now always enabled (like in interiors)
+
+### Zhora Delta (4.0.3)
+October 13th 2022
+
+#### Feature Additions
+
+- Enhancement to restore the Gerudo Warrior clothing color being afected by Link's current Tunic or Bombs
+
+#### Bug Fixes
+
+- Color Clamping
+- Pickup item cutscene logic
+- Adult Ruto's earings
+- Implement G_CCMUX_NOISE (Fixes Bongo Bongo's shadow and others)
+- Occurence when "Mask Select in Inventory" was able to cycling bottle contents when bottle duping
+- Cutscene Lighting (Goddesses cutscene, wrong color on Actors in the Sacred Realm, etc.)
+- Deku scrubs moving into position when entering Forest Stage
+- Goron's Spin
+- Ruto's softlock in Water Temple when Skip Text is enabled
+- Prevent infinite ammo cheat from filling bombchus unless the item is obtained
+- Save corruption when "Auto Save" was enabled and quickly returning to main menu when dying
+- Crash when retrieving a merchant message while using fast file select
+- Interpolation issue with the Bunny Hood ears
+- Ice Trap when wearing the Bunny Hood
+- Debug building on Windows with new build.c file
+- Skipping "get item" cutscene logic
+- Showing pocket cucco in rando gives first Anju reward instead
+
+#### Tweaks
+
+- Developer Tools button sizes
+- A cursor color in the "Continue" prompt screen
+- Some flag documentation
+- Default HUD to N64 colors
+
+### Zhora Charlie (4.0.2)
+October 6th 2022
+
+#### Bug Fixes 
+
+- Forest Temple textures [Master Quest]
+- Navi losing her core color in the cosmetic editor
+- Y-Axis inversion in C Up view
+- Merchant message table being generated before items were loaded
+- Business scrubs crashing on expensive scrub shuffle
+- "Scrubsanity Off" was using mysterious text
+
 ### Zhora Bravo (4.0.1)
 October 1st 2022
 
