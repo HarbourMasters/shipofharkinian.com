@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                   <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Built in randomizer</p>
                 </dt>
                 <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Endless replayability! No patching required! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Shuffle what rewards you get from things like chests, skulltulas, and more! Endless replayability! No patching required! 
                 </dd>
               </div>
 
