@@ -1,0 +1,79 @@
+import { MdxLayout } from 'src/frontend/components/MdxLayout';
+
+export default ({ children }) => <MdxLayout title="FAQ">{children}</MdxLayout>;
+
+<h1 className="text-center">FAQ</h1>
+
+1. ### Where can I get a ROM?
+    We cannot help you with this. You must own a legal copy of the game and dump the ROM using an
+    other software not provided by us. The ROMs we support are listed below.
+
+1. ### What ROMs are supported?
+    #### Ocarina of Time Debug PAL GC (not Master Quest)
+    > Currently the recommended option
+    ```
+    Build team: `zelda@srd022j`
+    Build date: `03-02-21 00:49:18` (year-month-day)
+    sha1: cee6bc3c2a634b41728f2af8da54d9bf8cc14099
+    ```
+    #### Ocarina of Time PAL GameCube
+    > May lead to crashes and instability
+    ```
+    sha1: 0227d7c0074f2d0ac935631990da8ec5914597b4
+    ```
+    #### Ocarina of Time Debug PAL GC MQ
+    > Dungeons will be Master Quest
+    ```
+    Build team: `zelda@srd022j`
+    Build date: `03-02-21 00:16:31` (year-month-day)
+    sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp)
+    sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
+    ```
+
+1. ### Is this legal?
+    We are not distributing any Nintendo owned IP. Users must provide legally obtained ROMs to experience Ship of Harkinian. 
+    We also have a strict no piracy policy enforced around our community.
+
+1. ### What features are planned?
+    In completely random order, these are the things currently on our radar, no ETAs:
+    - Custom model support
+    - Custom audio support
+    - Mod support (with scripting language)
+    - Parity with other randomizers
+    - Support for more ROM versions
+
+1. ### Why aren't ETAs given?
+    This is a project done by volunteers during their spare time for free. The work gets accomplished by whoever's 
+    interested in implementing what, with a few things being prioritized as milezincs for stable releases. 
+    To set deadlines would be to create unrealistic expectations that would likely never be met and cause disappointment.
+
+1. ### Will you also port Majora's Mask?
+    Eventually. Work cannot even begin on this until the MM decomp project has completed. Check back in 2024.
+
+1. ### Will you port SOH to x platform/console
+    This primarily relies on someone contributing to the project the work to support x platform/console. If you 
+    think you can help us support a new platform/console please reach out!
+
+1. ### I used save states, now things are broken
+    Save states are an experimental feature and not fully supported. Use at your own risk
+
+1. ### I crashed in a cutscene while using free-cam
+    There is a known issue with the Free Camera enhancement causing crashes in certain cutscenes for some users. 
+    As a workaround, please disable the Free Camera enhancement prior to triggering the cutscene.
+
+    Cutscenes known to cause the crash include:
+    - Slingshot Minigame/Deku Seed Bag
+    - Bombing Dodongo's Cavern Entrance
+    - Catching a Fish
+    - Medigoron Waking (Death Mountain Trail)
+
+    We are having trouble reproducing this bug ourselves. Please feel free to attach your log file to the thread titled
+    "Crashing during cutscenes?" on our Discord.
+
+1. ### I crashed at the very end of the game at the beginning of the Ganon fight
+    There is a known crash happening at the beginning of the Ganon battle. We are investigating this, but we 
+    are having trouble reproducing this consistently. Please feel free to attach your log file to the thread titled
+    "Ganon Crash" on our Discord.
+
+1. ### Why is this project called Ship of Hark--
+    > Enough! My ship sails in the morning! 

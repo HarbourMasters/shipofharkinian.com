@@ -1,0 +1,28 @@
+import Link from 'next/link';
+import { MdxLayout } from 'src/frontend/components/MdxLayout';
+
+export default ({ children }) => <MdxLayout title="Download">{children}</MdxLayout>;
+
+<h1 className="text-center">Download</h1>
+
+## Zhora Bravo (4.0.1)
+
+- <a href="https://downloads.shipofharkinian.com/SoH-Zhora-Bravo-Win64.zip" target="_blank">Windows</a>
+- <a href="https://downloads.shipofharkinian.com/SoH-Zhora-Bravo-Linux.zip" target="_blank">Linux</a>
+- <a href="https://downloads.shipofharkinian.com/SoH-Zhora-Bravo-Mac.zip" target="_blank">macOS</a>
+- <a href="https://downloads.shipofharkinian.com/SoH-Zhora-Bravo-WiiU.zip" target="_blank">WiiU</a>
+- <a href="https://downloads.shipofharkinian.com/SoH-Zhora-Bravo-Switch.zip" target="_blank">Switch</a>
+
+#### Changes
+
+- Master Quest fixed on Linux and macOS
+- WiiU: Fix overflow for GX2CopySurfaceEx that would lead to a crash
+- Randomizer not properly being disabled when using Master Quest
+- Naming for Auto Center options
+- Global.sav wasn't generating on Linux and macOS
+
+---
+
+Historical downloads can be found on the <Link href="/changelog"><a>changelog</a></Link>.
+
+Nightly builds can be found on the [build server](https://builds.shipofharkinian.com/job/SoH_Multibranch/job/develop/).
