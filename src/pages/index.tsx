@@ -11,6 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Ship Of Harkinian</title>
+        <link rel="icon" sizes="16x16 32x32" href="/favicon.ico"></link>
       </Head>
       <Navbar />
       <div style={{ backgroundImage: 'url("/hyrule.jpg")' }} className="bg-cover bg-center">
