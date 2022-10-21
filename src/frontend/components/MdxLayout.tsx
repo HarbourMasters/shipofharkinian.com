@@ -26,6 +26,7 @@ export const MdxLayout: FC<MdxLayoutProps> = ({ children, title = 'Ship of Harki
       <>
         <Head>
           <title>{title}</title>
+          <link rel="icon" sizes="16x16 32x32" href="/favicon.ico"></link>
         </Head>
         <Navbar />
         <main className="prose prose-zinc max-w-screen-md mx-auto px-2 mt-6 prose-a:text-red-600 hover:prose-a:text-red-500 prose-a:no-underline">
