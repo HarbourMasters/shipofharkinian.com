@@ -186,9 +186,7 @@ const Home: NextPage = () => {
           </div>
           <div className="mt-5">
             <iframe
-              className="mx-auto mb-6"
-              width="560"
-              height="315"
+              className="mx-auto mb-6 max-w-2xl w-full h-80"
               src="https://www.youtube-nocookie.com/embed/wRxZ_WlZI4s?controls=0"
               title="YouTube video player"
               frameBorder="0"
