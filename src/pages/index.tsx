@@ -62,7 +62,7 @@ const Home: NextPage = () => {
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               We are careful to put any and all changes to the authentic game behind toggles, so that if desired you can
-              play it in all of it&apos;s 1998 glory
+              play it in all of its 1998 glory
             </p>
           </div>
 
