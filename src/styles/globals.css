@@ -430,12 +430,6 @@ main.home {
   background-color: rgba(0,0,0,0.5);
 }
 
-@media (min-width: 768px) {
-  .splashOverlay {
-    background-color: rgba(0,0,0,0.8);
-  }
-}
-
 .splashText {
   position: absolute;
   top:0;right:0;bottom:0;left:0;
