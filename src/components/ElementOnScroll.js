@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 export function ElementOnScroll(props) {
+
   const [isVisible, setVisible] = React.useState(false);
   const domRef = React.useRef();
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.3
-  }
+
   React.useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.3
+    };
     const observer = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting) {
       
