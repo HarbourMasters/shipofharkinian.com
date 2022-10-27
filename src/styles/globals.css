@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+@import url('fonts.css');
 
 :root {
   --mainOrange: #eb802b;
@@ -8,7 +8,7 @@
   --backgroundDarkAccent: #0d1014;
   --textColor: #dadada;
   --mainFont: "Open Sans", sans-serif;
-  --titleFont: "Righteous", cursive;
+  --titleFont: "Righteous", sans-serif;
 }
 
 * {
@@ -45,9 +45,12 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: var(--titleFont);
-  font-weight: 400;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--mainFont);
 }
 
 h1 {
@@ -483,6 +486,7 @@ main.home {
 
 .splashText .inner span.quote {
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .splashText .inner span.author {
@@ -490,6 +494,7 @@ main.home {
   animation-delay: 900ms;
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .splashButton {
@@ -507,6 +512,13 @@ main.home {
   transition: all 200ms;
   animation: slideIn 500ms forwards;
   animation-delay: 1100ms;
+}
+
+@media (min-width: 768px) {
+  .splashButton {
+    font-size: 18px;
+    width: 210px;
+  }
 }
 
 .splashButton:hover {
@@ -796,7 +808,7 @@ main.home {
 
 #content .textBackground {
   margin: 0 0 50px 0;
-  padding: 15px 30px;
+  padding: 15px;
   opacity: 0;
   background-color: var(--backgroundLightAccent);
   border-radius: 10px;
@@ -804,6 +816,12 @@ main.home {
   animation: fadeIn 500ms forwards;
   animation-delay: 300ms;
   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  #content .textBackground {
+    padding: 15px 30px;
+  }
 }
 
 #content .textArea {
@@ -868,4 +886,5 @@ main.home {
   background-color: var(--backgroundColor);
   border-radius: 5px;
   font-size: 14px;
+  overflow-x: auto;
 }
