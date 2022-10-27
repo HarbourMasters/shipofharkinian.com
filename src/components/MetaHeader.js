@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export function MetaHeader(props) {
   var titleName = "";
@@ -14,5 +14,5 @@ export function MetaHeader(props) {
       <meta name="description" content="Ship of Harkinian" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-  )
+  );
 }

@@ -11,5 +11,5 @@ export function YoutubeVideo(props) {
         title="Embedded youtube"
       />
     </div>
-  )
+  );
 }

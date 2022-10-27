@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import React, { useRef } from 'react';
 
 export function NavMenu() {
@@ -50,5 +50,5 @@ export function NavMenu() {
         </div>
       </nav>
     </div>
-  )
+  );
 }

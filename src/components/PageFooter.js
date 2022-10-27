@@ -7,5 +7,5 @@ export function PageFooter() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

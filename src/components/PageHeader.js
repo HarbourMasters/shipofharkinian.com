@@ -1,6 +1,6 @@
 
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { MetaHeader } from './MetaHeader';
 import { NavMenu } from './NavMenu';
@@ -44,5 +44,5 @@ export function PageHeader(props) {
       </section>
 
     </>
-  )
+  );
 }
