@@ -9,14 +9,13 @@ import { ElementOnScroll } from '../components/ElementOnScroll';
 const Home: NextPage = () => {
 
   const pageName = "Home";
-  const pageClass = "home";
 
   return (
     <>
 
-      <PageHeader pageName={pageName} pageClass={pageClass} />
+      <PageHeader pageName={pageName} />
 
-      <main className={pageClass}>
+      <main className={pageName}>
         <div className="splashContainer">
           <div className="splashImage" style={{ backgroundImage: 'url("/splash_poster.jpg")' }}> </div>
           <div className="splashVideo">

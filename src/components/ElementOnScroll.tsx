@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-export function ElementOnScroll(props) {
+export function ElementOnScroll(props:any) {
 
   const [isVisible, setVisible] = React.useState(false);
-  const domRef = React.useRef();
+  const domRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
     const options = {
@@ -18,17 +18,14 @@ export function ElementOnScroll(props) {
         setVisible(true);
         
         // No need to keep observing:
-        observer.unobserve(domRef.current);
+        observer.unobserve(domRef.current!);
       }
     }, options);
-    observer.observe(domRef.current);
+    observer.observe(domRef.current!);
     return () => observer.disconnect();
   }, []);
   return (
-    <div
-      className={`elementOnScroll ${isVisible ? 'isVisible' : ''}`}
-      ref={domRef}
-    >
+    <div className={`elementOnScroll ${isVisible ? 'isVisible' : ''}`} ref={domRef} >
       {props.children}
     </div>
   );

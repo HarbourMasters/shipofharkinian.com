@@ -1,0 +1,15 @@
+footer .container {
+  margin-top: 20px;
+}
+
+footer .column {
+  border-top: 1px solid var(--backgroundLightAccent);
+  margin: 0 15px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  footer .column {
+    margin: 0 30px;
+  }
+}

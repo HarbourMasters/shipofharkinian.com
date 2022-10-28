@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-export function MetaHeader(props) {
-  var titleName = "";
+export function MetaHeader(props:{pageName: string}) {
+  let titleName = "";
   if (props.pageName == "Home") {
     titleName = titleName + "Ship of Harkinian";
   } else {

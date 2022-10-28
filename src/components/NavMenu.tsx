@@ -3,12 +3,12 @@ import React, { useRef } from 'react';
 
 export function NavMenu() {
 
-  const menuDiv = useRef(null);
+  const menuDiv = useRef<HTMLDivElement>(null);
   const invertClass = () => {
-    if (menuDiv.current.className == "menu") {
-      menuDiv.current.className = "menu open";
+    if (menuDiv.current!.className == "menu") {
+      menuDiv.current!.className = "menu open";
     } else {
-      menuDiv.current.className = "menu";
+      menuDiv.current!.className = "menu";
     }
   };
 

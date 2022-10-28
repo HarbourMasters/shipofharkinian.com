@@ -6,7 +6,7 @@ import { MetaHeader } from './MetaHeader';
 import { NavMenu } from './NavMenu';
 import logo from '../../public/logo.png';
 
-export function PageHeader(props) {
+export function PageHeader(props:{pageName: string}) {
 
   const [offset, setOffset] = useState(0);
 
@@ -18,15 +18,15 @@ export function PageHeader(props) {
       return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  var headerClass;
+  let headerClass;
 
-  if (offset < 0.8 && props.pageClass === "home") {
+  if (offset < 0.8 && props.pageName === "Home") {
     headerClass = "transparent";
   }
   
   return (
     <>
-      <MetaHeader pageName={props.pageName} pageClass={props.pageClass} />
+      <MetaHeader pageName={props.pageName} />
 
       <section id="header" className={headerClass}>
     		<div className="container">

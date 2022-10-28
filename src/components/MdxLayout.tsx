@@ -24,7 +24,7 @@ export const MdxLayout: FC<MdxLayoutProps> = ({ children, title = 'Ship of Harki
     // @ts-ignore
     <MDXProvider components={{ h3: MdxH3 }}>
       <>
-        <PageHeader pageName={title} pageClass={title} />
+        <PageHeader pageName={title} />
 
         <main className={title}>
           <section id="content">
