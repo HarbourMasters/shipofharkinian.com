@@ -1,14 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('fonts.css');
+
+:root {
+  --mainOrange: #eb802b;
+  --backgroundColor: #0e1318;
+  --backgroundAccent: #171e27;
+  --backgroundLightAccent: #1e2732;
+  --backgroundDarkAccent: #0d1014;
+  --textColor: #dadada;
+  --mainFont: "Open Sans", sans-serif;
+  --titleFont: "Righteous", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes svgStrokeAppear {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 1; }
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
-  background: #f3f4f6;
+  font-family: var(--mainFont);
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
 }
 
 a {
@@ -16,16 +45,54 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+h1 {
+  font-family: var(--titleFont);
 }
 
-@media (prefers-color-scheme: dark) {
-  /* html {
-    color-scheme: dark;
+h2, h3, h4, h5, h6 {
+  font-family: var(--mainFont);
+}
+
+h1 {
+  color: var(--mainOrange);
+  text-transform: uppercase;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container.fullWidth {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
   }
-  body {
-    color: white;
-    background: black;
-  } */
+}
+
+.column {
+  position: relative;
+  flex: 1;
+  padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .column {
+    padding: 0 30px;
+  }
+}
+
+main {
+  margin-top: 105px;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-top: 115px;
+  }
 }

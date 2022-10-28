@@ -1,0 +1,252 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--backgroundAccent);
+  z-index: 100;
+  box-shadow: 0 0 15px 0 #00000080;
+  transition: background-color 300ms;
+}
+
+#header .container {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  #header.transparent {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+
+#header .logo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+  width: 160px;
+  padding: 15px 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  #header .logo {
+    padding: 5px 0 0 0;
+  }
+}
+
+#header .logo a {
+  flex: 1;
+}
+
+#header .column.left {
+  flex: 0 0 200px;
+}
+
+.menu {
+  font-family: var(--mainFont);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+}
+
+.menuOverlay {
+  position: fixed;
+  top:0;right:0;bottom:0;left:0;
+  background-color: rgba(0,0,0,0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms;
+}
+
+.menu.open .menuOverlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (min-width: 768px) {
+  #header .menu .menuOverlay {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.hamburger {
+  position: relative;
+  padding: 10px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hamburger div {
+  height: 3px;
+  width: 30px;
+  background-color: #fff;
+  transition: all 500ms;
+}
+
+.hamburger .lettuce {
+  margin-bottom: 7px;
+}
+
+.hamburger .burger {
+  margin-bottom: 7px;
+}
+
+.menu.open .hamburger .lettuce {
+  transform: translate(0, 10px) rotateZ(-45deg);
+}
+
+.menu.open .hamburger .burger {
+  transform: rotateZ(-45deg);
+}
+
+.menu.open .hamburger .bun {
+  transform: translate(0, -10px) rotateZ(45deg);
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.menuList {
+  display: block;
+  position: fixed;
+  top:0;right:0;bottom:0;
+  width: 300px;
+  max-width: 80%;
+  padding: 20px;
+  background-color: var(--backgroundLightAccent);
+  transform: translateX(100%);
+  transition: 300ms transform;
+}
+
+.menu.open .menuList {
+  transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+  .menuList {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    width: auto;
+    max-width: 100%;
+    transform: none;
+    transition: none;
+    padding: 0;
+  }
+}
+
+.menuList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList ul li {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menuList ul li {
+    display: inline-block;
+  }
+}
+
+.menuList ul li a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  color: var(--mainOrange);
+  font-weight: 700;
+  font-size: 18px;
+  transition: color 300ms;
+}
+
+@media (min-width: 768px) {
+  .menuList ul li a {
+    display: inline-block;
+    padding: 30px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 850px) {
+  .menuList ul li a {
+    font-size: 16px;
+  }
+}
+
+.menuList ul li a:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .menuList ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    transform: scaleX(0);
+    background-color: var(--mainOrange);
+    transition: all 300ms;
+  }
+}
+
+.menuList .socials {
+  height: 22px;
+  border-top: 1px solid var(--mainOrange);
+  padding-top: 20px;
+  margin: 10px 10px 0 10px;
+}
+
+@media (min-width: 768px) {
+  .menuList .socials {
+    border-top: transparent;
+    border-left: 1px solid var(--mainOrange);
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.menuList .socials a {
+  margin: 0 20px 0 0;
+}
+
+@media (min-width: 768px) {
+  .menuList .socials a {
+    margin: 0 0 0 20px;
+  }
+}
+
+.menuList .socials a svg {
+  height: 22px;
+  fill: #fff;
+  transition: fill 300ms;
+}
+
+.menuList .socials a:hover svg {
+  fill: var(--mainOrange);
+}
+
+@media (min-width: 768px) {
+  #header.transparent .menuList ul li a::after {
+    height: 2px;
+    left: 10px;
+    bottom: 23px;
+    right: 10px;
+  }
+}
+
+.menuList ul li a:hover::after {
+  transform: scaleX(1);
+}
