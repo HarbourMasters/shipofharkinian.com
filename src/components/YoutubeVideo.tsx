@@ -1,4 +1,4 @@
-export function YoutubeVideo(props) {
+export function YoutubeVideo(props:{embedId: string}) {
   return (
     <div className="videoResponsive">
       <iframe
