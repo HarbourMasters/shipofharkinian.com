@@ -1,3 +1,5 @@
+const { i18n } = require('./next-i18next.config');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
@@ -6,6 +8,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disabled because we are doing a static export
   },
+  i18n,
 };
 
 const withMDX = require('@next/mdx')({
