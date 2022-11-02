@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import React, { useRef } from 'react';
+import { useTranslation } from 'next-i18next';
 
 export function NavMenu() {
 
+  const { t } = useTranslation();
   const menuDiv = useRef<HTMLDivElement>(null);
   const invertClass = () => {
     if (menuDiv.current!.className == "menu") {
@@ -24,10 +26,10 @@ export function NavMenu() {
           </div>
           <section className="menuList">
             <ul>
-              <li><Link href="/"><a>HOME</a></Link></li>
-              <li><Link href="/faq/"><a>FAQ</a></Link></li>
-              <li><Link href="/changelog/"><a>CHANGELOG</a></Link></li>
-              <li><Link href="/randomizer/"><a>RANDOMIZER</a></Link></li>
+              <li><Link href="/"><a>{t('HOME')}</a></Link></li>
+              <li><Link href="/faq/"><a>{t('FAQ')}</a></Link></li>
+              <li><Link href="/changelog/"><a>{t('CHANGELOG')}</a></Link></li>
+              <li><Link href="/randomizer/"><a>{t('RANDOMIZER')}</a></Link></li>
             </ul>
             <div className="socials">
               <Link href="https://discord.com/invite/shipofharkinian">
