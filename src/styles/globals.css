@@ -31,6 +31,10 @@
   100% { stroke-dashoffset: 0; opacity: 1; }
 }
 
+html {
+  scroll-padding-top: 105px;
+}
+
 html,
 body {
   padding: 0;
