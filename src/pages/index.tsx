@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                   <h1>{t('Enhancements')}</h1>
                   
                 </div>
-                <span>{t('Make your own fun! With a plethora of enhancements and cheats available, you&apos;re guaranteed to find a new way to play!')}</span>
+                <span>{t('Make your own fun! With a plethora of enhancements and cheats available, you\'re guaranteed to find a new way to play!')}</span>
               </ElementOnScroll>
             </div>
             <div className="column">
