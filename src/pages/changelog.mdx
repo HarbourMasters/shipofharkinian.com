@@ -2,6 +2,78 @@ import { MdxLayout } from 'src/components/MdxLayout';
 
 export default ({ children }) => <MdxLayout title="Changelog">{children}</MdxLayout>;
 
+### Bradley Alfa (5.1.0)
+December 13th 2022
+
+#### New Enhancements/Features
+
+- [Custom sequence support](https://github.com/HarbourMasters/Shipwright/pull/2066) (see [instructions in readme](https://github.com/HarbourMasters/Shipwright#custom-music))
+    - Can disable enemy proximity music
+    - [Known Issues/Todo list](https://github.com/HarbourMasters/Shipwright/issues/1872)
+- [Cosmetics Editor v3](https://github.com/HarbourMasters/Shipwright/pull/1898)
+    - Link’s Hair, Linen, and boots
+    - Swords, Equipment and Rupees
+    - Various Silly Options
+    - And more! Explore the advanced mode!
+    - [Known Issues/Todo list](https://github.com/HarbourMasters/Shipwright/issues/2113)
+- [Enhancements > Gameplay Stats](https://github.com/HarbourMasters/Shipwright/pull/1986)
+    - Enemies defeated
+    - Rupees collected and spent
+    - Steps taken, rolls, bonks, sidehops, backflips, sword swings
+    - Timestamps for items collected, and game completion
+    - And many more!
+- Enhancements > Fixes > Fix Camera Drift
+- Enhancements > Fixes > Fix Camera Swing
+- Enhancements > Fixes > Fix Hanging Ledge Swing Rate
+- Developer Tools > Hide Build Info
+- Enhancements > Gameplay > Difficulty Options > Bombchu Bowling
+- Enhancements > Time Savers > Exit Market at night
+
+#### Randomizer
+
+- [Enemy Randomizer](https://github.com/HarbourMasters/Shipwright/pull/1781)
+    - Includes seeded spawns and always random on area load
+    - [Known issues](https://github.com/HarbourMasters/Shipwright/issues/2099)
+- [Entrance Rando v2](https://github.com/HarbourMasters/Shipwright/pull/2071)
+    - Shuffle starting position
+    - Shuffle owl drop locations
+    - Shuffle warp song locations
+    - Mix shuffled entrance pools
+    - Decouple shuffled entrances
+- [Entrances Tracker v1](https://github.com/HarbourMasters/Shipwright/pull/2005)
+    - Lists all shuffled entrance options
+    - Searching, sorting, grouping, and auto scroll settings
+    - Highlights accessbile entrances from the current area
+- [Check Tracker v1](https://github.com/HarbourMasters/Shipwright/pull/1942)
+    - Support for skipping checks
+    - Search checks
+    - Auto scroll to current area
+- S6 (adapted) and Hellmode presets added for randomizer menu
+- Add toggle for requiring all locations to be reachable
+- Lake hylia water level control switch
+
+#### Tweaks
+
+- Infinite ammo cheat also affects minigames
+- Tweaks to difficulty options to toggle them at the top level
+- Reorganized game control related enhancements into a single menu
+    - Includes more configurations over the free camera
+- NPC interactions are no longer affected by Bunny Hood with MM Bunny hood enhancement
+- Allow for translation of yes/no options when talking to Owl
+- Allow for translation of title screen "Press Start" button
+- "Big key" renamed to "Boss key" in spoiler files
+
+#### Bug Fixes
+
+- OTRGui now correctly names master quest OTR files.
+- Fix issue where randomizer menu would stay disabled after crashing when creating a seed
+- Fix crash with autosave when creating a new file
+- Fix issue preventing you from lake hylia lab dive check when you have eye drops in your inventory
+- Fix issues with CrowdControl enemy clear conditions when new enemies were spawned
+- Various fixes to randomizer location exclusions tab
+- Remove a few problematic sequences from sequence shuffling in SFX editor
+- Fix interpolation issue when using both bunny hood and hover boots
+
 ### Flynn Bravo (5.0.1)
 November 27th 2022
 

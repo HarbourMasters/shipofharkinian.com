@@ -19,10 +19,14 @@ const MdxH3: FC<{ children: string }> = ({ children }) => (
   </h3>
 );
 
+const MDxA: FC<{ children: string, href: string }> = ({ children, href }) => (
+  <a className="link" href={href}>{children}</a>
+);
+
 export const MdxLayout: FC<MdxLayoutProps> = ({ children, title = 'Ship of Harkinian' }) => {
   return (
     // @ts-ignore
-    <MDXProvider components={{ h3: MdxH3 }}>
+    <MDXProvider components={{ h3: MdxH3, a: MDxA }}>
       <>
         <PageHeader pageName={title} />
 
