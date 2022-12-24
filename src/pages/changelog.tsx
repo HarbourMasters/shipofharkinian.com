@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
-                      <li>Fix crashes in Hyrule Field, Gohma's boss room, and Forest Temple Stalfos room with Enemy Randomizer.</li>
+                      <li>Fix crashes in Hyrule Field, Gohma&apos;s boss room, and Forest Temple Stalfos room with Enemy Randomizer.</li>
                       <li>Fix killing enemies in GtG silver rupee room sometimes leading to opening the door with Enemy Randomizer.</li>
                       <li>Fix enemies setting incorrect flags in Enemy Randomizer, sometimes leading to lit torches, burned webs etc.</li>
                       <li>Fix shopsanity not displaying certain items and crashing on hover</li>
@@ -78,24 +78,24 @@ const Home: NextPage = () => {
                     <h4>New Enhancements/Features</h4>
                     <ul>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2066" target="_blank">Custom sequence support</a> (see <a href="https://github.com/HarbourMasters/Shipwright#custom-music" target="_blank">instructions in readme</a>)
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2066" target="_blank" rel="noreferrer">Custom sequence support</a> (see <a href="https://github.com/HarbourMasters/Shipwright#custom-music" target="_blank" rel="noreferrer">instructions in readme</a>)
                         <ul>
                           <li>Can disable enemy proximity music</li>
-                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/1872" target="_blank">Known Issues/Todo list</a></li>
+                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/1872" target="_blank" rel="noreferrer">Known Issues/Todo list</a></li>
                         </ul>
                       </li>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1898" target="_blank">Cosmetics Editor v3</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1898" target="_blank" rel="noreferrer">Cosmetics Editor v3</a>
                         <ul>
-                          <li>Link’s Hair, Linen, and boots</li>
+                          <li>Link&apos;s Hair, Linen, and boots</li>
                           <li>Swords, Equipment and Rupees</li>
                           <li>Various Silly Options</li>
                           <li>And more! Explore the advanced mode!</li>
-                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/2113" target="_blank">Known Issues/Todo list</a></li>
+                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/2113" target="_blank" rel="noreferrer">Known Issues/Todo list</a></li>
                         </ul>
                       </li>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1986" target="_blank">Enhancements &gt; Gameplay Stats</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1986" target="_blank" rel="noreferrer">Enhancements &gt; Gameplay Stats</a>
                         <ul>
                           <li>Enemies defeated</li>
                           <li>Rupees collected and spent</li>
@@ -114,14 +114,14 @@ const Home: NextPage = () => {
                     <h4>Randomizer</h4>
                     <ul>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1781" target="_blank">Enemy Randomizer</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1781" target="_blank" rel="noreferrer">Enemy Randomizer</a>
                         <ul>
                           <li>Includes seeded spawns and always random on area load</li>
-                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/2099" target="_blank">Known issues</a></li>
+                          <li><a href="https://github.com/HarbourMasters/Shipwright/issues/2099" target="_blank" rel="noreferrer">Known issues</a></li>
                         </ul>
                       </li>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2071" target="_blank">Entrance Rando v2</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2071" target="_blank" rel="noreferrer">Entrance Rando v2</a>
                         <ul>
                           <li>Shuffle starting position</li>
                           <li>Shuffle owl drop locations</li>
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2005" target="_blank">Entrances Tracker v1</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/2005" target="_blank" rel="noreferrer">Entrances Tracker v1</a>
                         <ul>
                           <li>Lists all shuffled entrance options</li>
                           <li>Searching, sorting, grouping, and auto scroll settings</li>
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1942" target="_blank">Check Tracker v1</a>
+                        <a href="https://github.com/HarbourMasters/Shipwright/pull/1942" target="_blank" rel="noreferrer">Check Tracker v1</a>
                         <ul>
                           <li>Support for skipping checks</li>
                           <li>Search checks</li>
@@ -162,8 +162,8 @@ const Home: NextPage = () => {
                       </li>
                       <li>NPC interactions are no longer affected by Bunny Hood with MM Bunny hood enhancement</li>
                       <li>Allow for translation of yes/no options when talking to Owl</li>
-                      <li>Allow for translation of title screen "Press Start" button</li>
-                      <li>"Big key" renamed to "Boss key" in spoiler files</li>
+                      <li>Allow for translation of title screen &quot;Press Start&quot; button</li>
+                      <li>&quot;Big key&quot; renamed to &quot;Boss key&quot; in spoiler files</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                       <li>Prevent autosaving when picking up bombchu drops when bombchus are in logic</li>
                       <li>Fix Skulltula check in vanilla Jabu-Jabu</li>
                       <li>Fix missing rom error for Linux when only one OTR is present</li>
-                      <li>Fix Ganondorf's title card</li>
+                      <li>Fix Ganondorf&apos;s title card</li>
                       <li>Fix Ganondorf crash when playing MQ only saves</li>
                       <li>
                         Fix various CrowdControl issues
@@ -213,9 +213,9 @@ const Home: NextPage = () => {
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>New saves greyed out when using only MQ otr</li>
-                      <li>Rando: Turning in Ruto's letter after rescue</li>
-                      <li>Rando: Like like's no longer eat tunics</li>
-                      <li>Dodongo's boss room crash when using only MQ otr</li>
+                      <li>Rando: Turning in Ruto&apos;s letter after rescue</li>
+                      <li>Rando: Like like&apos;s no longer eat tunics</li>
+                      <li>Dodongo&apos;s boss room crash when using only MQ otr</li>
                     </ul>
 
                     <h3 id="flynn-alfa-5-0-0">
@@ -242,7 +242,7 @@ const Home: NextPage = () => {
                       <li>Show player state flags in save editor</li>
                       <li>Fishing minigame records in save editor</li>
                       <li>Cheat: Switch age and reload link</li>
-                      <li>Cheat: Use any item regardless of link's age</li>
+                      <li>Cheat: Use any item regardless of link&apos;s age</li>
                       <li>Cheat: Hookshot everything</li>
                     </ul>
                     <h4>Bug Fixes</h4>
@@ -254,7 +254,7 @@ const Home: NextPage = () => {
                       <li>Fix piece of heart sound</li>
                       <li>Show/hide cursors properly in fullscreen</li>
                       <li>Fix crash when creating new randomizer save caused by corrupted hint text</li>
-                      <li>Treat gossip stones in Zora's Fountain as separate</li>
+                      <li>Treat gossip stones in Zora&apos;s Fountain as separate</li>
                       <li>Fix corrupted characters in French hint text</li>
                       <li>Most freecam issues are resolved</li>
                       <li>Prevent bugs caused by autosaving on file load</li>
@@ -278,7 +278,7 @@ const Home: NextPage = () => {
                       <li>Randomize starting age</li>
                       <li>Shuffle keyrings with all keys for a dungeon</li>
                       <li>Shuffle merchants</li>
-                      <li>Ganon's boss key on light arrow cutscene</li>
+                      <li>Ganon&apos;s boss key on light arrow cutscene</li>
                       <li>Skip door of time cutscene</li>
                       <li>Skip rainbow bridge cutscene</li>
                       <li>Ice traps with randomized messages and models</li>
@@ -320,32 +320,32 @@ const Home: NextPage = () => {
                     <p>October 13th 2022</p>
                     <h4>Feature Additions</h4>
                     <ul>
-                      <li>Enhancement to restore the Gerudo Warrior clothing color being afected by Link's current Tunic or Bombs</li>
+                      <li>Enhancement to restore the Gerudo Warrior clothing color being afected by Link&apos;s current Tunic or Bombs</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>Color Clamping</li>
                       <li>Pickup item cutscene logic</li>
-                      <li>Adult Ruto's earings</li>
-                      <li>Implement G_CCMUX_NOISE (Fixes Bongo Bongo's shadow and others)</li>
-                      <li>Occurence when "Mask Select in Inventory" was able to cycling bottle contents when bottle duping</li>
+                      <li>Adult Ruto&apos;s earings</li>
+                      <li>Implement G_CCMUX_NOISE (Fixes Bongo Bongo&apos;s shadow and others)</li>
+                      <li>Occurence when &quot;Mask Select in Inventory&quot; was able to cycling bottle contents when bottle duping</li>
                       <li>Cutscene Lighting (Goddesses cutscene, wrong color on Actors in the Sacred Realm, etc.)</li>
                       <li>Deku scrubs moving into position when entering Forest Stage</li>
-                      <li>Goron's Spin</li>
-                      <li>Ruto's softlock in Water Temple when Skip Text is enabled</li>
+                      <li>Goron&apos;s Spin</li>
+                      <li>Ruto&apos;s softlock in Water Temple when Skip Text is enabled</li>
                       <li>Prevent infinite ammo cheat from filling bombchus unless the item is obtained</li>
-                      <li>Save corruption when "Auto Save" was enabled and quickly returning to main menu when dying</li>
+                      <li>Save corruption when &quot;Auto Save&quot; was enabled and quickly returning to main menu when dying</li>
                       <li>Crash when retrieving a merchant message while using fast file select</li>
                       <li>Interpolation issue with the Bunny Hood ears</li>
                       <li>Ice Trap when wearing the Bunny Hood</li>
                       <li>Debug building on Windows with new build.c file</li>
-                      <li>Skipping "get item" cutscene logic</li>
+                      <li>Skipping &quot;get item&quot; cutscene logic</li>
                       <li>Showing pocket cucco in rando gives first Anju reward instead</li>
                     </ul>
                     <h4>Tweaks</h4>
                     <ul>
                       <li>Developer Tools button sizes</li>
-                      <li>A cursor color in the "Continue" prompt screen</li>
+                      <li>A cursor color in the &quot;Continue&quot; prompt screen</li>
                       <li>Some flag documentation</li>
                       <li>Default HUD to N64 colors</li>
                     </ul>
@@ -361,7 +361,7 @@ const Home: NextPage = () => {
                       <li>Y-Axis inversion in C Up view</li>
                       <li>Merchant message table being generated before items were loaded</li>
                       <li>Business scrubs crashing on expensive scrub shuffle</li>
-                      <li>"Scrubsanity Off" was using mysterious text</li>
+                      <li>&quot;Scrubsanity Off&quot; was using mysterious text</li>
                     </ul>
 
                     <h3 id="zhora-bravo-4-0-1">
@@ -374,7 +374,7 @@ const Home: NextPage = () => {
                       <li>WiiU: Fix overflow for GX2CopySurfaceEx that would lead to a crash</li>
                       <li>Randomizer not properly being disabled when using Master Quest</li>
                       <li>Adjust naming for Auto Center options</li>
-                      <li>Global.sav wasn't generating on Linux and macOS</li>
+                      <li>Global.sav wasn&apos;t generating on Linux and macOS</li>
                     </ul>
 
                     <h3 id="zhora-alfa-4-0-0">
@@ -426,7 +426,7 @@ const Home: NextPage = () => {
                       <li>Fixed Temple of Time fog</li>
                       <li>Reset gyro drift when gyro is turned off</li>
                       <li>Disable game input when typing into a textfield</li>
-                      <li>Fix decay effect on Ganondorf, windows during Ganondorf's fight, Gohma's death animation and Phantom Ganon's death animation</li>
+                      <li>Fix decay effect on Ganondorf, windows during Ganondorf&apos;s fight, Gohma&apos;s death animation and Phantom Ganon&apos;s death animation</li>
                     </ul>
                     <h4>Tweaks</h4>
                     <ul>
@@ -435,17 +435,17 @@ const Home: NextPage = () => {
                       <li>Fast drops became Fast Pickup Messages and includes bottling items now</li>
                       <li>F1 menu overhaul including enhancement presets</li>
                       <li>More options for the Cosmetic editor</li>
-                      <li>"Auto" controller back-end</li>
+                      <li>&quot;Auto&quot; controller back-end</li>
                       <li>Changed Fast Block Push</li>
-                      <li>Changed 'minimum fish weight" for both ages to be able to go even lower</li>
+                      <li>Changed &quot;minimum fish weight&quot; for both ages to be able to go even lower</li>
                       <li>macOS can now generate OTR files</li>
                     </ul>
                     <h4>Randomizer</h4>
                     <ul>
-                      <li>Tokensanity (shuffle Golden Skulltula's)</li>
-                      <li>Keysanity (shuffle small keys, Gerudo Fortress keys, boss keys and Ganon's boss key)</li>
+                      <li>Tokensanity (shuffle Golden Skulltula&apos;s)</li>
+                      <li>Keysanity (shuffle small keys, Gerudo Fortress keys, boss keys and Ganon&apos;s boss key)</li>
                       <li>Shopsanity (shuffle items into the different shops)</li>
-                      <li>Cowsanity (shuffle item with cows and Epona's song)</li>
+                      <li>Cowsanity (shuffle item with cows and Epona&apos;s song)</li>
                       <li>Scrubsanity (scrubs sells shuffled items)</li>
                       <li>Shuffle maps and compasses</li>
                       <li>Custom key colors for Keysanity</li>
@@ -455,11 +455,11 @@ const Home: NextPage = () => {
                       <li>Skip / Complete mask quest</li>
                       <li>Exclude any location</li>
                       <li>No logic setting</li>
-                      <li>Don't skip glitch-useful cutscenes settings</li>
+                      <li>Don&apos;t skip glitch-useful cutscenes settings</li>
                       <li>Longer quest item fanfares</li>
                       <li>Rando-relevant Navi hints</li>
                       <li>Random Rupee names</li>
-                      <li>More options for Ganon's trials settings</li>
+                      <li>More options for Ganon&apos;s trials settings</li>
                       <li>More seed icons</li>
                       <li>Fire Ice Arrows (included in item logic)</li>
                       <li>Sunlight Arrows (included in item logic)</li>
@@ -502,16 +502,16 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
-                      <li>Crash caused by Keys' sprites</li>
+                      <li>Crash caused by Keys&apos; sprites</li>
                       <li>Window resolution is now read from the configuration file</li>
                       <li>macOS issues while playing the ocarina</li>
-                      <li>Sun's Song was respawning Link when using a cheat</li>
+                      <li>Sun&apos;s Song was respawning Link when using a cheat</li>
                       <li>Child Zelda Skip settings was always on in Randomizer</li>
                       <li>Randomizer interraction from Malon and her checks</li>
                       <li>Morpha fixes</li>
                       <li>Various randomizer fixes</li>
                       <li>Lots of interpolations visual bugs</li>
-                      <li>Controller configuration couldn't select a controller</li>
+                      <li>Controller configuration couldn&apos;t select a controller</li>
                       <li>Apply AA and resolution scale settings at startup</li>
                       <li>Shadow Temple objects proper resets</li>
                     </ul>

@@ -27,16 +27,16 @@ const Home: NextPage = () => {
                       <a href="#how-do-i-play-ship-of-harkinian">How do I play Ship of Harkinian?</a>
                     </h3>
                     <p>Head over to our Discord and download the latest release in the #downloads channel. Afterwards, follow the readme.md file included with the download for further instructions.</p>
-                    <p>We do not advice following YouTube tutorials. They're often outdated compared to our own documentation.</p>
+                    <p>We do not advice following YouTube tutorials. They&apos;re often outdated compared to our own documentation.</p>
 
                     <h3 id="what-do-the-release-numbers-mean">
                       <a href="#what-do-the-release-numbers-mean">What do the release numbers mean?</a>
                     </h3>
                     <p>The releases follow a pattern with 3 numbers:</p>
-                    <p>The first number (x.0.0) means it's a major release with new features that requires you to regenerate the OTR. How to do this is explained <a href="#how-do-i-update-ship-of-harkinian">here</a>.</p>
-                    <p>The second number (0.x.0) means it's a major release with new features that doesn't require a new OTR.</p>
-                    <p>The third number (0.0.x) means it's a bugfix release that doesn't require a new OTR.</p>
-                    <p>Major releases always have their own name, usually a character's name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
+                    <p>The first number (x.0.0) means it&apos;s a major release with new features that requires you to regenerate the OTR. How to do this is explained <a href="#how-do-i-update-ship-of-harkinian">here</a>.</p>
+                    <p>The second number (0.x.0) means it&apos;s a major release with new features that doesn&apos;t require a new OTR.</p>
+                    <p>The third number (0.0.x) means it&apos;s a bugfix release that doesn&apos;t require a new OTR.</p>
+                    <p>Major releases always have their own name, usually a character&apos;s name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
 
                     <h3 id="how-do-i-update-ship-of-harkinian">
                       <a href="#how-do-i-update-ship-of-harkinian">How do I update Ship of Harkinian?</a>
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                           <li><strong>Windows:</strong> Delete your current .otr files and the Extract folder inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
                           <li><strong>Linux/SteamDeck:</strong> Delete the .otr files inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
                           <li><strong>MacOS:</strong> Delete the .otr files inside the ~/Library/Application Support/com.shipofharkinian.soh folder. Afterwards, generate the OTR like you did when first installing SoH.</li>
-                          <li><strong>Wii U/Switch:</strong> Generate the OTR on your PC platform of choice, then replace the OTR on your Wii U/Switch with the new one. Make sure the version used to generate the OTR is the same as what you're playing with on Wii U/Switch.</li>
+                          <li><strong>Wii U/Switch:</strong> Generate the OTR on your PC platform of choice, then replace the OTR on your Wii U/Switch with the new one. Make sure the version used to generate the OTR is the same as what you&apos;re playing with on Wii U/Switch.</li>
                         </ul>
                       </li>
                     </ol>
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                     <h3 id="what-roms-are-supported">
                       <a href="#what-roms-are-supported">What ROMs are supported?</a>
                     </h3>
-                    <p>You can check the sha1 hash of your ROM <a href="https://romhacking.net/hash" target="_blank">here</a>.</p>
+                    <p>You can check the sha1 hash of your ROM <a href="https://romhacking.net/hash" target="_blank" rel="noreferrer">here</a>.</p>
                     <h4>Ocarina of Time Debug PAL GC (not Master Quest)</h4>
                     <blockquote>
                       <p>Currently the recommended option</p>
@@ -113,13 +113,13 @@ const Home: NextPage = () => {
                       <li>Support for more ROM versions</li>
                     </ul>
 
-                    <h3 id="why-aren-t-etas-given"><a href="#why-aren-t-etas-given">Why aren't ETAs given?</a></h3>
-                    <p>This is a project done by volunteers during their spare time for free. The work gets accomplished by whoever's
+                    <h3 id="why-aren-t-etas-given"><a href="#why-aren-t-etas-given">Why aren&apos;t ETAs given?</a></h3>
+                    <p>This is a project done by volunteers during their spare time for free. The work gets accomplished by whoever&apos;s
                       interested in implementing what, with a few things being prioritized as milestones for stable releases.
                       To set deadlines would be to create unrealistic expectations that would likely never be met and cause disappointment.
                     </p>
 
-                    <h3 id="will-you-also-port-majora-s-mask"><a href="#will-you-also-port-majora-s-mask">Will you also port Majora's Mask?</a></h3>
+                    <h3 id="will-you-also-port-majora-s-mask"><a href="#will-you-also-port-majora-s-mask">Will you also port Majora&apos;s Mask?</a></h3>
                     <p>Eventually. Work cannot even begin on this until the MM decomp project has completed. Check back in 2024.</p>
 
                     <h3 id="will-you-port-soh-to-x-platform-console"><a href="#will-you-port-soh-to-x-platform-console">Will you port SOH to x platform/console?</a></h3>
