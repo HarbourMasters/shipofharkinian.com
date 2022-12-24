@@ -1,4 +1,5 @@
 #content .container {
+  display: block;
   max-width: 1000px;
 }
 
@@ -46,8 +47,11 @@
   margin-top: 20px;
 }
 
-#content .textArea h2, #content .textArea h3 {
+#content .textArea h2, #content .textArea h2 a, #content .textArea h3, #content .textArea h3 a {
   color: var(--mainOrange);
+}
+
+#content .textArea h2, #content .textArea h3 {
   margin-top: 40px;
 }
 
@@ -97,10 +101,10 @@
   overflow-x: auto;
 }
 
-#content .link {
+#content a {
   color: var(--linkColor);
 }
 
-#content .link:hover {
+#content a:hover {
   text-decoration: underline;
 }
