@@ -50,8 +50,8 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
-                      <li>Fix hookshot point issues with retail PAL</li>
-                      <li>Fix Ganon crash for retail PAL</li>
+                      <li>Fix hookshot point issues with retail PAL ROM (requires regenerating your OTR to get the fix)</li>
+                      <li>Fix Ganon crash for retail PAL ROM (requires regenerating your OTR to get the fix)</li>
                       <li>Fix warp song song shuffle not displaying location when hints are off</li>
                       <li>Fix various crashes with SFX editor</li>
                       <li>Fix crashes with cosmetic editor on Wii U</li>

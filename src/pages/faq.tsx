@@ -29,15 +29,6 @@ const Home: NextPage = () => {
                     <p>Head over to our Discord and download the latest release in the #downloads channel. Afterwards, follow the readme.md file included with the download for further instructions.</p>
                     <p>We do not advice following YouTube tutorials. They&apos;re often outdated compared to our own documentation.</p>
 
-                    <h3 id="what-do-the-release-numbers-mean">
-                      <a href="#what-do-the-release-numbers-mean">What do the release numbers mean?</a>
-                    </h3>
-                    <p>The releases follow a pattern with 3 numbers:</p>
-                    <p>The first number (x.0.0) means it&apos;s a major release with new features that requires you to regenerate the OTR. How to do this is explained <a href="#how-do-i-update-ship-of-harkinian">here</a>.</p>
-                    <p>The second number (0.x.0) means it&apos;s a major release with new features that doesn&apos;t require a new OTR.</p>
-                    <p>The third number (0.0.x) means it&apos;s a bugfix release that doesn&apos;t require a new OTR.</p>
-                    <p>Major releases always have their own name, usually a character&apos;s name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
-
                     <h3 id="how-do-i-update-ship-of-harkinian">
                       <a href="#how-do-i-update-ship-of-harkinian">How do I update Ship of Harkinian?</a>
                     </h3>
@@ -45,7 +36,7 @@ const Home: NextPage = () => {
                       <li>Head over to our Discord and download the latest release in the #downloads channel.</li>
                       <li>For all platforms, extract the files from the newer version to your existing SoH directory, overwriting the old files.</li>
                       <li>
-                        When updating to a newer major release that requires a new OTR (see above), do the following:
+                        When updating to a newer major release that requires a new OTR (see <a href="#what-do-the-release-numbers-mean">here</a> for when a new OTR is required), do the following:
                         <ul>
                           <li><strong>Windows:</strong> Delete your current .otr files and the Extract folder inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
                           <li><strong>Linux/SteamDeck:</strong> Delete the .otr files inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
@@ -54,6 +45,15 @@ const Home: NextPage = () => {
                         </ul>
                       </li>
                     </ol>
+
+                    <h3 id="what-do-the-release-numbers-mean">
+                      <a href="#what-do-the-release-numbers-mean">What do the release numbers mean?</a>
+                    </h3>
+                    <p>The releases follow a pattern with 3 numbers:</p>
+                    <p>The first number (x.0.0) means it&apos;s a major release with new features that requires you to regenerate the OTR. How to do this is explained <a href="#how-do-i-update-ship-of-harkinian">here</a>.</p>
+                    <p>The second number (0.x.0) means it&apos;s a major release with new features that doesn&apos;t require a new OTR.</p>
+                    <p>The third number (0.0.x) means it&apos;s a bugfix release that doesn&apos;t require a new OTR.</p>
+                    <p>Major releases always have their own name, usually a character&apos;s name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
 
                     <h3 id="how-can-i-get-the-right-rom">
                       <a href="#how-can-i-get-the-right-rom">How can I get the right rom?</a>
