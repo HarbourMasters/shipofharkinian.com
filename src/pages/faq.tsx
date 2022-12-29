@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                     <p>The first number (x.0.0) means it&apos;s a major release with new features that requires you to regenerate the OTR. How to do this is explained <a href="#how-do-i-update-ship-of-harkinian">here</a>.</p>
                     <p>The second number (0.x.0) means it&apos;s a major release with new features that doesn&apos;t require a new OTR.</p>
                     <p>The third number (0.0.x) means it&apos;s a bugfix release that doesn&apos;t require a new OTR.</p>
-                    <p>Major releases always have their own name, usually a character&apos;s name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
+                    <p>Major releases always have their own name which is a character&apos;s name from a Sci-fi movie. Bugfix releases follow the NATO phonetic alphabet (Alfa, Bravo, Charlie, etc).</p>
 
                     <h3 id="how-can-i-get-the-right-rom">
                       <a href="#how-can-i-get-the-right-rom">How can I get the right rom?</a>
