@@ -46,12 +46,13 @@ const Home: NextPage = () => {
                     <p>December 21st 2022</p>
                     <h4>Tweaks</h4>
                     <ul>
-                      <li>Adjust ice traps to display fake item with an ice effect</li>
+                      <li>Adjust ice traps to display fake items with an ice effect</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>Fix hookshot point issues with retail PAL ROM (requires regenerating your OTR to get the fix)</li>
                       <li>Fix Ganon crash for retail PAL ROM (requires regenerating your OTR to get the fix)</li>
+                      <li>Fix Medi-Goron sometimes handing out Giant&apos;s Knife instead of the randomized item</li>
                       <li>Fix warp song song shuffle not displaying location when hints are off</li>
                       <li>Fix various crashes with SFX editor</li>
                       <li>Fix crashes with cosmetic editor on Wii U</li>
