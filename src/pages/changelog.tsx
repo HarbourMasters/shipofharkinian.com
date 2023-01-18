@@ -23,6 +23,34 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+                    <h3 id="bradley-echo-5-1-4">
+                      <a href="#bradley-echo-5-1-4">Bradley Echo (5.1.4)</a>
+                    </h3>
+                    <p>January 18th 2023</p>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Support Windowed Fullscreen on OpenGL</li>
+                      <li>Relabel Mido flags in the save editor</li>
+                      <li>When keys are set to vanilla and Spirit MQ is active, 3 keys will be given to prevent softlocks</li>
+                      <li>Set Mac application category as &quot;Game&quot; for Launch Pad</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fisherman now correctly knows if the controller supports rumble</li>
+                      <li>Properly randomize Mirror Shield and Silver Gauntlets chests when only using MQ</li>
+                      <li>Fix translations for &quot;Ask to Equip New Items&quot; enhancement</li>
+                      <li>Properly randomize Ganon&apos;s boss key chest when only using MQ</li>
+                      <li>Fix water box collision in Lake Hylia and missing water in Morpha&apos;s room</li>
+                      <li>Fix softlock in Spirit MQ where the silver block in the shortcut hallway is blocking the eye switch for the chest. The block will be removed as Child Link now</li>
+                      <li>Fix certain cases where one-way entrances where causing some entrances to be unshuffled, and potentially softlocking a seed</li>
+                      <li>Fix leaving Castle Courtyard at night spoiling where Ganon&apos;s Castle entrance is in dungeon randomizer</li>
+                      <li>Add missing hint for Medigoron, which would cause a crash during rando generation</li>
+                      <li>Fix some entrances not disabling Epona in overworld entrance randomizer</li>
+                      <li>Adjust &quot;Fix Dungeon entrances&quot; enhancement not working in the Graveyard</li>
+                      <li>Fix presets not clearing out modified values</li>
+                      <li>Fix a crash with the Check Tracker when playing a vanilla save</li>
+                    </ul>
+
                     <h3 id="bradley-delta-5-1-3">
                       <a href="#bradley-delta-5-1-3">Bradley Delta (5.1.3)</a>
                     </h3>
