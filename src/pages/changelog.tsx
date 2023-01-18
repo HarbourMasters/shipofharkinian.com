@@ -49,6 +49,7 @@ const Home: NextPage = () => {
                       <li>Adjust &quot;Fix Dungeon entrances&quot; enhancement not working in the Graveyard</li>
                       <li>Fix presets not clearing out modified values</li>
                       <li>Fix a crash with the Check Tracker when playing a vanilla save</li>
+                      <li>Fix Crowd Control connection issues</li>
                     </ul>
 
                     <h3 id="bradley-delta-5-1-3">
