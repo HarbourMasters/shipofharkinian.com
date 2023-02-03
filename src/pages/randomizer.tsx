@@ -28,11 +28,11 @@ const Home: NextPage = () => {
                       </h3>
                       <ol>
                         <li>Go to the file select screen</li>
-                        <li>Check Enable Randomizer through the F1 menu under &quote;Randomizer Settings&quote;</li>
+                        <li>Open the &quot;Randomizer Settings&quot; menu through the F1 menu under &quot;Randomizer&quot;.</li>
                         <li>Set desired settings in the same window</li>
-                        <li>Hit the &quote;Generate Seed&quote; button</li>
+                        <li>Hit the &quot;Generate Seed&quot; button</li>
                         <li>You will see several item icons at the top of your screen on the file select menu as well as hear a jingle indicating that it worked properly.</li>
-                        <li>Create a new save file, and choose &quote;randomizer&quote; in the quest select screen. Your new savefile should have a label &quote;RAND&quote; next to it.</li>
+                        <li>Create a new save file, and choose &quot;randomizer&quot; in the quest select screen. Your new savefile should have a label &quot;RAND&quot; next to it.</li>
                         <li>Play the randomizer!</li>
                       </ol>
                       <h3 id="how-to-share-seeds-or-start-a-new-save-with-an-existing-seed">
@@ -44,14 +44,14 @@ const Home: NextPage = () => {
                         <li>If sharing a seed, send the other person this JSON file.</li>
                         <li>Drag and drop the JSON file of the desired seed onto the game window.</li>
                         <li>You will see several item icons at the top of your screen on the file select menu as well as hear a jingle indicating that it worked properly.</li>
-                        <li>Create a new save file, and choose &quote;randomizer&quote; in the quest select screen. Your new savefile should have a label &quote;RAND&quote; next to it.</li>
+                        <li>Create a new save file, and choose &quot;randomizer&quot; in the quest select screen. Your new savefile should have a label &quot;RAND&quot; next to it.</li>
                         <li>Play the randomizer!</li>
                       </ol>
                       <h3 id="how-to-go-back-to-playing-vanilla">
                         <a href="#how-to-go-back-to-playing-vanilla">How to go back to playing vanilla</a>
                       </h3>
                       <ol>
-                        <li>Create a new savefile. If the game asks you to choose between multiple game modes during save creation, pick the one without &quote;randomizer&quote; in the logo. Your new savefile should have either no tag next to it, or the &quote;MQ&quote; tag.</li>
+                        <li>Create a new savefile. If the game asks you to choose between multiple game modes during save creation, pick the one without &quot;randomizer&quot; in the logo. Your new savefile should have either no tag next to it, or the &quot;MQ&quot; tag.</li>
                         <li>Play the game!</li>
                       </ol>
                     </div>
