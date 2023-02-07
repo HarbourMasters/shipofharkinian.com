@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                         Additional hint options
                         <ul>
                           <li>Dampe&apos;s diary for Hookshot hint</li>
-                          <li>10/20/30/40/50 skull reward hints in House of Skulltula</li>
+                          <li>Skull token reward hints in House of Skulltula</li>
                           <li>Shuffled warp song destination can be revealed or hidden</li>
                           <li>Deku scrub reveal what they are selling</li>
                           <li>Can turn off Altar hints and Ganondorf hint for Light Arrows</li>
@@ -65,9 +65,9 @@ const Home: NextPage = () => {
                     <ul>
                       <li>Many updates and tweaks under the hood for improved resource management</li>
                       <li>Behind the scenes game interaction for improved Crowd Control support and extensibility</li>
-                      <li>Linux builds now split into performance and compatible options</li>
+                      <li>Linux builds now split into performance and compatibility options</li>
                       <li>Cosmetics: new Lock/Unlock all buttons</li>
-                      <li>SFX: option to display custom music track name in bottom right corner with customizable durations</li>
+                      <li>SFX: option to display track name on-screen</li>
                       <li>SFX: option to add higher pitches to silver rupee jingle in rooms with more than 5 rupees</li>
                       <li>Adjust ice traps from Gold Skulltulas and free standing items to freeze Link after the text box is closed (or with a short delay)</li>
                       <li>
@@ -85,7 +85,6 @@ const Home: NextPage = () => {
                       <li>Check Tracker now opens with a default size for the first time and has a close button</li>
                       <li>Added Fullscreen and Quit buttons in the menu bar</li>
                       <li>Renamed menu bar controller navigation setting to be more clear</li>
-                      <li>&quot;Allow the cursor to be on any slot&quot; is now a dropdown with &quot;Only on Rando&quot;, Always, and Never options</li>
                       <li>Removed Zelda&apos;s letter from location exclusion</li>
                       <li>
                         Adjusted some locations to be hidden from the excluded location list when certain rando settings are active
