@@ -647,8 +647,6 @@ const Home: NextPage = () => {
                     </h3>
                     <p>July 14th 2022</p>
                     <h4>Feature Additions</h4>
-                    <p>SoH - Rachael Alfa (3.0.0)</p>
-                    <h4>Feature Additions</h4>
                     <ul>
                       <li>Randomizer</li>
                       <li>SoH is now a 64bits application</li>
