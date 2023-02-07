@@ -23,6 +23,96 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+                    <h3 id="gibbs-alpha-6-0-0">
+                      <a href="#gibbs-alpha-6-0-0">Gibbs Alpha (6.0.0)</a>
+                    </h3>
+                    <p>February 7th 2023</p>
+                    <h4>New Enhancements/Features</h4>
+                    <ul>
+                      <li>
+                        Better Farore&apos;s wind
+                        <ul>
+                          <li>Dedicated Farore&apos;s wind for both ages and does not reset when changing age</li>
+                          <li>Faster Farore&apos;s wind casting time</li>
+                        </ul>
+                      </li>
+                      <li>MM style static explosion radius</li>
+                      <li>Enhancement to spawn with full health instead of 3 hearts</li>
+                      <li>Enhancement to allow a dog to follow you anywhere</li>
+                      <li>Cheat for extending Hookshot reach</li>
+                      <li>Enhancement to auto play ending credits with controller inputs</li>
+                      <li>Added restoration for 1.0 QPA methods and &quot;Blank A&quot;</li>
+                    </ul>
+                    <h4>Randomizer</h4>
+                    <ul>
+                      <li>Start with songs options</li>
+                      <li>
+                        Additional hint options
+                        <ul>
+                          <li>Dampe&apos;s diary for Hookshot hint</li>
+                          <li>10/20/30/40/50 skull reward hints in House of Skulltula</li>
+                          <li>Shuffled warp song destination can be revealed or hidden</li>
+                          <li>Deku scrub reveal what they are selling</li>
+                          <li>Can turn off Altar hints and Ganondorf hint for Light Arrows</li>
+                        </ul>
+                      </li>
+                      <li>Boss Room Entrance Rando</li>
+                      <li>Shuffle 100 Gold Skulltula reward, including an option to place Ganon&apos;s Boss key there</li>
+                      <li>Seed input field for Randomizer</li>
+                      <li>Try talking to the Goron&apos;s in Fire temple! (silly messages)</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Many updates and tweaks under the hood for improved resource management</li>
+                      <li>Behind the scenes game interaction for improved Crowd Control support and extensibility</li>
+                      <li>Linux builds now split into performance and compatible options</li>
+                      <li>Cosmetics: new Lock/Unlock all buttons</li>
+                      <li>SFX: option to display custom music track name in bottom right corner with customizable durations</li>
+                      <li>SFX: option to add higher pitches to silver rupee jingle in rooms with more than 5 rupees</li>
+                      <li>Adjust ice traps from Gold Skulltulas and free standing items to freeze Link after the text box is closed (or with a short delay)</li>
+                      <li>
+                        Adjusted Ganondorf/Ganon Cutscene skips in Randomizer
+                        <ul>
+                          <li>Ganondorf&apos;s second dying cutscene is much shorter</li>
+                          <li>The tower collapsing cutscene is now skipped even when tower escape skip is off</li>
+                          <li>Link and Zelda talking after the tower collapses is now skipped</li>
+                        </ul>
+                      </li>
+                      <li>More rupee names</li>
+                      <li>Gameplay Stats: add missing adult trade sequence items</li>
+                      <li>Gameplay Stats: can now display either only timestamps, counts, or both</li>
+                      <li>Adjust faster block pushing enhancement to be even faster</li>
+                      <li>Check Tracker now opens with a default size for the first time and has a close button</li>
+                      <li>Added Fullscreen and Quit buttons in the menu bar</li>
+                      <li>Renamed menu bar controller navigation setting to be more clear</li>
+                      <li>&quot;Allow the cursor to be on any slot&quot; is now a dropdown with &quot;Only on Rando&quot;, Always, and Never options</li>
+                      <li>Removed Zelda&apos;s letter from location exclusion</li>
+                      <li>
+                        Adjusted some locations to be hidden from the excluded location list when certain rando settings are active
+                        <ul>
+                          <li>song locations, rewards at end of dungeon, vanilla dungeon items, etc.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <h4>Debug</h4>
+                    <ul>
+                      <li>Actor viewer now supports live editing properties and flags for actors</li>
+                      <li>Save Editor: Flags now enables editing player state flags</li>
+                      <li>DisplayList viewer</li>
+                      <li>Improved translation support for debug warp menu</li>
+                      <li>Debug camera viewer</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix instances where Mido would not spawn, especially during Dungeon Entrance Rando</li>
+                      <li>Fix edge case where Randomizer menu would get stuck in a disabled state</li>
+                      <li>Fix some chests not being able to be opened or hookshot-able when Chest Size Matches Content is on</li>
+                      <li>Fix Gerudo fighter sending child Link to jail instead of Gerudo Valley</li>
+                      <li>Fix Check Tracker sometimes showing duplicates</li>
+                      <li>Fix song overlays not covering the whole screen when Fast Ocarina Playback is on</li>
+                      <li>Fix the locations tab in the Randomizer menu not updating when settings were changed</li>
+                    </ul>
+
                     <h3 id="bradley-echo-5-1-4">
                       <a href="#bradley-echo-5-1-4">Bradley Echo (5.1.4)</a>
                     </h3>
