@@ -23,8 +23,8 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
-                    <h3 id="gibbs-alpha-6-0-0">
-                      <a href="#gibbs-alpha-6-0-0">Gibbs Alpha (6.0.0)</a>
+                    <h3 id="gibbs-alfa-6-0-0">
+                      <a href="#gibbs-alfa-6-0-0">Gibbs Alfa (6.0.0)</a>
                     </h3>
                     <p>February 7th 2023</p>
                     <h4>New Enhancements/Features</h4>
