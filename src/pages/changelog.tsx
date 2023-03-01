@@ -23,6 +23,72 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+                    <h3 id="khan-alfa-6-1-0">
+                      <a href="#khan-alfa-6-1-0">Khan Alfa (6.1.0)</a>
+                    </h3>
+                    <p>March 1st 2023</p>
+                    <h4>New Enhancements/Features</h4>
+                    <ul>
+                      <li>Enhancement to have Link use the correct ammo types when using bow or slingshot as the wrong age</li>
+                      <li>Time saver to auto fill new file names as &quot;Link&quot;</li>
+                      <li>Enhancement to disable the automatic first person mode when placing down Bombchus</li>
+                      <li>
+                        The SFX Editor has been renamed to Audio Editor and a new audio shuffle pool management system is added
+                        <ul>
+                          <li>You can now manage a list of included and excluded sequences</li>
+                          <li>Easily search, filter and preview for sequences to include/exclude</li>
+                        </ul>
+                      </li>
+                      <li>Added support for the Metal renderer as a graphics option for Macs</li>
+                      <li>Added option to set virtual notch support for the control stick in the Controller Configuration</li>
+                      <li>Added difficulty option &quot;Rupee Dash Mode&quot; were you slowly lose rupees over time, and start to lose health when you run out of rupees</li>
+                    </ul>
+                    <h4>Randomizer</h4>
+                    <ul>
+                      <li>
+                        Added Greg (the Green Rupee of Eternal Glory) as an option for the rainbow bridge requirement
+                        <ul>
+                          <li>An entry for Greg is now available in the item tracker to let you know when you find Greg</li>
+                          <li>The treasure chest mini game man will provide a hint for where Greg is located</li>
+                        </ul>
+                      </li>
+                      <li>Add a Shopsanity price range option to control the price options, including an affordable option, and wallet locked options</li>
+                      <li>Added warning system to indicate when a randomizer save is being played on a different build</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Rainbow effects in the Cosmetic Editor transition more smoothly</li>
+                      <li>Check tracker now persists skipped checks</li>
+                      <li>Add more junk hints</li>
+                      <li>Add separate sensitivity sliders for X and Y axis for First person view and Free Camera</li>
+                      <li>Adjust the altar text in rando to still list bridge requirements when hints are turned off</li>
+                      <li>Adjust the manual seed input field in the randomizer menu to now permit alpha-numeric values</li>
+                      <li>Tweaked hint generation to no longer treat Heart Pieces as major hint hints improving the usefulness of Barren hints</li>
+                      <li>Tweaked the Entrance Tracker to not display redundant entrances when decoupled entrances is not on</li>
+                      <li>Tweaked the Static Explosion enhancement radius size to match the maximum vanilla size</li>
+                      <li>Enhancement to fix the disappearing paths in Hyrule Field</li>
+                      <li>Tweaked Autosave to now be a dropdown and allowing to choose when to auto save</li>
+                      <li>Split easy pause buffer inputs into a new cheat that can be turned on or off</li>
+                    </ul>
+                    <h4>Accessibility</h4>
+                    <ul>
+                      <li>Added Accessibility submenu</li>
+                      <li>Added toggle to disable re centering the camera when Link is idle</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix N64 mode not applying</li>
+                      <li>Fix entrance tracker sometimes not populating</li>
+                      <li>Fix sun song sometimes placing Link out of bounds when Entrance Rando is active</li>
+                      <li>Fix duplicate music sequence names displaying during the Barinade fight and when night transitions to day in Hyrule Field</li>
+                      <li>Fix the wrong title card being displayed for the Lakeside Laboratory</li>
+                      <li>Fix excluded locations not applying in some cases</li>
+                      <li>Fix Item Tracker notes sometimes causing a crash on launch</li>
+                      <li>Fix the Gerudo Fortress chest to grant the same shuffled item as adult and child to prevent softlocks</li>
+                      <li>Fix Scrubs hints and Skulltula house hints not displaying Ice Trap trick names</li>
+                      <li>Fix cutscene crashes when only loading MQ</li>
+                    </ul>
+
                     <h3 id="gibbs-alfa-6-0-0">
                       <a href="#gibbs-alfa-6-0-0">Gibbs Alfa (6.0.0)</a>
                     </h3>
