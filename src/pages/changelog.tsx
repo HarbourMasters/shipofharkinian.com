@@ -39,7 +39,6 @@ const Home: NextPage = () => {
                           <li>Easily search, filter and preview for sequences to include/exclude</li>
                         </ul>
                       </li>
-                      <li>Enhancement to fix the disappearing paths in Hyrule Field</li>
                       <li>Added support for the Metal renderer as a graphics option for Macs</li>
                       <li>Added option to set virtual notch support for the control stick in the Controller Configuration</li>
                       <li>Added difficulty option &quot;Rupee Dash Mode&quot; were you slowly lose rupees over time, and start to lose health when you run out of rupees</li>
@@ -67,6 +66,7 @@ const Home: NextPage = () => {
                       <li>Tweaked hint generation to no longer treat Heart Pieces as major hint hints improving the usefulness of Barren hints</li>
                       <li>Tweaked the Entrance Tracker to not display redundant entrances when decoupled entrances is not on</li>
                       <li>Tweaked the Static Explosion enhancement radius size to match the maximum vanilla size</li>
+                      <li>Enhancement to fix the disappearing paths in Hyrule Field</li>
                       <li>Tweaked Autosave to now be a dropdown and allowing to choose when to auto save</li>
                       <li>Split easy pause buffer inputs into a new cheat that can be turned on or off</li>
                     </ul>
