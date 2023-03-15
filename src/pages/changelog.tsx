@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                       <li>Fix Equip now enhancement bug when receiving certain items</li>
                       <li>Fix Change Age cheat causing Link to spawn at the wrong spot</li>
                       <li>Fix Skulltula token count message on vanilla</li>
-                      <li>Fix Haunted Wasteland&apos;s flags that were not affecting by wind anymore</li>
+                      <li>Fix the flags in Haunted Wasteland no longer being affected by the wind</li>
                       <li>Fix Quest Selection falling back to vanilla save under certain circumstances</li>
                       <li>Fix Bongo Bongo not resetting its visual effects properly when refighting it</li>
                       <li>Fix Happy Mask Shop throwing Link out in Entrance Rando not being handled correctly</li>

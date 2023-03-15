@@ -84,6 +84,10 @@
   margin: 10px 0 30px 0;
 }
 
+#content .textArea ul ul {
+  margin-bottom: 10px;
+}
+
 #content .textArea ul, #content .textArea ol {
   padding-left: 30px;
 }
