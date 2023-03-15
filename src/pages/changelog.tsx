@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
                   <h3 id="khan-bravo-6-1-1">
-                      <a href="#khan-bravo-6-1-0">Khan Bravo (6.1.1)</a>
+                      <a href="#khan-bravo-6-1-1">Khan Bravo (6.1.1)</a>
                     </h3>
                     <p>March 14th 2023</p>
                     <h4>Randomizer</h4>
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                       <li>Fix Equip now enhancement that was running with non-equipment items</li>
                       <li>Fix Change Age cheat causing Link to spawn at the wrong spot</li>
                       <li>Fix Skulltula token count message on vanilla</li>
-                      <li>Fix Haunted Wasteland's flags that were not affecting by wind anymore</li>
+                      <li>Fix Haunted Wasteland&quot;s flags that were not affecting by wind anymore</li>
                       <li>Fix Quest Selection falling back to vanilla save under certain circumstances</li>
                       <li>Fix Bongo Bongo</li>
                       <li>Fix Auto Save dropdown not saving immediately</li>
