@@ -22,6 +22,33 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
+                  <h3 id="khan-bravo-6-1-1">
+                      <a href="#khan-bravo-6-1-0">Khan Bravo (6.1.1)</a>
+                    </h3>
+                    <p>March 14th 2023</p>
+                    <h4>Randomizer</h4>
+                    <ul>
+                      <li>Reùpve left over Boss Location logic from MQ</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <ul>Ennmy Randomizer
+                        <li>Range check for Arwing lasers</li>
+                        <li>Exclude Club Moblines in clear rooms</li>
+                      </ul>
+                      <li>Performance refactor for Custom Sequences</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix Switch Port on 16.0.0 firmware</li>
+                      <li>Fix Equip now enhancement that was running with non-equipment items</li>
+                      <li>Fix Change Age cheat causing Link to spawn at the wrong spot</li>
+                      <li>Fix Skulltula token count message on vanilla</li>
+                      <li>Fix Haunted Wasteland's flags that were not affecting by wind anymore</li>
+                      <li>Fix Quest Selection falling back to vanilla save under certain circumstances</li>
+                      <li>Fix Bongo Bongo</li>
+                      <li>Fix Auto Save dropdown not saving immediately</li>
+                    </ul>
 
                     <h3 id="khan-alfa-6-1-0">
                       <a href="#khan-alfa-6-1-0">Khan Alfa (6.1.0)</a>
