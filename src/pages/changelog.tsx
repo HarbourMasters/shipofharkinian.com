@@ -22,32 +22,30 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
-                  <h3 id="khan-bravo-6-1-1">
-                      <a href="#khan-bravo-6-1-0">Khan Bravo (6.1.1)</a>
+                    <h3 id="khan-bravo-6-1-1">
+                      <a href="#khan-bravo-6-1-1">Khan Bravo (6.1.1)</a>
                     </h3>
                     <p>March 14th 2023</p>
-                    <h4>Randomizer</h4>
-                    <ul>
-                      <li>Remove left over Boss Location logic from MQ</li>
-                    </ul>
                     <h4>Tweaks</h4>
                     <ul>
-                      <li>Ennemy Randomizer</li>
+                      <li>Enemy Randomizer</li>
                       <ul>
                         <li>Range check for Arwing lasers</li>
-                        <li>Exclude Club Moblines in clear rooms</li>
+                        <li>Exclude Club Moblins in clear rooms</li>
                       </ul>
                       <li>Performance refactor for Custom Sequences</li>
+                      <li>Tweaked behaviour for Affordable Shop Prices</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>Fix Switch Port on 16.0.0 firmware</li>
-                      <li>Fix Equip now enhancement that was running with non-equipment items</li>
+                      <li>Fix Equip now enhancement bug when receiving certain items</li>
                       <li>Fix Change Age cheat causing Link to spawn at the wrong spot</li>
                       <li>Fix Skulltula token count message on vanilla</li>
-                      <li>Fix Haunted Wasteland's flags that were not affecting by wind anymore</li>
+                      <li>Fix Haunted Wasteland&apos;s flags that were not affecting by wind anymore</li>
                       <li>Fix Quest Selection falling back to vanilla save under certain circumstances</li>
-                      <li>Fix Bongo Bongo</li>
+                      <li>Fix Bongo Bongo not resetting its visual effects properly when refighting it</li>
+                      <li>Fix Happy Mask Shop throwing Link out in Entrance Rando not being handled correctly</li>
                       <li>Fix Auto Save dropdown not saving immediately</li>
                     </ul>
 
