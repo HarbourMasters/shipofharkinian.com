@@ -28,11 +28,12 @@ const Home: NextPage = () => {
                     <p>March 14th 2023</p>
                     <h4>Randomizer</h4>
                     <ul>
-                      <li>Reùpve left over Boss Location logic from MQ</li>
+                      <li>Remove left over Boss Location logic from MQ</li>
                     </ul>
                     <h4>Tweaks</h4>
                     <ul>
-                      <ul>Ennmy Randomizer
+                      <li>Ennemy Randomizer</li>
+                      <ul>
                         <li>Range check for Arwing lasers</li>
                         <li>Exclude Club Moblines in clear rooms</li>
                       </ul>
