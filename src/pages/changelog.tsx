@@ -22,6 +22,27 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
+                    <h3 id="greg-alfa-42-0-69">
+                      <a href="#greg-alfa-42-0-69">Greg Alfa (42.0.69)</a>
+                    </h3>
+                    <p>April 1st 2023</p>
+                    <h4>New Features</h4>
+                    <ul>
+                      <li>Added VR with full body tracking.</li>
+                      <li>Added Pirate as a language option.</li>
+                      <li>Added Raytracing for Nvidia 900 series cards.</li>
+                      <li>Added Ganondorf romance option.</li>
+                      <li>Removed Herobrine.</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Added bee movie script to potential Gossip Stone hints.</li>
+                      <li>Removed Mido from the game because nobody liked him anyway.</li>
+                    </ul>
+                    <h4>Bugfixes</h4>
+                    <ul>
+                      <li>Fixed a rare scenario where system32 was accidentily deleted on Steam Deck sometimes.</li>
+                    </ul>
                     <h3 id="khan-bravo-6-1-1">
                       <a href="#khan-bravo-6-1-1">Khan Bravo (6.1.1)</a>
                     </h3>
