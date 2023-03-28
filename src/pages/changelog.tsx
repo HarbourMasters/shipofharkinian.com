@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                     <ul>
                       <li>Added bee movie script to potential Gossip Stone hints.</li>
                       <li>Removed Mido from the game because nobody liked him anyway.</li>
-                      <li>Added a second README just in case people don't read the first one.</li>
+                      <li>Added a second README just in case people don&apos;t read the first one.</li>
                     </ul>
                     <h4>Bugfixes</h4>
                     <ul>
