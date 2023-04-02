@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
                     <h3 id="greg-alfa-42-0-69">
-                      <a href="#greg-alfa-42-0-69">Greg Alfa (42.0.69)</a>
+                      <a href="#greg-alfa-42-0-69">Greg Alfa (42.0.69) (APRIL FOOL&apos;S RELEASE)</a>
                     </h3>
                     <p>April 1st 2023</p>
                     <h4>New Features</h4>
