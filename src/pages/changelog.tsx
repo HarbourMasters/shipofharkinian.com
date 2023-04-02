@@ -22,6 +22,27 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
+
+                    <h3 id="khan-charlie-6-1-2">
+                      <a href="#khan-charlie-6-1-2">Khan Charlie (6.1.2)</a>
+                    </h3>
+                    <p>April 2nd 2023</p>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Add Treasure Chest mini-game reward chest to Chest Size and Texture Matches Content</li>
+                      <li>Green rupees (not Greg) no longer display as gold chests for Chest Size and Texture Matches Content</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix scenario where resetting after starting a rando save would make Link lose rupees</li>
+                      <li>Fix Deku Theatre mask checks showing as completed but the item was not granted</li>
+                      <li>Fix Skulltula token count message on Rando</li>
+                      <li>Fix scenario where Mido would block the Deku tree pathway without moving when Link has Kokiri Emerald in Rando</li>
+                      <li>Fix scenario where some custom sequence would get overridden by authentic sounds/sequences</li>
+                      <li>Fix crash when Link dies while fishing or stealing the fishing rod and going back to the fishing pond</li>
+                      <li>Fix Rando always allowing pulling graves during the day regardless if the grave pulling enhancement is off</li>
+                    </ul>
+
                     <h3 id="greg-alfa-42-0-69">
                       <a href="#greg-alfa-42-0-69">Greg Alfa (42.0.69) (APRIL FOOL&apos;S RELEASE)</a>
                     </h3>
@@ -42,8 +63,9 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>Bugfixes</h4>
                     <ul>
-                      <li>Fixed a rare scenario where system32 was accidentily deleted on Steam Deck sometimes.</li>
+                      <li>Fixed a rare scenario where system32 was accidentally deleted on Steam Deck sometimes.</li>
                     </ul>
+
                     <h3 id="khan-bravo-6-1-1">
                       <a href="#khan-bravo-6-1-1">Khan Bravo (6.1.1)</a>
                     </h3>
