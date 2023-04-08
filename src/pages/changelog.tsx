@@ -72,6 +72,7 @@ const Home: NextPage = () => {
                       <li>Based on Khan Bravo 6.1.1</li>
                       <li>Enemy Randomizer spawn pool is limited to 11 difficult enemies</li>
                       <li>Dampe throws out way more flames than usual</li>
+                      <li>King Zora moves 5x slower than vanilla speed, making him take roughly 2.5 minutes to move out of the way.</li>
                       <li>Randomly unequip c-buttons, dpad and shield</li>
                       <li>Ocarina can&apos;t be equipped on dpad down</li>
                       <li>Scrubs and shops show a fake 999 price</li>
