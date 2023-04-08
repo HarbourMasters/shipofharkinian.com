@@ -73,7 +73,7 @@ const Home: NextPage = () => {
                       <li>Enemy Randomizer spawn pool is limited to 11 difficult enemies</li>
                       <li>Dampe throws out way more flames than usual</li>
                       <li>Randomly unequip c-buttons, dpad and shield</li>
-                      <li>Ocarina can't be equipped on dpad down</li>
+                      <li>Ocarina can&apos;t be equipped on dpad down</li>
                       <li>Scrubs and shops show a fake 999 price</li>
                       <li>Link is 90% of his original size both as child and adult</li>
                       <li>Hookshot and longshot are randomly between 0 and double their original length</li>
