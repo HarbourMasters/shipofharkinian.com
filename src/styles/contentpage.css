@@ -41,9 +41,6 @@
 
 #content .textArea h2 {
   font-size: 1.4em;
-}
-
-#content .textArea h2 {
   margin-top: 40px;
 }
 
@@ -53,13 +50,12 @@
 
 #content .textArea h3 {
   margin: 20px 0;
+  font-size: 1em;
 }
 
 #content .textArea h2, #content .textArea h2 a, #content .textArea h3, #content .textArea h3 a {
   color: var(--mainOrange);
 }
-
-
 
 #content .textArea h4 {
   margin-bottom: 20px;
