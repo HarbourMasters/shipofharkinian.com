@@ -40,20 +40,26 @@
 }
 
 #content .textArea h2 {
-  font-size: 18px;
+  font-size: 1.4em;
 }
 
-#content .textArea h3:first-of-type {
+#content .textArea h2 {
+  margin-top: 40px;
+}
+
+#content .textArea h2:first-of-type {
   margin-top: 20px;
+}
+
+#content .textArea h3 {
+  margin: 20px 0;
 }
 
 #content .textArea h2, #content .textArea h2 a, #content .textArea h3, #content .textArea h3 a {
   color: var(--mainOrange);
 }
 
-#content .textArea h2, #content .textArea h3 {
-  margin-top: 40px;
-}
+
 
 #content .textArea h4 {
   margin-bottom: 20px;

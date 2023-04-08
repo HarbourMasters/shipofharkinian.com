@@ -23,9 +23,9 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
-                    <h3 id="khan-charlie-6-1-2">
+                    <h2 id="khan-charlie-6-1-2">
                       <a href="#khan-charlie-6-1-2">Khan Charlie (6.1.2)</a>
-                    </h3>
+                    </h2>
                     <p>April 2nd 2023</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -43,32 +43,53 @@ const Home: NextPage = () => {
                       <li>Fix Rando always allowing pulling graves during the day regardless if the grave pulling enhancement is off</li>
                     </ul>
 
-                    <h3 id="greg-alfa-42-0-69">
+                    <h2 id="greg-alfa-42-0-69">
                       <a href="#greg-alfa-42-0-69">Greg Alfa (42.0.69) (APRIL FOOL&apos;S RELEASE)</a>
-                    </h3>
+                    </h2>
+                    <h3>Fake Greg Alfa Changelog</h3>
                     <p>April 1st 2023</p>
                     <h4>New Features</h4>
                     <ul>
-                      <li>Added VR with full body tracking.</li>
-                      <li>Added Pirate as a language option.</li>
-                      <li>Added Raytracing for Nvidia 900 series cards.</li>
-                      <li>Added Ganondorf romance option.</li>
-                      <li>Removed Herobrine.</li>
+                      <li>Added VR with full body tracking</li>
+                      <li>Added Pirate as a language option</li>
+                      <li>Added Raytracing for Nvidia 900 series cards</li>
+                      <li>Added Ganondorf romance option</li>
+                      <li>Removed Herobrine</li>
                     </ul>
                     <h4>Tweaks</h4>
                     <ul>
-                      <li>Added bee movie script to potential Gossip Stone hints.</li>
-                      <li>Removed Mido from the game because nobody liked him anyway.</li>
-                      <li>Added a second README just in case people don&apos;t read the first one.</li>
+                      <li>Added bee movie script to potential Gossip Stone hints</li>
+                      <li>Removed Mido from the game because nobody liked him anyway</li>
+                      <li>Added a second README just in case people don&apos;t read the first one</li>
                     </ul>
                     <h4>Bugfixes</h4>
                     <ul>
-                      <li>Fixed a rare scenario where system32 was accidentally deleted on Steam Deck sometimes.</li>
+                      <li>Fixed a rare scenario where system32 was accidentally deleted on Steam Deck sometimes</li>
+                    </ul>
+                    <h3>Real Greg Alfa Changelog</h3>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Based on Khan Bravo 6.1.1</li>
+                      <li>Enemy Randomizer spawn pool is limited to 11 difficult enemies</li>
+                      <li>Dampe throws out way more flames than usual</li>
+                      <li>Randomly unequip c-buttons, dpad and shield</li>
+                      <li>Ocarina can't be equipped on dpad down</li>
+                      <li>Scrubs and shops show a fake 999 price</li>
+                      <li>Link is 90% of his original size both as child and adult</li>
+                      <li>Hookshot and longshot are randomly between 0 and double their original length</li>
+                      <li>Boomerang flies away 5x the original distance</li>
+                      <li>Angry cuccos randomly spawn, spawning their brethrens to attack you</li>
+                      <li>Rolling randomly makes you bonk into thin air</li>
+                      <li>Bunny hood makes you walk backwards very fast</li>
+                      <li>All bosses move and act at twice the speed</li>
+                      <li>Hover boots last twice as long</li>
+                      <li>Link turns sideways while climbing</li>
+                      <li>Treasure chest minigame always has the same solution</li>
                     </ul>
 
-                    <h3 id="khan-bravo-6-1-1">
+                    <h2 id="khan-bravo-6-1-1">
                       <a href="#khan-bravo-6-1-1">Khan Bravo (6.1.1)</a>
-                    </h3>
+                    </h2>
                     <p>March 14th 2023</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -93,9 +114,9 @@ const Home: NextPage = () => {
                       <li>Fix Auto Save dropdown not saving immediately</li>
                     </ul>
 
-                    <h3 id="khan-alfa-6-1-0">
+                    <h2 id="khan-alfa-6-1-0">
                       <a href="#khan-alfa-6-1-0">Khan Alfa (6.1.0)</a>
-                    </h3>
+                    </h2>
                     <p>March 1st 2023</p>
                     <h4>New Enhancements/Features</h4>
                     <ul>
@@ -159,9 +180,9 @@ const Home: NextPage = () => {
                       <li>Fix cutscene crashes when only loading MQ</li>
                     </ul>
 
-                    <h3 id="gibbs-alfa-6-0-0">
+                    <h2 id="gibbs-alfa-6-0-0">
                       <a href="#gibbs-alfa-6-0-0">Gibbs Alfa (6.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>February 7th 2023</p>
                     <h4>New Enhancements/Features</h4>
                     <ul>
@@ -248,9 +269,9 @@ const Home: NextPage = () => {
                       <li>Fix the locations tab in the Randomizer menu not updating when settings were changed</li>
                     </ul>
 
-                    <h3 id="bradley-echo-5-1-4">
+                    <h2 id="bradley-echo-5-1-4">
                       <a href="#bradley-echo-5-1-4">Bradley Echo (5.1.4)</a>
-                    </h3>
+                    </h2>
                     <p>January 18th 2023</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -277,9 +298,9 @@ const Home: NextPage = () => {
                       <li>Fix Crowd Control connection issues</li>
                     </ul>
 
-                    <h3 id="bradley-delta-5-1-3">
+                    <h2 id="bradley-delta-5-1-3">
                       <a href="#bradley-delta-5-1-3">Bradley Delta (5.1.3)</a>
-                    </h3>
+                    </h2>
                     <p>December 24th 2022</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -294,9 +315,9 @@ const Home: NextPage = () => {
                       <li>Fix some shop items giving out the wrong item when shopsanity is off</li>
                     </ul>
 
-                    <h3 id="bradley-charlie-5-1-2">
+                    <h2 id="bradley-charlie-5-1-2">
                       <a href="#bradley-charlie-5-1-2">Bradley Charlie (5.1.2)</a>
-                    </h3>
+                    </h2>
                     <p>December 21st 2022</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -315,9 +336,9 @@ const Home: NextPage = () => {
                       <li>Fix memory leak introduced with 5.0.2</li>
                     </ul>
 
-                    <h3 id="bradley-bravo-5-1-1">
+                    <h2 id="bradley-bravo-5-1-1">
                       <a href="#bradley-bravo-5-1-1">Bradley Bravo (5.1.1)</a>
-                    </h3>
+                    </h2>
                     <p>December 14th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -326,9 +347,9 @@ const Home: NextPage = () => {
                       <li>Fix receiving the wrong item for ammo drops near a chest</li>
                     </ul>
 
-                    <h3 id="bradley-alfa-5-1-0">
+                    <h2 id="bradley-alfa-5-1-0">
                       <a href="#bradley-alfa-5-1-0">Bradley Alfa (5.1.0)</a>
-                    </h3>
+                    </h2>
                     <p>December 13th 2022</p>
                     <h4>New Enhancements/Features</h4>
                     <ul>
@@ -432,9 +453,9 @@ const Home: NextPage = () => {
                       <li>Fix interpolation issue when using both bunny hood and hover boots</li>
                     </ul>
 
-                    <h3 id="flynn-charlie-5-0-2">
+                    <h2 id="flynn-charlie-5-0-2">
                       <a href="#flynn-charlie-5-0-2">Flynn Charlie (5.0.2)</a>
-                    </h3>
+                    </h2>
                     <p>December 3rd 2022</p>
                     <h4>Tweaks</h4>
                     <ul>
@@ -461,9 +482,9 @@ const Home: NextPage = () => {
                       </li>
                     </ul>
 
-                    <h3 id="flynn-bravo-5-0-1">
+                    <h2 id="flynn-bravo-5-0-1">
                       <a href="#flynn-bravo-5-0-1">Flynn Bravo (5.0.1)</a>
-                    </h3>
+                    </h2>
                     <p>November 27th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -473,9 +494,9 @@ const Home: NextPage = () => {
                       <li>Dodongo&apos;s boss room crash when using only MQ otr</li>
                     </ul>
 
-                    <h3 id="flynn-alfa-5-0-0">
+                    <h2 id="flynn-alfa-5-0-0">
                       <a href="#flynn-alfa-5-0-0">Flynn Alfa (5.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>November 21st 2022</p>
                     <h4>New Features/Enhancements</h4>
                     <ul>
@@ -545,18 +566,18 @@ const Home: NextPage = () => {
                       <li>More human-readable randomizer save format</li>
                     </ul>
 
-                    <h3 id="zhora-foxtrot-4-0-5">
+                    <h2 id="zhora-foxtrot-4-0-5">
                       <a href="#zhora-foxtrot-4-0-5">Zhora Foxtrot (4.0.5)</a>
-                    </h3>
+                    </h2>
                     <p>October 20th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>Fixes regression preventing boots and tunics from being equipped while under water</li>
                     </ul>
 
-                    <h3 id="zhora-echo-4-0-4">
+                    <h2 id="zhora-echo-4-0-4">
                       <a href="#zhora-echo-4-0-4">Zhora Echo (4.0.4)</a>
-                    </h3>
+                    </h2>
                     <p>October 20th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -569,9 +590,9 @@ const Home: NextPage = () => {
                       <li>Tunics/Boots on C-buttons are now always enabled (like in interiors)</li>
                     </ul>
 
-                    <h3 id="zhora-delta-4-0-3">
+                    <h2 id="zhora-delta-4-0-3">
                       <a href="#zhora-delta-4-0-3">Zhora Delta (4.0.3)</a>
-                    </h3>
+                    </h2>
                     <p>October 13th 2022</p>
                     <h4>Feature Additions</h4>
                     <ul>
@@ -605,9 +626,9 @@ const Home: NextPage = () => {
                       <li>Default HUD to N64 colors</li>
                     </ul>
 
-                    <h3 id="zhora-charlie-4-0-2">
+                    <h2 id="zhora-charlie-4-0-2">
                       <a href="#zhora-charlie-4-0-2">Zhora Charlie (4.0.2)</a>
-                    </h3>
+                    </h2>
                     <p>October 6th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -619,9 +640,9 @@ const Home: NextPage = () => {
                       <li>&quot;Scrubsanity Off&quot; was using mysterious text</li>
                     </ul>
 
-                    <h3 id="zhora-bravo-4-0-1">
+                    <h2 id="zhora-bravo-4-0-1">
                       <a href="#zhora-bravo-4-0-1">Zhora Bravo (4.0.1)</a>
-                    </h3>
+                    </h2>
                     <p>October 1st 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -632,9 +653,9 @@ const Home: NextPage = () => {
                       <li>Global.sav wasn&apos;t generating on Linux and macOS</li>
                     </ul>
 
-                    <h3 id="zhora-alfa-4-0-0">
+                    <h2 id="zhora-alfa-4-0-0">
                       <a href="#zhora-alfa-4-0-0">Zhora Alfa (4.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>September 29th 2022</p>
                     <h4>Feature Additions</h4>
                     <ul>
@@ -727,9 +748,9 @@ const Home: NextPage = () => {
                       <li>Item tracker overhaul</li>
                     </ul>
 
-                    <h3 id="rachael-charlie-3-0-2">
+                    <h2 id="rachael-charlie-3-0-2">
                       <a href="#rachael-charlie-3-0-2">Rachael Charlie (3.0.2)</a>
-                    </h3>
+                    </h2>
                     <p>September 12th 2022</p>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -745,9 +766,9 @@ const Home: NextPage = () => {
                       <li>Fast File Select seed loading for Randomizer</li>
                     </ul>
 
-                    <h3 id="rachael-bravo-3-0-1">
+                    <h2 id="rachael-bravo-3-0-1">
                       <a href="#rachael-bravo-3-0-1">Rachael Bravo (3.0.1)</a>
-                    </h3>
+                    </h2>
                     <p>August 4th 2022</p>
                     <h4>Feature Additions</h4>
                     <ul>
@@ -777,9 +798,9 @@ const Home: NextPage = () => {
                       <li>Free Camera collision V2</li>
                     </ul>
 
-                    <h3 id="rachael-alfa-3-0-0">
+                    <h2 id="rachael-alfa-3-0-0">
                       <a href="#rachael-alfa-3-0-0">Rachael Alfa (3.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>July 14th 2022</p>
                     <h4>Feature Additions</h4>
                     <ul>
@@ -809,17 +830,17 @@ const Home: NextPage = () => {
                       <li>Faster Biggoron Sword Quest</li>
                     </ul>
 
-                    <h3 id="roy-alfa-2-0-0">
+                    <h2 id="roy-alfa-2-0-0">
                       <a href="#roy-alfa-2-0-0">Roy Alfa (2.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>May 13th 2022</p>
                     <ul>
                       <li>No changelog for this one sorry :D</li>
                     </ul>
 
-                    <h3 id="deckard-alfa-1-0-0">
+                    <h2 id="deckard-alfa-1-0-0">
                       <a href="#deckard-alfa-1-0-0">Deckard Alfa (1.0.0)</a>
-                    </h3>
+                    </h2>
                     <p>March 22nd 2022</p>
                     <ul>
                       <li>Initial release</li>
