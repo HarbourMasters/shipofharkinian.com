@@ -29,13 +29,13 @@ const Home: NextPage = () => {
                     <p>April 27th 2023</p>
                     <h4>New Features</h4>
                     <ul>
-                      <li>--- HD Textures blurb here ---</li>
-                      <li>--- Custom Model blurb here ---</li>
+                      <li>Support for high resolution textures!<a href="#spock-alfa-custom-textures-models">*</a></li>
+                      <li>Support for custom models!<a href="#spock-alfa-custom-textures-models">*</a></li>
                       <li>New local 2 player mode: Ivan the Fairy</li>
                       <ul>
                         <li>Ivan can use Link&apos;s items to his advantage and disadvantage</li>
                       </ul>
-                      <li>Add built in extraction support for Windows. This replaces the need for OTRGui, and will no longer be shipped.</li>
+                      <li>Add built in extraction support for Windows. This replaces the need for OTRGui, which is no longer shipped.</li>
                       <li>CrowdControl V2 with new effects, effect descriptions, CC client layout and bugfixes</li>
                       <li>Restoration for Bongo-Bongo 1.0 quick kill</li>
                       <li>Hyper Bosses and Hyper Enemies. Bosses and enemies act and move twice as fast!</li>
@@ -60,6 +60,7 @@ const Home: NextPage = () => {
                       <li>Match Refresh rate is now a toggle instead of a button</li>
                       <li>Add V-Sync toggle in Graphics menu</li>
                       <li>Change Age cheat now properly switches Link&apos;s sword for the appropriate age and places him in the correct room in Dungeons</li>
+                      <li>New <i>powered by libultraship</i> boot logo sequence. An option to restore the original hardware boot logo is available.</li>
                       <li>Custom SoH assets are now provided in the soh.otr supplied with downloads</li>
                       <li>The debug room 120 is patched to now load correctly</li>
                       <li>Add version info and other details to Windows exe properties</li>
@@ -81,6 +82,11 @@ const Home: NextPage = () => {
                     <ul>
                       <li>Add Text-to-Speech option under the Accessibility menu for in game text and menus. Toggle by pressing F9.</li>
                     </ul>
+                    <h4 id="spock-alfa-custom-textures-models">
+                      <p><a href="#spock-alfa-custom-textures-models">*</a>Developers&apos; Note:</p>
+                      <p>This update provides the <u><i>framework</i></u> that allows for content creators to create custom, high resolution textures and models.
+                        The HM64 team does not provide custom textures or models. Please allow ample time for people interested in content creation to develop texture and model packs for SoH.</p>
+                    </h4>
 
                     <h2 id="khan-charlie-6-1-2">
                       <a href="#khan-charlie-6-1-2">Khan Charlie (6.1.2)</a>
