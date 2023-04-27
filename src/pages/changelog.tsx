@@ -23,6 +23,65 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+                    <h2 id="spock-alfa-7-0-0">
+                      <a href="#spock-alfa-7-0-0">Spock Alfa (7.0.0)</a>
+                    </h2>
+                    <p>April 27th 2023</p>
+                    <h4>New Features</h4>
+                    <ul>
+                      <li>--- HD Textures blurb here ---</li>
+                      <li>--- Custom Model blurb here ---</li>
+                      <li>New local 2 player mode: Ivan the Fairy</li>
+                      <ul>
+                        <li>Ivan can use Link&apos;s items to his advantage and disadvantage</li>
+                      </ul>
+                      <li>Add built in extraction support for Windows. This replaces the need for OTRGui, and will no longer be shipped.</li>
+                      <li>CrowdControl V2 with new effects, effect descriptions, CC client layout and bugfixes</li>
+                      <li>Restoration for Bongo-Bongo 1.0 quick kill</li>
+                      <li>Hyper Bosses and Hyper Enemies. Bosses and enemies act and move twice as fast!</li>
+                      <li>Time Saver to have Dampe appear out all night</li>
+                      <li>Cheat to prevent Gibdo and ReDeads from freezing Link with their screams</li>
+                      <li>Time Saver to allow traveling through time when playing Song of Time</li>
+                      <li>Time Saver to have Gold Skulltulas present during day time</li>
+                      <li>Option to remove the Hot/Underwater warning text when not wearing the proper tunic</li>
+                      <li>Enhancement to add an aiming reticle for the Bow and Slingshot</li>
+                      <li>Gameplay Stats now has added times for scenes and rooms</li>
+                      <li>Add Difficulty Option to have bonking deal damage to Link</li>
+                      <li>Add option to fix authentic out of bounds texture reads (e.g. Deku Sticks, Freezards)</li>
+                      <li>Ability to change Link&apos;s voice pitch in the Audio Editor</li>
+                    </ul>
+                    <h4>Randomizer</h4>
+                    <ul>
+                      <li>Add Kakariko Granny&apos;s Potion Shop to Merchant Shuffle. She will sell you an item for 100 rupees after turning in the Odd Mushroom.</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Frame interpolation has been renamed to FPS and moved to Graphics under the Settings menu</li>
+                      <li>Match Refresh rate is now a toggle instead of a button</li>
+                      <li>Add V-Sync toggle in Graphics menu</li>
+                      <li>Change Age cheat now properly switches Link&apos;s sword for the appropriate age and places him in the correct room in Dungeons</li>
+                      <li>Custom SoH assets are now provided in the soh.otr supplied with downloads</li>
+                      <li>The debug room 120 is patched to now load correctly</li>
+                      <li>Add version info and other details to Windows exe properties</li>
+                      <li>Updated README. Sections reworded or appended to clarify them.</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix Goron Links text in Randomizer and bug where he would grant his item without bombing him first</li>
+                      <li>Fix Spirit Temple Cobra mirror statue shadow not updating when rotated</li>
+                      <li>Fix Gold Skulltula token on Kakariko construction site being positioned wrong</li>
+                      <li>Fix shooting Lake Hylia Sun in vanilla saves granting multiple Fire Arrows</li>
+                      <li>Fix Boss shuffle logic issues for Barinade, Jabu-Jabu, and items set to Own Dungeon</li>
+                      <li>Fix the Death Mountain cloud in Randomizer not changing after defeating Volvagia</li>
+                      <li>Fix buying Heart Pieces or Containers from Shopsanity not healing Link</li>
+                      <li>Fix edge case where free standing progressive items would not update to the correct item</li>
+                      <li>Various fixes for sliders in the UI</li>
+                    </ul>
+                    <h4>Accessibility</h4>
+                    <ul>
+                      <li>Add Text-to-Speech option under the Accessibility menu for in game text and menus. Toggle by pressing F9.</li>
+                    </ul>
+
                     <h2 id="khan-charlie-6-1-2">
                       <a href="#khan-charlie-6-1-2">Khan Charlie (6.1.2)</a>
                     </h2>
