@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                       <li>Add built in extraction support for Windows. This replaces the need for OTRGui, which is no longer shipped.</li>
                       <li>CrowdControl V2 with new effects, effect descriptions, CC client layout and bugfixes</li>
                       <li>Restoration for Bongo-Bongo 1.0 quick kill</li>
-                      <li>Hyper Bosses and Hyper Enemies. Bosses and enemies act and move twice as fast!</li>
+                      <li>Hyper Bosses - Bosses will act and move twice as fast!</li>
                       <li>Time Saver to have Dampe appear out all night</li>
                       <li>Cheat to prevent Gibdo and ReDeads from freezing Link with their screams</li>
                       <li>Time Saver to allow traveling through time when playing Song of Time</li>
