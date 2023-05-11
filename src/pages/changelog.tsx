@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                     <h2 id="spock-bravo-7-0-1">
                       <a href="#spock-bravo-7-0-1">Spock Bravo (7.0.1)</a>
                     </h2>
-                    <p>May 11th 2023</p>
+                    <p>May 10th 2023</p>
                     <h4>Tweaks</h4>
                     <ul>
                       <li>Move game saving to a separate thread to prevent slow downs on the main game thread</li>
@@ -35,6 +35,7 @@ const Home: NextPage = () => {
                       <li>Always reset the trade item cycling behavior when switching pause menu pages or closing the pause menu</li>
                       <li>Remove duplicated Rupee Dash toggle</li>
                       <li>Small tweaks for CC 2.0</li>
+                      <li>Rainbow Cosmetic Editor effects now have a consistent cycling speed regardless of frame rate</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
@@ -47,6 +48,7 @@ const Home: NextPage = () => {
                       <li>Fix Randomizer logic condition for the Gold Skulltula Outside Ganon&apos;s Castle</li>
                       <li>Fix various issues with the built-in extraction not detecting the correct roms</li>
                       <li>Disable TTS hotkey on Linux to prevent accidental crashes as TTS is not supported on Linux yet</li>
+                      <li>Fix Gohma larvae being affected by Hyper Bosses outside of Gohma&apos;s lair</li>
                     </ul>
 
                     <h2 id="spock-alfa-7-0-0">
