@@ -22,6 +22,26 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
+                    
+                    <h2 id="spock-charlie-7-0-2">
+                      <a href="#spock-charlie-7-0-2">Spock Charlie (7.0.2)</a>
+                    </h2>
+                    <p>May 22nd 2023</p>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Enables visual styles for Windows so dialogs can match the OS better</li>
+                      <li>Adds Scene Specific checks to Dirth Path fix so that it isn&apos;t active for other effects like Deku Scrub shadows</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fixes conversion of oot-save.sav to modern format</li>
+                      <li>Fixes an oversight when searching for rom file extensions during extraction</li>
+                      <li>Fixes a crash when buying Songs on Switch</li>
+                      <li>Fixes a crash when selling Masks on Switch</li>
+                      <li>Fixes randomizer generating the same seed every time on the first generation after launching the game</li>
+                      <li>Re-adds the accidentally removed Greg timestamp from the Stats tracker</li>
+                      <li>Implements Skeleton Unregistration for actors who manage their own skeletons, which should fix crashes when toggling alternate assets</li>
+                    </ul>
 
                     <h2 id="spock-bravo-7-0-1">
                       <a href="#spock-bravo-7-0-1">Spock Bravo (7.0.1)</a>
