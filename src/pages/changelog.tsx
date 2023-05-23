@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                     <h4>Tweaks</h4>
                     <ul>
                       <li>Enables visual styles for Windows so dialogs can match the OS better</li>
-                      <li>Adds Scene Specific checks to Dirth Path fix so that it isn&apos;t active for other effects like Deku Scrub shadows</li>
+                      <li>Adds Scene Specific checks to Dirt Path fix so that it isn&apos;t active for other effects like Deku Scrub shadows</li>
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
