@@ -54,6 +54,18 @@ const Home: NextPage = () => {
                         <li>Create a new savefile. If the game asks you to choose between multiple game modes during save creation, pick the one without &quot;randomizer&quot; in the logo. Your new savefile should have either no tag next to it, or the &quot;MQ&quot; tag.</li>
                         <li>Play the game!</li>
                       </ol>
+                      <h3 id="help-im-stuck-with-my-randomizer">
+                        <a href="#help-im-stuck-with-my-randomizer">Help, I&apos;m stuck with my Randomizer</a>
+                      </h3>
+                      <div>Keep calm and try the following</div>
+                      <ol>
+                        <li>Open the <a href="https://www.spoiledlog.com">Spoiler Viewer</a></li>
+                        <li>Locate your Randomizer JSON file in the Randomizer folder</li>
+                        <li>Open the file with the spoiler viewer</li>
+                        <li>Find out what you are missing by checking the locations/playthrough/hints/...</li>
+                        <li>Play the randomizer!</li>
+                      </ol>
+                      <div>If you still have issues finishing your seed: Feel free to ask on Discord</div>
                     </div>
                   </div>
                 </div>
