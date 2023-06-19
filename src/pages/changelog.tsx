@@ -55,7 +55,7 @@ const Home: NextPage = () => {
                       <li>Window size and position now remembered outside of fullscreen</li>
                       <li>Fullscreen shortcut for all graphics APIs changed to F11</li>
                       <li>Added Spock race settings to the randomizer presets</li>
-                      <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuraiont) in the Settings menu</li>
+                      <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuration) in the Settings menu</li>
                       <li>Option to show gauntlets in first-person while holding bow or hookshot</li>
                     </ul>
 					<h4>Bug Fixes</h4>
