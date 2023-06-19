@@ -32,11 +32,11 @@ const Home: NextPage = () => {
                       <li>WiiU build returns!</li>
                       <li>Boss Rush quest selection</li>
                       <li>Hyper Enemies</li>
-                      <li>PAL 1.1 cartridge ROM support</li>
+                      <li>N64 PAL 1.1 cartridge ROM support</li>
                       <li>RTA Timing in gameplay stats (with in-game display option)</li>
                       <li>Mirror mode: flip ALL the things! Allows for everything to be mirrored, set rooms (based on a seed) or constantly randomizing mirrored rooms</li>
                       <li>Shadow Tag mode: a wallmaster follows you everywhere...</li>
-                      <li>Trick logic now available in the randomizer (glitches have not yet been added)</li>
+                      <li>Trick logic now available in the randomizer settings (glitches have not yet been added)</li>
                     </ul>
 					<h4>Tweaks</h4>
 					<ul>
@@ -50,18 +50,18 @@ const Home: NextPage = () => {
                       <li>Better spoiler log section order</li>
                       <li>Option in SoH menu bar to hide the menu bar</li>
                       <li>Option for Time Travel with fairy ocarina</li>
-                      <li>Crowd Control, Enemy Rando now in Extra Modes menu</li>
+                      <li>Crowd Control and Enemy Rando moved to the Extra Modes menu</li>
                       <li>Enemy Rando now has select box for both options</li>
                       <li>Window size and position now remembered outside of fullscreen</li>
-                      <li>Fullscreen shortcut for DirectX changed to F11</li>
+                      <li>Fullscreen shortcut for all graphics APIs changed to F11</li>
                       <li>Added Spock race settings to the presets</li>
-                      <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuraiont) in Settings menu</li>
+                      <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuraiont) in the Settings menu</li>
                       <li>Option to show gauntlets in first-person while holding bow or hookshot</li>
                     </ul>
 					<h4>Bug Fixes</h4>
 					<ul>
                       <li>Crash when changing margins in Costmetics Editor</li>
-                      <li>Crash when resetting Link&apos;s size modifier</li>
+                      <li>Crash when resetting Link&apos;s model size modifier out of game</li>
                       <li>Crash with Ivan-placed hookshot targets</li>
                       <li>Dungeon entrance icon fixes (positioning with HUD placement settings, missing icons)</li>
                       <li>Granny no longer gives 5th bottle when not shuffled (rando logic bug)</li>
