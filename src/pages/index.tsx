@@ -129,7 +129,7 @@ const Home: NextPage = () => {
             <div className="column">
               <h1>{t('Watch our latest direct')}</h1>
               <ElementOnScroll>
-                <YoutubeVideo embedId="wRxZ_WlZI4s" />
+                <YoutubeVideo embedId="HrA4fOHXUFU" />
               </ElementOnScroll>
             </div>
           </div>
