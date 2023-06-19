@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     <p>June 18th 2023</p>
 					<h4>New Features</h4>
 					<ul>
-                      <li>WiiU build returns!</li>
+                      <li>Wii U build returns!</li>
                       <li>Boss Rush quest selection</li>
                       <li>Hyper Enemies</li>
                       <li>N64 PAL 1.1 cartridge ROM support</li>
