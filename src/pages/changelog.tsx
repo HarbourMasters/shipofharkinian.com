@@ -23,6 +23,52 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
                     
+					<h2 id="sulu-alfa-7-1-0">
+                      <a href="#sulu-alfa-7-1-0">Sulu Alfa (7.1.0)</a>
+                    </h2>
+                    <p>June 18th 2023</p>
+					<h4>New Features</h4>
+					<ul>
+                      <li>WiiU build returns!</li>
+                      <li>Boss Rush quest selection</li>
+                      <li>Hyper Enemies</li>
+                      <li>PAL 1.1 cartridge ROM support</li>
+                      <li>RTA Timing in gameplay stats (with in-game display option)</li>
+                      <li>Mirror mode: flip ALL the things! Allows for everything to be mirrored, set rooms (based on a seed) or constantly randomizing mirrored rooms</li>
+                      <li>Shadow Tag mode: a wallmaster follows you everywhere...</li>
+                      <li>Trick logic now available in the randomizer (glitches have not yet been added)</li>
+                    </ul>
+					<h4>Tweaks</h4>
+					<ul>
+                      <li>Gerudo Fortress keyring now in randomizer settings</li>
+                      <li>Gameplay stats UI cleanup</li>
+                      <li>Decreased size of save files</li>
+                      <li>MQ toggle added to Better Warp Menu</li>
+                      <li>Greg options for Bridge and LACS dungeon rewards settings</li>
+                      <li>Full controller (e.g. PS4/5) LED control (can turn it off, more color options)</li>
+                      <li>Option to prevent speed modifier from affecting jumps</li>
+                      <li>Better spoiler log section order</li>
+                      <li>Option in SoH menu bar to hide the menu bar</li>
+                      <li>Option for Time Travel with fairy ocarina</li>
+                      <li>Crowd Control, Enemy Rando now in Extra Modes menu</li>
+                      <li>Enemy Rando now has select box for both options</li>
+                      <li>Window size and position now remembered outside of fullscreen</li>
+                      <li>Fullscreen shortcut for DirectX changed to F11</li>
+                      <li>Added Spock race settings to the presets</li>
+                      <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuraiont) in Settings menu</li>
+                      <li>Option to show gauntlets in first-person while holding bow or hookshot</li>
+                    </ul>
+					<h4>Bug Fixes</h4>
+					<ul>
+                      <li>Crash when changing margins in Costmetics Editor</li>
+                      <li>Crash when resetting Link's size modifier</li>
+                      <li>Crash with Ivan-placed hookshot targets</li>
+                      <li>Dungeon entrance icon fixes (positioning with HUD placement settings, missing icons)</li>
+                      <li>Granny no longer gives 5th bottle when not shuffled (rando logic bug)</li>
+                      <li>More V-Sync fixes/tweaks</li>
+                      <li>Switching age with Time Travel enhancement no longer gives the kokiri sword</li>
+                    </ul>
+					
                     <h2 id="spock-charlie-7-0-2">
                       <a href="#spock-charlie-7-0-2">Spock Charlie (7.0.2)</a>
                     </h2>
