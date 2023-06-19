@@ -61,7 +61,7 @@ const Home: NextPage = () => {
 					<h4>Bug Fixes</h4>
 					<ul>
                       <li>Crash when changing margins in Costmetics Editor</li>
-                      <li>Crash when resetting Link's size modifier</li>
+                      <li>Crash when resetting Link&apos;s size modifier</li>
                       <li>Crash with Ivan-placed hookshot targets</li>
                       <li>Dungeon entrance icon fixes (positioning with HUD placement settings, missing icons)</li>
                       <li>Granny no longer gives 5th bottle when not shuffled (rando logic bug)</li>
