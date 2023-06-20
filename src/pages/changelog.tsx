@@ -60,13 +60,13 @@ const Home: NextPage = () => {
                     </ul>
 					<h4>Bug Fixes</h4>
 					<ul>
-                      <li>Crash when changing margins in Costmetics Editor</li>
+                      <li>Crash when changing margins in Cosmetics Editor</li>
                       <li>Crash when resetting Link&apos;s model size modifier out of game</li>
                       <li>Crash with Ivan-placed hookshot targets</li>
                       <li>Dungeon entrance icon fixes (positioning with HUD placement settings, missing icons)</li>
                       <li>Granny no longer gives 5th bottle when not shuffled (rando logic bug)</li>
                       <li>More V-Sync fixes/tweaks</li>
-                      <li>Switching age with Time Travel enhancement no longer gives the kokiri sword</li>
+                      <li>Switching age with Time Travel enhancement no longer gives the Kokiri sword</li>
                     </ul>
 					
                     <h2 id="spock-charlie-7-0-2">
