@@ -46,25 +46,24 @@ const Home: NextPage = () => {
                     </h2>
                     <p>Follow the steps outlined in <Link href="dump-guide">ROM Dumping Guide</Link> to <span className="guideNoteBold">legally</span> obtain a <b>usable ROM</b> for the Ship of Harkinian.</p>
                     <p>The ReadMe file <b>included with the download</b> mentioned in <a href="#step-1">Step 1</a> lists out the <b>CRC/SHA1 Hash</b> and a website to verify your version. <span className="guideNoteBold">Incorrect versions are not supported</span> and you will see an error or the game will not load similar to the below screenshot:</p>
-                    <Image src={image5} alt={"Windows ROM CRC Error"} />
+                    <Image src={image5} style={{width: '75%', height: 'auto'}} alt={"Windows ROM CRC Error"} />
 
                     <h2 id="step-3">
                       <a href="#step-3">Step 3: Extracting the Assets and Launching Ship of Harkinian</a>
                     </h2>
-                    <p>Assuming you correctly followed the instructions in Steps 1 and 2 you are now ready for the last process.</p>
+                    <p>Assuming you correctly followed the instructions in <a href={"#step-1"}>Step 1</a> and <a href={"#step-2"}>Step 2</a> you are now ready for the last process.</p>
                     <p>Open the Folder you extracted from Step 1 and launch the soh.exe file.
                       <span className={"guideNoteBold"}>Note: You can ignore any AntiVirus or Windows SmartScreen notifications, these are false positives due to these programs having too little information about Ship of Harkinian.</span>
                     </p>
-                    <p>Once <b>soh.exe</b> has been opened for the first time you will be greeted with a popup window. Select Yes at this prompt:<br />
-                      <Image src={image4} alt={"Windows No OTR Files Found"} />
-                    </p>
+                    <p>Once <b>soh.exe</b> has been opened for the first time you will be greeted with a popup window. Select Yes at this prompt:</p>
+                    <Image src={image4} style={{width: '75%', height: 'auto'}} alt={"Windows No OTR Files Found"} />
                     <p>If your ROM is <b>not located in the same folder as the SoH.exe</b> you will have one additional prompt. Select Yes at this prompt too:<br />
-                      <Image src={image3} alt={"Windows No Roms Found"} /><br />
+                      <Image src={image3} style={{width: '75%', height: 'auto'}} alt={"Windows No Roms Found"} /><br />
                       Locate the ROM that you <b>dumped in Step 2</b> and double click it to begin the Asset Extraction process.
                     </p>
                     <p>This Asset Extraction process will happen silently in the background.<br />
                       <span className={"guideNote"}>Note: You can safely ignore any errors displayed during this process, as long as the console window closes and you see the following prompt:</span><br />
-                      <Image src={image2} alt={"Windows Rom Extracted"} /><br />
+                      <Image src={image2} style={{width: '75%', height: 'auto'}} alt={"Windows Rom Extracted"} /><br />
                       If you have a Master Quest ROM you wish to create an oot-mq.otr from, select Yes. Otherwise, select No.
                     </p>
                     <p>Once you have completed the extraction process the Game will automatically launch.</p>
