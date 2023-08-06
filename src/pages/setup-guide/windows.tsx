@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -50,7 +51,7 @@ const Home: NextPage = () => {
                       <span className={"guideNoteBold"}>Note: You can ignore any AntiVirus or Windows SmartScreen notifications, these are false positives due to these programs having too little information about Ship of Harkinian.</span>
                     </p>
                     <p>Once <b>soh.exe</b> has been opened for the first time you will be greeted with a popup window. Select Yes at this prompt:<br />
-                      <Image src={"images/image4.png" alt={"Windows No OTR Files Found"}} />
+                      <Image src={"images/image4.png"} alt={"Windows No OTR Files Found"} />
                     </p>
                     <p>If your ROM is <b>not located in the same folder as the SoH.exe</b> you will have one additional prompt. Select Yes at this prompt too:<br />
                       <Image src={"images/image3.png"} alt={"Windows No Roms Found"} /><br />
