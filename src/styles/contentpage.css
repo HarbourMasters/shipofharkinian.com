@@ -120,6 +120,11 @@
 	color: #dd1;
 }
 
+.guideImg {
+    width: auto;
+    height: 75%;
+}
+
 #content .guideNoteBold {
   font-style: italic;
   font-weight: bold;
