@@ -52,14 +52,14 @@ const Home: NextPage = () => {
                       <a href="#step-3">Step 3: Extracting the Assets and Launching Ship of Harkinian</a>
                     </h2>
                     <p>Assuming you correctly followed the instructions in <a href={"#step-1"}>Step 1</a> and <a href={"#step-2"}>Step 2</a> you are now ready for the last process.</p>
-                    <p>Open the Folder you extracted from Step 1 and launch the soh.exe file.
+                    <p>Open the Folder you extracted from Step 1 and launch the soh.exe file.<br />
                       <span className={"guideNoteBold"}>Note: You can ignore any AntiVirus or Windows SmartScreen notifications, these are false positives due to these programs having too little information about Ship of Harkinian.</span>
                     </p>
                     <p>Once <b>soh.exe</b> has been opened for the first time you will be greeted with a popup window. Select Yes at this prompt:</p>
                     <Image src={image4} alt={"Windows No OTR Files Found"} />
                     <p>If your ROM is <b>not located in the same folder as the SoH.exe</b> you will have one additional prompt. Select Yes at this prompt too:</p>
                     <Image src={image3} alt={"Windows No Roms Found"} /><br />
-                    <p>Locate the ROM that you <b>dumped in Step 2</b> and double click it to begin the Asset Extraction process.</p>
+                    <p>Locate the ROM that you <b>dumped in <a href={"#step-2"}>Step 2</a></b> and double click it to begin the Asset Extraction process.</p>
                     <p>This Asset Extraction process will happen silently in the background.<br />
                       <span className={"guideNote"}>Note: You can safely ignore any errors displayed during this process, as long as the console window closes and you see the following prompt:</span>
                     </p>
