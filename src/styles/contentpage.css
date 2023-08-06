@@ -114,3 +114,14 @@
 #content a:hover {
   text-decoration: underline;
 }
+
+#content .guideNote {
+	font-style: italic;
+	color: #ddd;
+}
+
+#content .guideNoteBold {
+  font-style: italic;
+  font-weight: bold;
+  color: #ddd;
+}
