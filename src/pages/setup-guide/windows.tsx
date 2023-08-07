@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                       <a href="#step-1">Step 1: Downloading the Ship of Harkinian</a>
                     </h2>
                     <p className="guideNoteBold">Note: This is the code that will interact with the Assets required in Step 2. This does NOT provide you with any Nintendo Licensed Assets…</p>
-                    <p><a href="https://discord.com/channels/808039310850130000/955966600891224064">Click here</a> to go to the <b>#download</b> channel in the Discord, where you will find the links for <b>all current and historical versions</b> of Ship of Harkinian. 
+                    <p><a href="https://discord.com/channels/808039310850130000/955966600891224064">Click here</a> to go to the <b>#downloads</b> channel in the Discord, where you will find the links for <b>all current and historical versions</b> of Ship of Harkinian.
 						Find the <b>highest</b> numbered version and select the link that says <b>Windows</b>.
                     </p>
                     <p><b>Extract the Zip file</b> into a Folder on your <b>Local Hard Drive</b> for later.<br />
