@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     <p className="guideNoteBold">Note: This is the code that will interact with the Assets required in Step 2. This does NOT provide you with any Nintendo Licensed Assets…</p>
                     <p className="guideNoteBold">Note: You will need a PC to complete this process.</p>
 
-                    <h3 style={"text-align: center;"}>On your PC</h3>
+                    <h3 style={{textAlign: "center"}}>On your PC</h3>
                     <p><a href="https://discord.com/channels/808039310850130000/955966600891224064">Click here</a> to go to the <b>#downloads</b> channel in the Discord, where you will find the links for <b>all current and historical versions</b> of Ship of Harkinian.
 						Find the <b>highest</b> numbered version and select the link that says indicates the <b>PC platform</b> you will be using. Also download the link that says <b>Switch</b>, you will need this later.<br />
                       <span className={"guideNoteBold"}>Note: The PC platform version is required to generate the oot.otr that will be used later on the Switch.</span>
@@ -50,14 +50,14 @@ const Home: NextPage = () => {
                     </h2>
                     <p>Once the oot.otr file has been generated, you no longer need the <b>PC Platform</b> build. The remainder of the steps here will be using the <b>Switch files you downloaded earlier in <a href={"#step-1"}>Step 1</a></b>.</p>
                     <p>Create the following <b>folder structure</b> on your <b>SD card</b>:<br />
-                      <span style="margin-left: 100px;">sdcard</span><br />
-                      <span style="margin-left: 100px;">└──switch</span><br />
-                      <span style="margin-left: 130px;">└──soh</span><br />
-                      <span style="margin-left: 160px;">└──oot.otr</span><br />
-                      <span style="margin-left: 160px;">└──soh.nro</span><br />
-                      <span style="margin-left: 160px;">└──soh.otr</span>
+                      <span style={{marginLeft: 100}}>sdcard</span><br />
+                      <span style={{marginLeft: 100}}>└──switch</span><br />
+                      <span style={{marginLeft: 130}}>└──soh</span><br />
+                      <span style={{marginLeft: 160}}>└──oot.otr</span><br />
+                      <span style={{marginLeft: 160}}>└──soh.rpx</span><br />
+                      <span style={{marginLeft: 160}}>└──soh.otr</span>
                     </p>
-                    <h3 style={"text-align: center;"}>On your Nintendo Switch</h3>
+                    <h3 style={{textAlign: "center"}}>On your Switch</h3>
                     <p>Insert the SD Card and launch the game via <b>Atmosphere’s Game+R</b> launcher method.</p>
                     <p><b>Congratulations, you can now play Ocarina of Time on the Ship of Harkinian.</b></p>
 
