@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                           <li><Link href={"http://wiki.vg-resource.com/Dolphin"}>ISO Filesystem Browsing</Link> @ VG Resource Wiki</li>
                         </ol>
                         <li>Open the relevant <b>.tgc file</b> in HxD using the information in the table below:</li>
-                        <table id={"dumpTable"}>
+                        <table className={"dumpTable"}>
                           <thead>
                           <tr>
                             <th>Disc</th>
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
                           </tbody>
                         </table>
                         <li>Open the &quot;Select block&quot; window (Ctrl + E). In the <b>Start-offset</b> field, enter the relevant <b>starting offset</b> from the table below:</li>
-                        <table id={"dumpTable"}>
+                        <table className={"dumpTable"}>
                           <thead>
                           <tr>
                             <th>Disc</th>

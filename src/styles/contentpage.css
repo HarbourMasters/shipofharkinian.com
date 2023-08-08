@@ -137,6 +137,20 @@
   margin-left: 172px;
 }
 
+.dumpTable, .dumpTable td, .dumpTable th {
+  border-collapse: collapse;
+  border: 1px solid var(--mainOrange);
+  border-top-left-radius: 5px;
+
+}
+.dumpTable .th {
+  background-color: var(--mainOrange);
+}
+
+.dumpTable th, .dumpTable td {
+  width: 33%;
+}
+
 #content .guideNoteBold {
   font-style: italic;
   font-weight: bold;
