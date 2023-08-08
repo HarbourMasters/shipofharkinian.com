@@ -50,12 +50,12 @@ const Home: NextPage = () => {
                     </h2>
                     <p>Once the oot.otr file has been generated, you no longer need the <b>PC Platform</b> build. The remainder of the steps here will be using the <b>Wii U files you downloaded earlier in <a href={"#step-1"}>Step 1</a></b>.</p>
                     <p>Create the following <b>folder structure</b> on your <b>SD card</b>:<br />
-                      <span style={{marginLeft: 100}}>sdcard</span><br />
-                      <span style={{marginLeft: 100}}>└── apps</span><br />
-                      <span style={{marginLeft: 130}}>└── soh</span><br />
-                      <span style={{marginLeft: 160}}>└── oot.otr</span><br />
-                      <span style={{marginLeft: 160}}>└── soh.rpx</span><br />
-                      <span style={{marginLeft: 160}}>└── soh.otr</span>
+                      <span className={"folder1"}>sdcard</span><br />
+                      <span className={"folder1"}>└── apps</span><br />
+                      <span className={"folder2"}>└── soh</span><br />
+                      <span className={"folder3"}>└── oot.otr</span><br />
+                      <span className={"folder3"}>└── soh.rpx</span><br />
+                      <span className={"folder3"}>└── soh.otr</span>
                     </p>
                     <h3>On your Wii U</h3>
                     <p>Insert the SD Card and launch the game via <b>Atmosphere’s Game+R</b> launcher method.</p>

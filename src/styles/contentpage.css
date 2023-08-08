@@ -125,6 +125,18 @@
     height: 75%;
 }
 
+#content .folder1 {
+  margin-left: 100px;
+}
+
+#content .folder2 {
+  margin-left: 136px;
+}
+
+#content .folder3 {
+  margin-left: 172px;
+}
+
 #content .guideNoteBold {
   font-style: italic;
   font-weight: bold;
