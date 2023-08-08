@@ -140,11 +140,23 @@
 .dumpTable, .dumpTable td, .dumpTable th {
   border-collapse: collapse;
   border: 1px solid var(--mainOrange);
-  border-top-left-radius: 5px;
-
+  padding: 1px;
 }
-.dumpTable .th {
+
+.dumpTable tr:first-child th:first-child {
+  border-top-left-radius: 5px;
+}
+
+.dumpTable tr:first-child th:first-child {
+  border-top-right-radius: 5px;
+}
+
+.dumpTable thead {
   background-color: var(--mainOrange);
+}
+
+.dumpTable tbody {
+
 }
 
 .dumpTable th, .dumpTable td {
