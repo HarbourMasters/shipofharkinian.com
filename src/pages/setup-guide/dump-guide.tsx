@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -10,7 +11,7 @@ import image1 from './images/image13.png';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
-  const pageName = "Update Guide";
+  const pageName = "ROM Dumping Guide";
 
   return (
       <>
@@ -66,13 +67,13 @@ const Home: NextPage = () => {
                             <td>files/zlj_f.tgc</td>
                           </tr>
                           <tr>
-                            <td>Zelda Collector's Edition</td>
+                            <td>Zelda Collector&apos;s Edition</td>
                             <td>Ocarina of Time</td>
                             <td>files/tgc/zelda_PAL_093003.tgc</td>
                           </tr>
                           </tbody>
                         </table>
-                        <li>Open the "Select block" window (Ctrl + E). In the <b>Start-offset</b> field, enter the relevant <b>starting offset</b> from the table below:</li>
+                        <li>Open the &quot;Select block&quot; window (Ctrl + E). In the <b>Start-offset</b> field, enter the relevant <b>starting offset</b> from the table below:</li>
                         <table id={"dumpTable"}>
                           <thead>
                           <tr>
@@ -92,7 +93,7 @@ const Home: NextPage = () => {
                             <td>1E69CB38</td>
                           </tr>
                           <tr>
-                            <td>Zelda Collector's Edition</td>
+                            <td>Zelda Collector&apos;s Edition</td>
                             <td>Ocarina of Time</td>
                             <td>1C669FC0</td>
                           </tr>
@@ -109,12 +110,12 @@ const Home: NextPage = () => {
                         </table>
                         <li>Ensure the <b>Length</b> and <b>Hex</b> options are checked, then enter <b>2000000 (2,000,000)</b> into the Length field.<br />
                           <Image src={image1} alt={"dump guide select block"}/></li>
-                        <li>Once you've entered the correct <b>Length</b> and <b>Start-offset</b>, click "OK". The raw bytes of the ROM should be selected.</li>
+                        <li>Once you&apos;ve entered the correct <b>Length</b> and <b>Start-offset</b>, click &quot;OK&quot;. The raw bytes of the ROM should be selected.</li>
                         <li>Copy the selected data (Ctrl + C)</li>
                         <ol type={"a"}>
                           <li>Create a new blank file (Ctrl + N)</li>
                           <li>Paste the data (Ctrl + N)<br />
-                            <span className={"guideNote"}>Note: If HxD displays a message about <b>changing the file size</b>, click "OK".</span></li>
+                            <span className={"guideNote"}>Note: If HxD displays a message about <b>changing the file size</b>, click &quot;OK&quot;.</span></li>
                         </ol>
                         <li>Save the file (Ctrl + S) and place it in your Ship of Harkinian installation location, next to soh.exe.</li>
                         <li>Validate your dumped ROM using <Link href={"http://romhacking.net/hash"}>Hasher-js</Link>.</li>
