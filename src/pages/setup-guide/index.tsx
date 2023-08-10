@@ -33,12 +33,12 @@ const Home: NextPage = () => {
                     </ul></p>
                     <p>Select your platform from the list below and follow the instructions on that page. Alternatively, you can also go directly to the update or ROM dumping guides.</p>
                     <p className={"subLinks"}>
-                      <Link href="/setup-guide/windows">Windows Guide</Link>
-                      <Link href="/setup-guide/linux">Linux Guide</Link>
-                      <Link href="/setup-guide/macos">macOS Guide</Link>
-                      <Link href="/setup-guide/switch">Nintendo Switch Guide</Link>
-                      <Link href="/setup-guide/wiiu">Wii U Guide</Link>
-                      <Link href="/setup-guide/update">Updating Ship of Harkinian</Link>
+                      <Link href="/setup-guide/windows">Windows Guide</Link><br />
+                      <Link href="/setup-guide/linux">Linux Guide</Link><br />
+                      <Link href="/setup-guide/macos">macOS Guide</Link><br />
+                      <Link href="/setup-guide/switch">Nintendo Switch Guide</Link><br />
+                      <Link href="/setup-guide/wiiu">Wii U Guide</Link><br />
+                      <Link href="/setup-guide/update">Updating Ship of Harkinian</Link><br />
                       <Link href="/setup-guide/dump-guide">ROM Dumping Guide</Link>
                     </p>
                     
