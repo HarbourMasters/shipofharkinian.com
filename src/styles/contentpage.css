@@ -135,7 +135,13 @@
 
 #content .folder3 {
   margin-left: 172px;
-}.dumpTable {
+}
+
+.subLinks {
+  line-height: 28px;
+}
+
+.dumpTable {
    display: grid;
    grid-template-columns: 33% 33% 33%;
    grid-auto-rows: auto;
