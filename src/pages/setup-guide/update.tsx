@@ -8,7 +8,7 @@ import { PageFooter } from '../../components/PageFooter';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
-  const pageName = "Windows Setup Guide";
+  const pageName = "Updating the Ship of Harkinian";
 
   return (
     <>
@@ -23,47 +23,26 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
-                    <h2 id="step-1">
-                      <a href="#step-1">Step 1: Downloading the Ship of Harkinian</a>
-                    </h2>
-                    <p className="guideNoteBold">Note: This is the code that will interact with the Assets required in Step 2. This does NOT provide you with any Nintendo Licensed Assets…</p>
-                    <p><a href="https://discord.com/channels/808039310850130000/955966600891224064">Click here</a> to go to the <b>#download</b> channel in the Discord, where you will find the links for <b>all current and historical versions</b> of Ship of Harkinian. 
-						Find the <b>highest</b> numbered version and select the link that says <b>Windows</b>.
-                    </p>
-                    <p><b>Extract the Zip file</b> into a Folder on your <b>Local Hard Drive</b> for later.<br />
-                      <span className="guideNoteBold">Note: Do NOT just open the zip and run SoH from there, things will break.</span><br />
-                      <span className="guideNoteBold">Note: Do NOT extract this to C:\Windows, C:\Program Files, or a OneDrive/Google Drive location, things will break.</span>
+                    <p>When a <b>new version</b> of the <b>Ship of Harkinian</b> releases, you will need to <b>manually update</b> your game
+                    in order to obtain the new features and fixes in the latest release. The steps listed below will outline how to do so.
                     </p>
 
-                    <h2 id="step-2">
-                      <a href="#step-2">Step 2: Obtaining a ROM (Legally)</a>
+                    <h2 id={"step-1"}>
+                      <a href={"#step-1"}>Download the Latest Version</a>
                     </h2>
-                    <p>Follow the steps outlined in <Link href="dump-guide">ROM Dumping Guide</Link> to <span className="guideNoteBold">legally</span> obtain a <b>usable ROM</b> for the Ship of Harkinian.</p>
-                    <p>The ReadMe file <b>included with the download</b> mentioned in <a href="#step-1">Step 1</a> lists out the <b>CRC/SHA1 Hash</b> and a website to verify your version. <span className="guideNoteBold">Incorrect versions are not supported</span> and you will see an error or the game will not load similar to the below screenshot:</p>
-                    <image href="images/image5.png"></image>
+                    <p>As you have done before, <a href="https://discord.com/channels/808039310850130000/955966600891224064">click here</a> to be taken to the <b>#downloads</b> channel of the Discord.
+                      Find the <b>Highest Numbered</b> version listed and select the download link that matches your <b>desired platform</b>.
+                    </p>
+                    <p className={"guideNote"}>Note: Keep in mind, <b>randomizer seeds</b> that you have created on older builds <b>are not guaranteed to operate outside of the build they were generated on</b>.
+                      It is recommended that you complete those seeds <b>prior to updating</b>.</p>
 
-                    <h2 id="step-3">
-                      <a href="#step-3">Step 3: Extracting the Assets and Launching Ship of Harkinian</a>
+                    <h2 id={"step-2"}>
+                      <a href={"#step-2"}>Download the Latest Version</a>
                     </h2>
-                    <p>Assuming you correctly followed the instructions in Steps 1 and 2 you are now ready for the last process.</p>
-                    <p>Open the Folder you extracted from Step 1 and launch the soh.exe file.
-                      <span className={"guideNoteBold"}>Note: You can ignore any AntiVirus or Windows SmartScreen notifications, these are false positives due to these programs having too little information about Ship of Harkinian.</span>
-                    </p>
-                    <p>Once <b>soh.exe</b> has been opened for the first time you will be greeted with a popup window. Select Yes at this prompt:<br />
-                      <image href={"images/image4.png"}></image>
-                    </p>
-                    <p>If your ROM is <b>not located in the same folder as the SoH.exe</b> you will have one additional prompt. Select Yes at this prompt too:<br />
-                      <image href={"images/image3.png"}></image><br />
-                      Locate the ROM that you <b>dumped in Step 2</b> and double click it to begin the Asset Extraction process.
-                    </p>
-                    <p>This Asset Extraction process will happen silently in the background.<br />
-                      <span className={"guideNote"}>Note: You can safely ignore any errors displayed during this process, as long as the console window closes and you see the following prompt:</span><br />
-                      <image href={"images/image2.png"}></image><br />
-                      If you have a Master Quest ROM you wish to create an oot-mq.otr from, select Yes. Otherwise, select No.
-                    </p>
-                    <p>Once you have completed the extraction process the Game will automatically launch.</p>
-                    <p className={"guideNote"}>Note: If you are performing this operation for use with a console platform, please continue on to step 3 for either <Link href={"switch#step-3"}>Nintendo Switch</Link> or <Link href={"wiiu#step-3"}>Wii U</Link> guides.</p>
-                    <p><b>Congratulations, you can now play Ocarina of Time on the Ship of Harkinian.</b></p>
+                    <p>If the <b>first digit of the version number changes</b>, please follow the <b>full process</b> outlined in the Setup Guide for your <b>specific platform</b>
+                      as your <b>oot.otr will need to be deleted</b> and the <b>Asset Extraction process</b> performed once more.</p>
+                    <p className={"guideNote"}>Example: Khan Charlie (<u>6</u>.1.2) was updated to Spock Alfa (<u>7</u>.0.0)</p>
+                    <p>If the <b>second</b> or <b>third</b> digit changes, then usually all you will need to do is follow <b>Step 1</b> of your PC platform guide, and <b>Step 3</b> of your <b>console&apos;s guide</b> if applicable.</p>
 
                   </div>
                 </div>

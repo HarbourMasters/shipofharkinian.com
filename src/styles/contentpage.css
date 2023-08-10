@@ -145,6 +145,7 @@
 .dumpHead1, .dumpHead2, .dumpHead3 {
   background-color: #eb802b;
   color: #1e2732;
+  font-weight: bold;
   border-top: 1px solid #eb802b;
 }
 
