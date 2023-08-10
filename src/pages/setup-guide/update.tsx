@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                       It is recommended that you complete those seeds <b>prior to updating</b>.</p>
 
                     <h2 id={"step-2"}>
-                      <a href={"#step-2"}>Download the Latest Version</a>
+                      <a href={"#step-2"}>Determining Next Steps</a>
                     </h2>
                     <p>If the <b>first digit of the version number changes</b>, please follow the <b>full process</b> outlined in the Setup Guide for your <b>specific platform</b>
                       as your <b>oot.otr will need to be deleted</b> and the <b>Asset Extraction process</b> performed once more.</p>
