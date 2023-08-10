@@ -52,62 +52,40 @@ const Home: NextPage = () => {
                           <li><Link href={"http://wiki.vg-resource.com/Dolphin"}>ISO Filesystem Browsing</Link> @ VG Resource Wiki</li>
                         </ol>
                         <li>Open the relevant <b>.tgc file</b> in HxD using the information in the table below:</li>
-                        <table className={"dumpTable"}>
-                          <thead>
-                          <tr>
-                            <th>Disc</th>
-                            <th>Game</th>
-                            <th>Filename</th>
-                          </tr>
-                          </thead>
-                          <tbody>
-                          <tr>
-                            <td>Ocarina of Time & Master Quest</td>
-                            <td>Ocarina of Time & Master Quest</td>
-                            <td>files/zlj_f.tgc</td>
-                          </tr>
-                          <tr>
-                            <td>Zelda Collector&apos;s Edition</td>
-                            <td>Ocarina of Time</td>
-                            <td>files/tgc/zelda_PAL_093003.tgc</td>
-                          </tr>
-                          </tbody>
-                        </table>
+                        <div className="dumpTable">
+                          <div className="dumpCell dumpHead1">Disc</div>
+                          <div className="dumpCell dumpHead2">Game</div>
+                          <div className="dumpCell dumpHead3">Filename</div>
+                          <div className="dumpCell dumpCellLeft">Ocarina of Time & Master Quest</div>
+                          <div className="dumpCell">Ocarina of Time & Master Quest</div>
+                          <div className="dumpCell">files/zlj_f.tgc</div>
+                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
+                          <div className="dumpCell">Ocarina of Time</div>
+                          <div className="dumpCell">files/tgc/zelda_PAL_093003.tgc</div>
+                        </div>
                         <li>Open the &quot;Select block&quot; window (Ctrl + E). In the <b>Start-offset</b> field, enter the relevant <b>starting offset</b> from the table below:</li>
-                        <table className={"dumpTable"}>
-                          <thead>
-                          <tr>
-                            <th>Disc</th>
-                            <th>Game</th>
-                            <th>Starting Offset</th>
-                          </tr>
-                          </thead>
-                          <tbody>
-                          <tr>
-                            <td rowSpan={2}>Ocarina of Time & Master Quest</td>
-                            <td>Ocarina of Time</td>
-                            <td>1C3AA240</td>
-                          </tr>
-                          <tr>
-                            <td>Master Quest</td>
-                            <td>1E69CB38</td>
-                          </tr>
-                          <tr>
-                            <td>Zelda Collector&apos;s Edition</td>
-                            <td>Ocarina of Time</td>
-                            <td>1C669FC0</td>
-                          </tr>
-                          <tr>
-                            <td rowSpan={2}>AU OoT & Master Quest</td>
-                            <td>Ocarina of Time</td>
-                            <td>1E69EEF4</td>
-                          </tr>
-                          <tr>
-                            <td>Master Quest</td>
-                            <td>1C3AC5FC</td>
-                          </tr>
-                          </tbody>
-                        </table>
+                        <div className="dumpTable">
+                          <div className="dumpCell dumpHead1">Disc</div>
+                          <div className="dumpCell dumpHead2">Game</div>
+                          <div className="dumpCell dumpHead3">Starting Offset</div>
+                          <div className="dumpCell twoRow vertMid dumpCellLeft">
+                            <p>Ocarina of Time &amp; Master Quest</p>
+                          </div>
+                          <div className="dumpCell">Ocarina of Time</div>
+                          <div className="dumpCell">1C3AA240</div>
+                          <div className="dumpCell">Master Quest</div>
+                          <div className="dumpCell">1E69CB38</div>
+                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
+                          <div className="dumpCell">Ocarina of Time</div>
+                          <div className="dumpCell">1C669FC0</div>
+                          <div className="dumpCell twoRow vertMid dumpCellLeft">
+                            <p>AU OoT &amp; Master Quest</p>
+                          </div>
+                          <div className="dumpCell">Ocarina of Time</div>
+                          <div className="dumpCell">1E69EEF4</div>
+                          <div className="dumpCell">Master Quest</div>
+                          <div className="dumpCell">1C3AC5FC</div>
+                        </div>
                         <li>Ensure the <b>Length</b> and <b>Hex</b> options are checked, then enter <b>2000000 (2,000,000)</b> into the Length field.<br />
                           <Image src={image1} alt={"dump guide select block"}/></li>
                         <li>Once you&apos;ve entered the correct <b>Length</b> and <b>Start-offset</b>, click &quot;OK&quot;. The raw bytes of the ROM should be selected.</li>

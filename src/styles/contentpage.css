@@ -135,42 +135,48 @@
 
 #content .folder3 {
   margin-left: 172px;
+}.dumpTable {
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-auto-rows: auto;
+   grid-gap: 0;
+ }
+
+.dumpHead1, .dumpHead2, .dumpHead3 {
+  background-color: #eb802b;
+  color: #1e2732;
+  border-top: 1px solid #eb802b;
 }
 
-.dumpTable {
-  border-collapse: collapse;
-  border: 1px solid var(--mainOrange);
-  border-radius: 5px 5px 0 0;
-}
-
-.dumpTable td, .dumpTable th {
-  border-collapse: collapse;
-  border: 1px solid var(--mainOrange);
-}
-
-.dumpTable td, .dumpTable th {
-  padding: 2px;
-}
-
-.dumpTable, .dumpTable thead, .dumpTable tr:first-child th:first-child {
+.dumpHead1 {
+  border-left: 1px solid #eb802b;
   border-top-left-radius: 5px;
 }
 
-.dumpTable, .dumpTable thead, .dumpTable tr:first-child th:last-child {
+.dumpHead3 {
+  border-right: 1px solid #eb802b;
   border-top-right-radius: 5px;
 }
 
-.dumpTable thead {
-  background-color: var(--mainOrange);
-  color: #1e2732;
+.twoRow {
+  grid-row: span 2;
 }
 
-.dumpTable {
-  width: 100%;
+.dumpCell:nth-child(n+3){
+  border-bottom: 1px solid #eb802b;
 }
 
-.dumpTable th, .dumpTable td {
-  width: 33%;
+.dumpCellLeft {
+  border-left: 1px solid #eb802b;
+}
+
+.dumpCell {
+  padding: 4px;
+  border-right: 1px solid #eb802b;
+}
+
+.vertMid {
+  vertical-align: middle;
 }
 
 #content .guideNoteBold {
