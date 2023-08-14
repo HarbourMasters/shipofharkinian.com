@@ -22,13 +22,51 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
-                    
-					<h2 id="sulu-alfa-7-1-0">
+
+                    <h2 id="sulu-bravo-7-1-1">
+                      <a href="#sulu-bravo-7-1-1">Sulu Bravo (7.1.1)</a>
+                    </h2>
+                    <p>August 14th 2023</p>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>Audio Editor dropdowns now auto scroll to the currently selected sequence</li>
+                      <li>&quot;Easy Input Buffering&quot; cheat no longer causes accidental button re-presses when unpausing</li>
+                      <li>&quot;Easy Frame Advance&quot; cheat now works correctly with &quot;Simulated Input Lag&quot;</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix mouse cursor not always displaying when starting in Fullscreen mode</li>
+                      <li>Fix SoH window sometimes not being visible when using a multi-monitor setup</li>
+                      <li>Fix HD textures not rendering correctly for the song note icons in the Item Tracker and the Save Editor</li>
+                      <li>Fix Dark Link&apos;s movement in Mirror Mode</li>
+                      <li>Fix various crashes when generating a Rando seed</li>
+                      <li>Fix Anju Adult rewards not granting an item when performing an action immediately after the text box</li>
+                      <li>Add &quot;Fix Poacher&apos;s Saw Softlock&quot; option to prevent softlocks when trading the poacher saw and mashing/skipping text while holding out an item</li>
+                      <li>Fix Carpet Merchant shuffle from accidentally giving bombchus instead of the Rando reward when Link is not close enough to him</li>
+                      <li>Fix &quot;Disable Idle Camera Re-Centering&quot; enhancement from getting stuck on level geometry</li>
+                      <li>Fix Extraction sometimes crashing for machines with older CPUs</li>
+                      <li>Fix PAL 1.1 rom not being detected properly on Mac</li>
+                      <li>Fix Granny shop shuffle not checking for empty bottles when offering Blue Potion refills</li>
+                      <li>Fix Granny shop shuffle check not showing as completed in the Check Tracker</li>
+                      <li>Fix various text overflow issues</li>
+                      <li>Fix the &quot;Exit Market at Night&quot; enhancement not working when wearing a mask</li>
+                      <li>Fix various asset issues with the GC PAL rom (requires regenerating your OTR to get the fix)</li>
+                      <li>Fix various asset issues with the PAL 1.1 rom (requires regenerating your OTR to get the fix)</li>
+                      <li>Fix Dungeon Maps not always indicating if the dungeon is Vanilla or MQ</li>
+                      <li>Fix resolution and MSAA sliders not applying immediately</li>
+                      <li>Fix Collision Viewer in Mirror Mode</li>
+                    </ul>
+                    <h4>Accessibility</h4>
+                    <ul>
+                      <li>TTS fixes and improvements in the Pause Menu</li>
+                    </ul>
+
+                    <h2 id="sulu-alfa-7-1-0">
                       <a href="#sulu-alfa-7-1-0">Sulu Alfa (7.1.0)</a>
                     </h2>
                     <p>June 18th 2023</p>
-					<h4>New Features</h4>
-					<ul>
+                    <h4>New Features</h4>
+                    <ul>
                       <li>Wii U build returns!</li>
                       <li>Boss Rush quest selection</li>
                       <li>Hyper Enemies</li>
@@ -38,8 +76,8 @@ const Home: NextPage = () => {
                       <li>Shadow Tag mode: a wallmaster follows you everywhere...</li>
                       <li>Trick logic now available in the randomizer settings (glitches have not yet been added)</li>
                     </ul>
-					<h4>Tweaks</h4>
-					<ul>
+                    <h4>Tweaks</h4>
+                    <ul>
                       <li>Gerudo Fortress keyring now in randomizer settings</li>
                       <li>Gameplay stats UI cleanup</li>
                       <li>Decreased size of save files</li>
@@ -58,8 +96,8 @@ const Home: NextPage = () => {
                       <li>Additional Controller Options (previously Customize Game Controls) now sits under Controller Mapping (previously Controller Configuration) in the Settings menu</li>
                       <li>Option to show gauntlets in first-person while holding bow or hookshot</li>
                     </ul>
-					<h4>Bug Fixes</h4>
-					<ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
                       <li>Crash when changing margins in Cosmetics Editor</li>
                       <li>Crash when resetting Link&apos;s model size modifier out of game</li>
                       <li>Crash with Ivan-placed hookshot targets</li>
@@ -68,7 +106,7 @@ const Home: NextPage = () => {
                       <li>More V-Sync fixes/tweaks</li>
                       <li>Switching age with Time Travel enhancement no longer gives the Kokiri sword</li>
                     </ul>
-					
+
                     <h2 id="spock-charlie-7-0-2">
                       <a href="#spock-charlie-7-0-2">Spock Charlie (7.0.2)</a>
                     </h2>
