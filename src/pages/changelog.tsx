@@ -41,6 +41,7 @@ const Home: NextPage = () => {
                       <li>Fix Dark Link&apos;s movement in Mirror Mode</li>
                       <li>Fix various crashes when generating a Rando seed</li>
                       <li>Fix Anju Adult rewards not granting an item when performing an action after the text box</li>
+                      <li>Add &quot;Fix Poacher&apos;s Saw Softlock&quot; option to prevent softlocks when trading the poacher saw and mashing/skipping text while holding out an item</li>
                       <li>Fix Carpet Merchant shuffle from accidentally giving bombchus instead of the Rando reward when Link is not close enough to him</li>
                       <li>Fix &quot;Disable Idle Camera Re-Centering&quot; enhancement from getting stuck on level geometry</li>
                       <li>Fix Extraction sometimes crashing for machines with older CPUs</li>
