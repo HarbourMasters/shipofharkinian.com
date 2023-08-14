@@ -40,7 +40,7 @@ const Home: NextPage = () => {
                       <li>Fix HD textures not rendering correctly for the song note icons in the Item Tracker and the Save Editor</li>
                       <li>Fix Dark Link&apos;s movement in Mirror Mode</li>
                       <li>Fix various crashes when generating a Rando seed</li>
-                      <li>Fix Anju Adult rewards not granting an item when performing an action after the text box</li>
+                      <li>Fix Anju Adult rewards not granting an item when performing an action immediately after the text box</li>
                       <li>Add &quot;Fix Poacher&apos;s Saw Softlock&quot; option to prevent softlocks when trading the poacher saw and mashing/skipping text while holding out an item</li>
                       <li>Fix Carpet Merchant shuffle from accidentally giving bombchus instead of the Rando reward when Link is not close enough to him</li>
                       <li>Fix &quot;Disable Idle Camera Re-Centering&quot; enhancement from getting stuck on level geometry</li>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                       <li>Fix the &quot;Exit Market at Night&quot; enhancement not working when wearing a mask</li>
                       <li>Fix various asset issues with the GC PAL rom (requires regenerating your OTR to get the fix)</li>
                       <li>Fix various asset issues with the PAL 1.1 rom (requires regenerating your OTR to get the fix)</li>
-                      <li>Fix Maps not always indicating if the dungeon is Vanilla or MQ</li>
+                      <li>Fix Dungeon Maps not always indicating if the dungeon is Vanilla or MQ</li>
                       <li>Fix resolution and MSAA sliders not applying immediately</li>
                       <li>Fix Collision Viewer in Mirror Mode</li>
                     </ul>
