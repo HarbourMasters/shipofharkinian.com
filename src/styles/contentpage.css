@@ -114,3 +114,80 @@
 #content a:hover {
   text-decoration: underline;
 }
+
+#content .guideNote {
+	font-style: italic;
+	color: #dd1;
+}
+
+.guideImg {
+    width: auto;
+    height: 75%;
+}
+
+#content .folder1 {
+  margin-left: 100px;
+}
+
+#content .folder2 {
+  margin-left: 136px;
+}
+
+#content .folder3 {
+  margin-left: 172px;
+}
+
+.subLinks {
+  line-height: 28px;
+}
+
+.dumpTable {
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-auto-rows: auto;
+   grid-gap: 0;
+ }
+
+.dumpHead1, .dumpHead2, .dumpHead3 {
+  background-color: #eb802b;
+  color: #1e2732;
+  font-weight: bold;
+  border-top: 1px solid #eb802b;
+}
+
+.dumpHead1 {
+  border-left: 1px solid #eb802b;
+  border-top-left-radius: 5px;
+}
+
+.dumpHead3 {
+  border-right: 1px solid #eb802b;
+  border-top-right-radius: 5px;
+}
+
+.twoRow {
+  grid-row: span 2;
+}
+
+.dumpCell:nth-child(n+3){
+  border-bottom: 1px solid #eb802b;
+}
+
+.dumpCellLeft {
+  border-left: 1px solid #eb802b;
+}
+
+.dumpCell {
+  padding: 4px;
+  border-right: 1px solid #eb802b;
+}
+
+.vertMid {
+  vertical-align: middle;
+}
+
+#content .guideNoteBold {
+  font-style: italic;
+  font-weight: bold;
+  color: #dd1;
+}
