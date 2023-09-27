@@ -53,7 +53,6 @@ main.Home {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   justify-content: left;
   align-items: center;
   font-family: var(--titleFont);
@@ -113,7 +112,7 @@ main.Home {
   position: relative;
   display: flex;
   align-items: center;
-  width: 178px;
+  max-width: 210px;
   opacity: 0;
   font-size: 14px;
   text-transform: uppercase;
@@ -127,14 +126,13 @@ main.Home {
 }
 
 .buttonCont {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
 }
 
 @media (min-width: 768px) {
   .splashButton {
     font-size: 18px;
-    width: 210px;
   }
 }
 
