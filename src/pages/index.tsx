@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             <div className="inner">
               <span className="quote">{t('Proof that the unofficial option is sometimes the best option')}</span>
               <span className="author">- The Verge</span>
-              <Link href="https://github.com/HarbourMasters/Shipwright/releases/latest">
+              <span><Link href="https://github.com/HarbourMasters/Shipwright/releases/latest">
                 <a className="splashButton" target="_blank">
                   <span>{t('Download on')}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.6 31.8">
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                     <path d="M47.9,309.5c-16.6-7.8-34.3-13.4-52.8-16.6c-2.3,4.1-4.9,9.6-6.8,14c-19.7-3-39.2-3-58.5,0   c-1.8-4.4-4.6-9.9-6.8-14c-18.5,3.2-36.3,8.9-52.9,16.6c-33.4,50.5-42.5,99.8-38,148.3c22.2,16.6,43.7,26.6,64.8,33.2   c5.2-7.2,9.9-14.8,13.9-22.8c-7.6-2.9-14.9-6.5-21.8-10.6c1.8-1.4,3.6-2.8,5.4-4.2c42.1,19.7,87.9,19.7,129.5,0   c1.8,1.5,3.5,2.9,5.4,4.2c-6.9,4.2-14.3,7.8-21.9,10.7c4,8,8.6,15.7,13.9,22.8c21.1-6.6,42.6-16.6,64.8-33.2   C91.2,401.6,76.8,352.8,47.9,309.5z M-83.5,428c-12.6,0-23-11.8-23-26.2s10.1-26.2,23-26.2c12.9,0,23.2,11.8,23,26.2   C-60.5,416.2-70.7,428-83.5,428z M1.5,428c-12.6,0-23-11.8-23-26.2s10.1-26.2,23-26.2c12.9,0,23.2,11.8,23,26.2   C24.5,416.2,14.4,428,1.5,428z"/>
                   </svg>
                 </a>
-              </Link>
+              </Link></span>
             </div>
           </div>
         </div>
