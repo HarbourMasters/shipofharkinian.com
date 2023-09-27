@@ -26,11 +26,6 @@ const Home: NextPage = () => {
                     <h2 id="how-to-use-this-guide">
                       <a href="#how-to-use-this-guide">How do I use this guide?</a>
                     </h2>
-                    <p className={"guideNoteBold"}><ul>
-                      <li>Under no circumstances are you to discuss or engage in Piracy, Illegal Actions, or Leaked Content.</li>
-                      <li>The steps below are provided as a means to legally obtain a usable copy of Ocarina of Time that the Ship of Harkinian can utilize.</li>
-                      <li>I repeat… NO PIRACY. You have been warned this one time and will be banned immediately for breaking this rule.</li>
-                    </ul></p>
                     <p>Select your platform from the list below and follow the instructions on that page. Alternatively, you can also go directly to the update or ROM dumping guides.</p>
                     <p className={"subLinks"}>
                       <Link href="/setup-guide/windows">Windows Guide</Link><br />
