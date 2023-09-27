@@ -30,8 +30,8 @@ const Home: NextPage = () => {
                     <h2 id={"step-1"}>
                       <a href={"#step-1"}>Download the Latest Version</a>
                     </h2>
-                    <p>As you have done before, <a href="https://discord.com/channels/808039310850130000/955966600891224064">click here</a> to be taken to the <b>#downloads</b> channel of the Discord.
-                      Find the <b>Highest Numbered</b> version listed and select the download link that matches your <b>desired platform</b>.
+                    <p>As you have done before, <a href="https://github.com/HarbourMasters/Shipwright/releases/latest">click here</a> to be taken to the GitHub releases page.
+                      Find and click the download link that matches your <b>desired platform</b>.
                     </p>
                     <p className={"guideNote"}>Note: Keep in mind, <b>randomizer seeds</b> that you have created on older builds <b>are not guaranteed to operate outside of the build they were generated on</b>.
                       It is recommended that you complete those seeds <b>prior to updating</b>.</p>

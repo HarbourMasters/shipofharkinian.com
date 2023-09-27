@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                       <li>Windows PC (it could work on Linux/macOS, but is currently untested)</li>
                       <li><Link href={"https://dolphin-emu.org/"}>Dolphin</Link></li>
                       <li><Link href={"https://mh-nexus.de/en/hxd/"}>HxD</Link> or equivalent hex editor</li>
-                      <li>Ship of Harkinian ( <Link href={"https://github.com/HarbourMasters/Shipwright"}>GitHub</Link> | <Link href={"https://discord.com/invite/shipofharkinian"}>Discord</Link> )</li>
+                      <li>Ship of Harkinian ( <Link href={"https://github.com/HarbourMasters/Shipwright/releases/latest"}>GitHub</Link> | <Link href={"https://discord.com/invite/shipofharkinian"}>Discord</Link> )</li>
                     </ul>
                     </p>
                     <h3>Procedure</h3>
