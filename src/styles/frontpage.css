@@ -126,6 +126,11 @@ main.Home {
   animation-delay: 1100ms;
 }
 
+.buttonCont {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (min-width: 768px) {
   .splashButton {
     font-size: 18px;
