@@ -26,8 +26,8 @@ const Home: NextPage = () => {
                     <h3 id="how-do-i-play-ship-of-harkinian">
                       <a href="#how-do-i-play-ship-of-harkinian">How do I play Ship of Harkinian?</a>
                     </h3>
-                    <p>Head over to our Discord and download the latest release in the #downloads channel. Afterwards, follow the readme.md file included with the download for further instructions.</p>
-                    <p>We do not advice following YouTube tutorials. They&apos;re often outdated compared to our own documentation.</p>
+                    <p>Head over to our Discord and download the latest release in the #downloads channel, then follow the instructions in the readme.txt file included with the download.</p>
+                    <p>We do not advise following YouTube tutorials. They&apos;re often outdated compared to our own documentation.</p>
 
                     <h3 id="how-do-i-update-ship-of-harkinian">
                       <a href="#how-do-i-update-ship-of-harkinian">How do I update Ship of Harkinian?</a>
