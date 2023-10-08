@@ -30,11 +30,11 @@ const Home: NextPage = () => {
                       <a href="#step-1">Step 1: Downloading the Ship of Harkinian</a>
                     </h2>
                     <p className="guideNoteBold">Note: This is the code that will interact with the Assets required in Step 2. This does NOT provide you with any Nintendo Licensed Assets…</p>
-                    <p><a href="https://discord.com/channels/808039310850130000/955966600891224064">Click here</a> to go to the <b>#downloads</b> channel in the Discord, where you will find the links for <b>all current and historical versions</b> of Ship of Harkinian.
-                      Find the <b>highest</b> numbered version and select the link that <b>matches the operating system</b> you plan to play on.
+                    <p><a href="https://github.com/HarbourMasters/Shipwright/releases/latest">Click here</a> to go to the releases page on GitHub, where you will find the links for <b>all latest versions</b> of Ship of Harkinian.
+                      Find and click the link that has <b>Linux</b> in the name. We recommend trying the performance build first.
                     </p>
                     <p><b>Extract the Zip file</b> into a Folder on your <b>Local Hard Drive</b> for later.<br />
-                      <span className="guideNoteBold">Note: Do NOT extract this to a temporary or a OneDrive/Google Drive location, things will break.</span>
+                      <span className="guideNoteBold">Note: Do NOT extract this to a temporary or a cloud drive location, things will break.</span>
                     </p>
 
                     <h2 id="step-2">

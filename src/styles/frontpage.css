@@ -112,7 +112,6 @@ main.Home {
   position: relative;
   display: flex;
   align-items: center;
-  width: 178px;
   opacity: 0;
   font-size: 14px;
   text-transform: uppercase;
@@ -126,9 +125,34 @@ main.Home {
 }
 
 @media (min-width: 768px) {
+	.buttonCont {
+	  display: flex !important;
+	  flex-direction: row;
+	}
+	.splashButton {
+		max-width: 210px;
+	}
+	.splashButtonFirst {
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.splashButtonFirst {
+		margin-bottom: 10px;
+	}
+	.splashButton {
+		max-width: 180px;
+		text-align: center;
+	}
+	.splashText .inner span {
+	  flex: auto;
+	}
+}
+
+@media (min-width: 768px) {
   .splashButton {
     font-size: 18px;
-    width: 210px;
   }
 }
 
