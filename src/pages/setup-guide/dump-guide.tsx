@@ -95,7 +95,7 @@ const Home: NextPage = () => {
                           <li>Paste the data (Ctrl + N)<br />
                             <span className={"guideNote"}>Note: If HxD displays a message about <b>changing the file size</b>, click &quot;OK&quot;.</span></li>
                         </ol>
-                        <li>Save the file (Ctrl + S) and place it in your Ship of Harkinian installation location, next to soh.exe.</li>
+                        <li>Save the file (Ctrl + S) with a <b>.z64</b> extension, and place it in your Ship of Harkinian installation location, next to soh.exe.</li>
                         <li>Validate your dumped ROM using <Link href={"http://romhacking.net/hash"}>Hasher-js</Link>.</li>
                         <li>Proceed with <b>setting up Ship of Harkinian</b> as dictated in your <b>Platform Guide</b>.</li>
                       </ol>
