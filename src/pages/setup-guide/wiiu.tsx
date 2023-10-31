@@ -32,7 +32,7 @@ const Home: NextPage = () => {
                     <h3>On your PC</h3>
                     <p><a href="https://github.com/HarbourMasters/Shipwright/releases/latest">Click here</a> to go to the releases page on GitHub, where you will find the links for <b>all latest versions</b> of Ship of Harkinian.
                       Find and click the link that matches the <b>PC platform</b> you will be using. Also download the link that has <b>Wii U</b> in the name, you will need this later.<br />
-                      <span className={"guideNoteBold"}>Note: The PC platform version is required to generate the oot.otr that will be used later on the Switch.</span>
+                      <span className={"guideNoteBold"}>Note: The PC platform version is required to generate the oot.otr that will be used later on the Wii U.</span>
                     </p>
                     <p><b>Extract the Zip file</b> into a Folder on your <b>Local Hard Drive</b> for later.<br />
                       <span className="guideNoteBold">Note: Do NOT just open the zip and run SoH from there, things will break.</span><br />
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                       <span className={"folder3"}>└── soh.otr</span>
                     </p>
                     <h3>On your Wii U</h3>
-                    <p>Insert the SD Card and launch the game via <b>Atmosphere’s Game+R</b> launcher method.</p>
+                    <p>Insert the SD Card and launch the game via the <b>Homebrew Channel</b>.</p>
                     <p><b>Congratulations, you can now play Ocarina of Time on the Ship of Harkinian.</b></p>
 
                   </div>
