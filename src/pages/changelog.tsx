@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     <p>November 7th 2023</p>
                     <h4>Breaking Change</h4>
                     <ul>
-                      <li>Texture paths and names have been changed to unify them across ROMs and to remove duplicate textures between Vanilla and MQ textures. Texture mods might be partially broken until updated by the mod's author.</li>
+                      <li>Texture paths and names have been changed to unify them across ROMs and to remove duplicate textures between Vanilla and MQ textures. Texture mods might be partially broken until updated by the mod&apos;s author.</li>
                     </ul>
                     <h4>New Features</h4>
                     <ul>
