@@ -35,9 +35,9 @@ const Home: NextPage = () => {
                     <ul>
                     <li>Support for playing SoH with PAL 1.1 ROM</li>
                       <li>Enhancement: Enemy Health Bars</li>
-                      <li>Enhancement: "More info in file select"</li>
+                      <li>Enhancement: &quot;More info in file select&quot;</li>
                       <li>Enhancement: Toggleable additional Ice Trap effects</li>
-                      <li>Cheats: Bomb timer multiplier, Fish Don't despawn, Bugs Don't Despawn</li>
+                      <li>Cheats: Bomb timer multiplier, Fish Don&apos;t despawn, Bugs Don&apos;t Despawn</li>
                       <li>Enhancement: Fix Bush Item Drops, which fixes a vanilla bug</li>
                     </ul>
                     <h4>Tweaks</h4>
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                     <h4>Bug Fixes</h4>
                     <ul>
                       <li>Fix Equip Dupe glitch</li>
-                      <li>Stone of Agony now properly hidden with "no ui" on</li>
+                      <li>Stone of Agony now properly hidden with &quot;no ui&quot; on</li>
                       <li>Fix certain debug inputs being triggered in cutscenes without debug enabled</li>
                       <li>Generating OTRs with ByteSwapped/LittleEndian ROMs now works</li>
                       <li>Fix issue with Bunny Hood Equip Swap in scene transitions</li>
