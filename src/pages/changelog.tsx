@@ -23,6 +23,48 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+                    <h2 id="macready-alfa-8-0-0">
+                      <a href="#macready-alfa-8-0-0">MacReady Alfa (8.0.0)</a>
+                    </h2>
+                    <p>November 7th 2023</p>
+                    <h4>Breaking Change</h4>
+                    <ul>
+                      <li>Texture paths and names have been changed to unify them across ROMs and to remove duplicate textures between Vanilla and MQ textures. Texture mods might be partially broken until updated by the mod's author.</li>
+                    </ul>
+                    <h4>New Features</h4>
+                    <ul>
+                    <li>Support for playing SoH with PAL 1.1 ROM</li>
+                      <li>Enhancement: Enemy Health Bars</li>
+                      <li>Enhancement: "More info in file select"</li>
+                      <li>Enhancement: Toggleable additional Ice Trap effects</li>
+                      <li>Cheats: Bomb timer multiplier, Fish Don't despawn, Bugs Don't Despawn</li>
+                      <li>Enhancement: Fix Bush Item Drops, which fixes a vanilla bug</li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+                      <li>3D drops has had many tweaks, fixing numerous issues with it</li>
+                      <li>Audio editor additions: New Voices tab, Hover Boots and Drinking Bottle sound effects, lock button.[</li>
+                      <li>Save states now have to be turned on to work, with a clearer warning message of potential issues using them</li>
+                      <li>New option in Cosmetics Editor to change the Hookshot reticle to a different color when over hookshottable area</li>
+                      <li>New visualisation for pause menu cycling, for masks and adult trade items in randomizer</li>
+                      <li>Additional option When shuffling Vanilla and MQ dungeons in randomizer to select which ones specifically will be MQ</li>
+                      <li>Added Shield Aim Invert X & Y Axis options to Additional Controls</li>
+                      <li>Added additional Randomizer Settings preset for the No Logic Spock race</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix Equip Dupe glitch</li>
+                      <li>Stone of Agony now properly hidden with "no ui" on</li>
+                      <li>Fix certain debug inputs being triggered in cutscenes without debug enabled</li>
+                      <li>Generating OTRs with ByteSwapped/LittleEndian ROMs now works</li>
+                      <li>Fix issue with Bunny Hood Equip Swap in scene transitions</li>
+                      <li>Fix for ice traps collected in first person view kicking them out of the first person view</li>
+                    </ul>
+                    <h4>Accessibility</h4>
+                    <ul>
+                      <li>Added TTS for Game Over screen</li>
+                    </ul>
+
                     <h2 id="sulu-bravo-7-1-1">
                       <a href="#sulu-bravo-7-1-1">Sulu Bravo (7.1.1)</a>
                     </h2>
