@@ -33,10 +33,10 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>New Features</h4>
                     <ul>
-                      <li>Support for playing SoH with N64 PAL 1.0 and GC retail MQ ROMs</li>
+                      <li>Support for playing SoH with N64 PAL 1.0 and GC retail MQ ROMs <b>This means all PAL ROMs are now supported!</b></li>
 					  <li>OTR version tracking, to prompt re-extraction when necessary</li>
 					  <li>Menu item to open the app data folder</li>
-					  <li>Color and hide bunny hood in Cosmetics Editor</li>
+					  <li>Color bunny hood in Cosmetics Editor and hide it in mod options</li>
 					  <li>Restoration: RBA Values (outcomes now match vanilla)</li>
 					  <li>Added combobox for selecting the type of file save creation on slot 1 when debug mode is enabled. This includes off (no items given/flags set) and Max (virtually 100% completed seed)</li>
 					  <li>Extra mode: Randomized enemy sizes</li>
@@ -46,6 +46,7 @@ const Home: NextPage = () => {
 						<ul>
 						  <li>Triforce Hunt</li>
 						  <li>Master Sword Shuffle</li>
+						  <li>Colorized hints</li>
 						</ul>
 					  </li>
                       <li>Enhancements
@@ -92,7 +93,6 @@ const Home: NextPage = () => {
                       <li>Added Shield Aim Invert X & Y Axis options to Additional Controls</li>
                       <li>Added additional Randomizer Settings preset for the No Logic Spock race</li>
 					  <li>Can now equip boots and tunics in most actions</li>
-					  <li>Colorized Randomizer hints</li>
 					  <li>Ability to allow equipping bunny hood as adult separated from the MM effect</li>
 					  <li>Transitions added to Change Age with SoT/OoT enhancement</li>
 					  <li>Randomizer quest now shows all the time, just disabled if no spoiler file has ever been generated or loaded</li>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                     </ul>
                     <h4>Bug Fixes</h4>
                     <ul>
-                      <li>Fix Equip Dupe glitch</li>
+                      <li>Fix: Restore original Equip Dupe behavior</li>
                       <li>Stone of Agony now properly hidden with &quot;no ui&quot; on</li>
                       <li>Fix certain debug inputs being triggered in cutscenes without debug enabled</li>
                       <li>Generating OTRs with ByteSwapped/LittleEndian ROMs now works</li>
