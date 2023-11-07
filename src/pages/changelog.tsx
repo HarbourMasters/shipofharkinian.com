@@ -23,6 +23,104 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+					<h2 id="macready-alfa-8-0-0">
+                      <a href="#macready-alfa-8-0-0">MacReady Alfa (8.0.0)</a>
+                    </h2>
+                    <p>November 7th 2023</p>
+					<h4>Breaking Change</h4>
+                    <ul>
+                      <li>Texture paths and names have been changed to unify them across ROMs and to remove duplicate textures between Vanilla and MQ textures. Texture mods might be partially broken until updated by the mod&apos;s author</li>
+                    </ul>
+                    <h4>New Features</h4>
+                    <ul>
+                      <li>Support for playing SoH with N64 PAL 1.0 and GC retail MQ ROMs <b>This means all PAL ROMs are now supported!</b></li>
+					  <li>OTR version tracking, to prompt re-extraction when necessary</li>
+					  <li>Menu item to open the app data folder</li>
+					  <li>Color bunny hood in Cosmetics Editor and hide it in mod options</li>
+					  <li>Restoration: RBA Values (outcomes now match vanilla)</li>
+					  <li>Added combobox for selecting the type of file save creation on slot 1 when debug mode is enabled. This includes off (no items given/flags set) and Max (virtually 100% completed seed)</li>
+					  <li>Extra mode: Randomized enemy sizes</li>
+					  <li>Experimental ImGui scaling combobox</li>
+					  <li>SoH checks its install path for file permissions and being in the temp folder to prevent issues with saves disappearing, among others</li>
+					  <li>Randomizer
+						<ul>
+						  <li>Triforce Hunt</li>
+						  <li>Master Sword Shuffle</li>
+						  <li>Colorized hints</li>
+						</ul>
+					  </li>
+                      <li>Enhancements
+						<ul>
+						  <li>Enemy Health Bars</li>
+						  <li>&quot;More info in file select&quot;</li>
+						  <li>Toggleable additional Ice Trap effects</li>
+						  <li>Fix Bush Item Drops, which fixes a vanilla bug</li>
+						  <li>Disable Lost Woods leading music functionality</li>
+						  <li>Fix enemies not spawning near water</li>
+						  <li>Fix wall climbing on edges of climbable areas</li>
+						</ul>
+					  </li>
+                      <li>Cheats
+						<ul>
+						  <li>Bomb timer multiplier</li>
+						  <li>Fish Don&apos;t despawn</li>
+						  <li>Bugs Don&apos;t Despawn (note: this can interfere with spawning gold skulltulas from bean patches)</li>
+						  <li>Ultra Deku Stick</li>
+						  <li>Clear cutscene pointer</li>
+						  <li>Easy QPA</li>
+						</ul>
+					  </li>
+                    </ul>
+                    <h4>Tweaks</h4>
+                    <ul>
+					  <li>Improved Check Tracker
+						<ul>
+						  <li>More accurate tracking</li>
+						  <li>Multiple collection states implemented, including Scummed and Collected, with individual color options</li>
+						  <li>Option to automatically hide shop slots 1-4</li>
+						  <li>Shop item tracker, with names and prices</li>
+						  <li>Skipping items counts toward area completion totals</li>
+						  <li>Full vanilla tracking (typical 100% expectations; MQ still has some issues)</li>
+						  <li>Autoscroll now tracks shuffled entrances</li>
+						</ul>
+					  </li>
+                      <li>3D drops has had many tweaks, fixing numerous issues with it</li>
+                      <li>Audio editor additions: New Voices tab, Hover Boots and Drinking Bottle sound effects, lock button[</li>
+                      <li>Save states now have to be turned on to work, with a clearer warning message of potential issues using them</li>
+                      <li>New option in Cosmetics Editor to change the Hookshot reticle to a different color when over hookshottable area</li>
+                      <li>New visualisation for pause menu cycling, for masks and adult trade items in randomizer</li>
+                      <li>Additional option When shuffling Vanilla and MQ dungeons in randomizer to select which ones specifically will be MQ</li>
+                      <li>Added Shield Aim Invert X & Y Axis options to Additional Controls</li>
+                      <li>Added additional Randomizer Settings preset for the No Logic Spock race</li>
+					  <li>Can now equip boots and tunics in most actions</li>
+					  <li>Ability to allow equipping bunny hood as adult separated from the MM effect</li>
+					  <li>Transitions added to Change Age with SoT/OoT enhancement</li>
+					  <li>Randomizer quest now shows all the time, just disabled if no spoiler file has ever been generated or loaded</li>
+					  <li>Goron Neck Length affects Goron Shopkeeper</li>
+					  <li>Improved free cam cancellation</li>
+					  <li>&quot;Navi Targeting Colors&quot; option added to Controller LED Color options</li>
+					  <li>Rupee Dash: Wallet size affects drain rate; interval can now be anywhere from 1-10 seconds</li>
+					  <li>Ivan the Fairy now uses equipped items rather than specific items tied to slots</li>
+                    </ul>
+                    <h4>Bug Fixes</h4>
+                    <ul>
+                      <li>Fix: Restore original Equip Dupe behavior</li>
+                      <li>Stone of Agony now properly hidden with &quot;no ui&quot; on</li>
+                      <li>Fix certain debug inputs being triggered in cutscenes without debug enabled</li>
+                      <li>Generating OTRs with ByteSwapped/LittleEndian ROMs now works</li>
+                      <li>Fix issue with Bunny Hood Equip Swap in scene transitions</li>
+                      <li>Fix for ice traps collected in first person view kicking them out of the first person view</li>
+					  <li>Fix Item Tracker visibility combo button</li>
+					  <li>Randomizer: Warp Song Hints option works properly</li>
+					  <li>Randomizer: Logic bug that expected collecting items as child past the Fire Temple shortcut climb room with Fewer Tunic Requirements on</li>
+					  <li>Several issues with Shadow Tag softlocking</li>
+					  <li>Entrance rando validation edge cases</li>
+                    </ul>
+                    <h4>Accessibility</h4>
+                    <ul>
+                      <li>Added TTS for Game Over screen</li>
+                    </ul>
+					
                     <h2 id="sulu-bravo-7-1-1">
                       <a href="#sulu-bravo-7-1-1">Sulu Bravo (7.1.1)</a>
                     </h2>
