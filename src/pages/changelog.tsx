@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 						</ul>
 					  </li>
                       <li>3D drops has had many tweaks, fixing numerous issues with it</li>
-                      <li>Audio editor additions: New Voices tab, Hover Boots and Drinking Bottle sound effects, lock button[</li>
+                      <li>Audio editor additions: New Voices tab, Hover Boots and Drinking Bottle sound effects, lock button</li>
                       <li>Save states now have to be turned on to work, with a clearer warning message of potential issues using them</li>
                       <li>New option in Cosmetics Editor to change the Hookshot reticle to a different color when over hookshottable area</li>
                       <li>New visualisation for pause menu cycling, for masks and adult trade items in randomizer</li>
