@@ -39,10 +39,7 @@ const Home: NextPage = () => {
                     <h2 id={"step-2"}>
                       <a href={"#step-2"}>Determining Next Steps</a>
                     </h2>
-                    <p>If the <b>first digit of the version number changes</b>, please follow the <b>full process</b> outlined in the Setup Guide for your <b>specific platform</b>
-                      as your <b>oot.otr will need to be deleted</b> and the <b>Asset Extraction process</b> performed once more.</p>
-                    <p className={"guideNote"}>Example: Khan Charlie (<u>6</u>.1.2) was updated to Spock Alfa (<u>7</u>.0.0)</p>
-                    <p>If the <b>second</b> or <b>third</b> digit changes, then usually all you will need to do is follow <b>Step 1</b> of your PC platform guide, and <b>Step 3</b> of your <b>console&apos;s guide</b> if applicable.</p>
+                    <p>If the update requires a fresh extraction of oot.otr/oot-mq.otr, the game will tell you on next run and guide you through the process in the same way as a fresh install. For console platforms, you will be informed and instructed to regen on your PC platform.</p>
 
                   </div>
                 </div>

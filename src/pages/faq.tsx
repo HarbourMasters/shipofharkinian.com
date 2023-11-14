@@ -26,24 +26,16 @@ const Home: NextPage = () => {
                     <h3 id="how-do-i-play-ship-of-harkinian">
                       <a href="#how-do-i-play-ship-of-harkinian">How do I play Ship of Harkinian?</a>
                     </h3>
-                    <p>Head over to our Discord and download the latest release in the #downloads channel, then follow the instructions in the readme.txt file included with the download.</p>
-                    <p>We do not advise following YouTube tutorials. They&apos;re often outdated compared to our own documentation.</p>
+                    <p><a href="https://github.com/HarbourMasters/Shipwright/releases/latest">Click here</a> to go to our GitHub releases page and download the file that matches your desired platform, then follow the readme, or check our <a href="https://www.shipofharkinian.com/setup-guide">setup guide</a> for more detailed instructions.</p>
+                    <p>We do not advise following any external tutorials, especially on YouTube. They&apos;re often outdated compared to our own documentation.</p>
 
                     <h3 id="how-do-i-update-ship-of-harkinian">
                       <a href="#how-do-i-update-ship-of-harkinian">How do I update Ship of Harkinian?</a>
                     </h3>
                     <ol>
-                      <li>Head over to our Discord and download the latest release in the #downloads channel.</li>
-                      <li>For all platforms, extract the files from the newer version to your existing SoH directory, overwriting the old files.</li>
-                      <li>
-                        When updating to a newer major release that requires a new OTR (see <a href="#what-do-the-release-numbers-mean">here</a> for when a new OTR is required), do the following:
-                        <ul>
-                          <li><strong>Windows:</strong> Delete your current .otr files and the Extract folder inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
-                          <li><strong>Linux/SteamDeck:</strong> Delete the .otr files inside the folder you have SoH installed in. Afterwards, generate the OTR like you did when first installing SoH.</li>
-                          <li><strong>MacOS:</strong> Delete the .otr files inside the ~/Library/Application Support/com.shipofharkinian.soh folder. Afterwards, generate the OTR like you did when first installing SoH.</li>
-                          <li><strong>Wii U/Switch:</strong> Generate the OTR on your PC platform of choice, then replace the OTR on your Wii U/Switch with the new one. Make sure the version used to generate the OTR is the same as what you&apos;re playing with on Wii U/Switch.</li>
-                        </ul>
-                      </li>
+                      <li><a href="https://github.com/HarbourMasters/Shipwright/releases/latest">Click here</a> to go to our GitHub releases page and download the file that matches your desired platform.</li>
+                      <li>For all platforms, extract <b>all</b> the files from the newer version to your existing SoH directory, overwriting the old files.</li>
+                      <li>If the update requires a new extraction of oot.otr/oot-mq.otr, you will be prompted to do so.</li>
                     </ol>
 
                     <h3 id="what-do-the-release-numbers-mean">
@@ -65,37 +57,15 @@ const Home: NextPage = () => {
                     <h3 id="what-roms-are-supported">
                       <a href="#what-roms-are-supported">What ROMs are supported?</a>
                     </h3>
-                    <p>You can check the sha1 hash of your ROM <a href="https://romhacking.net/hash" target="_blank" rel="noreferrer">here</a>.</p>
-                    <h4>Ocarina of Time Debug PAL GC (not Master Quest)</h4>
-                    <blockquote>
-                      <p>Currently the recommended option</p>
-                    </blockquote>
-                    <pre>
-                      <code>
-                        Build team: `zelda@srd022j` <br />
-                        Build date: `03-02-21 00:49:18` (year-month-day) <br />
-                        sha1: cee6bc3c2a634b41728f2af8da54d9bf8cc14099
-                      </code>
-                    </pre>
-                    <h4>Ocarina of Time PAL GameCube</h4>
-                    <blockquote>
-                      <p>Our only supported retail ROM of non Master Quest.</p>
-                    </blockquote>
-                    <pre>
-                      <code>sha1: 0227d7c0074f2d0ac935631990da8ec5914597b4</code>
-                    </pre>
-                    <h4>Ocarina of Time Debug PAL GC MQ</h4>
-                    <blockquote>
-                      <p>Dungeons will be Master Quest</p>
-                    </blockquote>
-                    <pre>
-                      <code>
-                        Build team: `zelda@srd022j` <br />
-                        Build date: `03-02-21 00:16:31` (year-month-day) <br />
-                        sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp) <br />
-                        sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
-                      </code>
-                    </pre>
+                    <p>SoH currently supports all PAL (European/Australian) versions of the game, both N64 cartridges and GC discs. Which you use is entirely up to you as all are equally supported. To make sure you have a supported ROM after dumping your copy, put it into <a href="http://ship.equipment">this tool</a>.</p>
+					
+					<h3 id="why-only-pal-supported">
+						<a href="#why-only-pal-supported">Why are only PAL versions supported?</a>
+					</h3>
+					<p>
+						The decomp started on the debug version because debug statements helped in identifying functionality during the decomp process. The only debug version available was PAL. In adding support for other versions to SoH, other PAL versions were much easier because the underlying functionality (especially with language) was the same.<br />
+						NTSC will take a bit more to get working the first time because of that and other differences, but afterward should be easier to add support for multiple NTSC versions.
+					</p>
 
                     <h3 id="is-this-legal"><a href="#is-this-legal">Is this legal?</a></h3>
                     <p>We are not distributing any Nintendo owned IP. Users must provide legally obtained ROMs to experience Ship of Harkinian.
@@ -105,12 +75,10 @@ const Home: NextPage = () => {
                     <h3 id="what-features-are-planned"><a href="#what-features-are-planned">What features are planned?</a></h3>
                     <p>In completely random order, these are (some of) the things currently on our radar, no ETAs:</p>
                     <ul>
-                      <li>Custom model support</li>
-                      <li>Custom high resolution texture support</li>
                       <li>Mod support (with scripting language)</li>
                       <li>Online functionality</li>
                       <li>Parity with other randomizers</li>
-                      <li>Support for more ROM versions</li>
+                      <li>Support for NTSC ROM versions</li>
                     </ul>
 
                     <h3 id="why-aren-t-etas-given"><a href="#why-aren-t-etas-given">Why aren&apos;t ETAs given?</a></h3>
