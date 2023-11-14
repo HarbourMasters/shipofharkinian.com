@@ -26,8 +26,9 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
-                    <p>The below steps will explain how to <b>obtain a ROM</b> from your <b>legally</b> sourced, official game disc.<br />
-                      <span className="guideNoteBold">Reminder: Obtaining the Official Game Disc is your responsibility.</span>
+                    <p>The below steps will explain how to <b>obtain a ROM</b> from your <b>legally</b> sourced, official GameCube disc.<br />
+                      <span className="guideNoteBold">Reminder: Obtaining the Official Game Disc is your responsibility.</span><br />
+					  You can also get a supported ROM from a PAL N64 cartridge, but that requires specialized hardware and is beyond the scope of this guide.
                     </p>
                     <h3>Requirements:</h3>
                     <p><ul>
