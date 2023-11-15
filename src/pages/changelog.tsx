@@ -23,6 +23,31 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
+					<h2 id="macready-bravo-8-0-1">
+                      <a href="#macready-bravo-8-0-1">MacReady Bravo (8.0.1)</a>
+                    </h2>
+                    <p>November 7th 2023</p>
+					<h4>Tweaks</h4>
+					<ul>
+						<li>Enhancement: Fix Link&apos;s eyes being open while sleeping</li>
+						<li>Renamed every remaining reference to &quot;Desert Wasteland&quot; to &quot;Haunted Wasteland&quot;</li>
+						<li>Saving now writes to a temp file before replacing the existing one upon completion</li>
+						<li>Autosave now works in grottos, fairy fountains, bowling alley, fishing pond, and on Epona</li>
+						<li>Tunics stolen by Like Likes now removed from item buttons if Equippable Tunics and Boots is enabled</li>
+					</ul>
+					<h4>Bug Fixes</h4>
+					<ul>
+						<li>Temp B now restored on autosave (resolves sticks on B)</li>
+						<li>Fix for crashes when applying Fix OOB Textures and Cosmetics Editor effects on mods</li>
+						<li>Fix for Chest Texture Matches Contents on custom chest models</li>
+						<li>Audio Editor properly loads exclusions list again</li>
+						<li>Fix crashes with custom model skeletons</li>
+						<li>Fix magic zeroing out when using fast file select</li>
+						<li>Fix crashes on item collection with max debug saves and vanilla saves that were transferred from previous versions</li>
+						<li>Fix edge case of swordlessness in MS shuffle</li>
+						<li>Fix issues related to DPI (weird game screen sizing, menus unclickable on DPI, etc)</li>
+					</ul>
+					
 					<h2 id="macready-alfa-8-0-0">
                       <a href="#macready-alfa-8-0-0">MacReady Alfa (8.0.0)</a>
                     </h2>
