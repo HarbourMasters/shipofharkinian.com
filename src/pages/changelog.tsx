@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 					<h2 id="macready-bravo-8-0-1">
                       <a href="#macready-bravo-8-0-1">MacReady Bravo (8.0.1)</a>
                     </h2>
-                    <p>November 7th 2023</p>
+                    <p>November 14th 2023</p>
 					<h4>Tweaks</h4>
 					<ul>
 						<li>Enhancement: Fix Link&apos;s eyes being open while sleeping</li>
