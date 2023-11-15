@@ -27,12 +27,9 @@ const Home: NextPage = () => {
                       <a href="#macready-bravo-8-0-1">MacReady Bravo (8.0.1)</a>
                     </h2>
                     <p>November 7th 2023</p>
-                    <h4>New Features</h4>
-					<ul>
-						<li>Enhancement: Fix Link&apos;s eyes being open while sleeping</li>
-					</ul>
 					<h4>Tweaks</h4>
 					<ul>
+						<li>Enhancement: Fix Link&apos;s eyes being open while sleeping</li>
 						<li>Renamed every remaining reference to &quot;Desert Wasteland&quot; to &quot;Haunted Wasteland&quot;</li>
 						<li>Saving now writes to a temp file before replacing the existing one upon completion</li>
 						<li>Autosave now works in grottos, fairy fountains, bowling alley, fishing pond, and on Epona</li>
