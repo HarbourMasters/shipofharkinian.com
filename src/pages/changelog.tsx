@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     <p>November 7th 2023</p>
                     <h4>New Features</h4>
 					<ul>
-						<li>Enhancement: Fix Link's eyes being open while sleeping</li>
+						<li>Enhancement: Fix Link&apos;s eyes being open while sleeping</li>
 					</ul>
 					<h4>Tweaks</h4>
 					<ul>
@@ -47,7 +47,8 @@ const Home: NextPage = () => {
 						<li>Fix crashes with custom model skeletons</li>
 						<li>Fix magic zeroing out when using fast file select</li>
 						<li>Fix crashes on item collection with max debug saves and vanilla saves that were transferred from previous versions</li>
-						<li>Fix edge case of swordlessness in MS shuffle </li>
+						<li>Fix edge case of swordlessness in MS shuffle</li>
+						<li>Fix issues related to DPI (weird game screen sizing, menus unclickable on DPI, etc)</li>
 					</ul>
 					
 					<h2 id="macready-alfa-8-0-0">
