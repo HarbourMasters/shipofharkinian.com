@@ -23,18 +23,18 @@ const Home: NextPage = () => {
                 <div className="textBackground">
                   <div className="textArea">
 
-          <h2 id="macready-charlie-8-0-2">
-                      <a href="#macready-charlie-8-0-2">MacReady Charlie (8.0.2)</a>
+					<h2 id="macready-charlie-8-0-2">
+						<a href="#macready-charlie-8-0-2">MacReady Charlie (8.0.2)</a>
                     </h2>
-                    <p>November 16th 2023</p>
+					<p>November 16th 2023</p>
 					<h4>Bug Fixes</h4>
 					<ul>
-						<li>Fix for keyboard input lag issue introduced in 8.0.2</li>
+						<li>Fix for keyboard input lag issue introduced in 8.0.1</li>
 						<li>Fix for boot changing effects in Crowd Control</li>
 					</ul>
 
 					<h2 id="macready-bravo-8-0-1">
-                      <a href="#macready-bravo-8-0-1">MacReady Bravo (8.0.1)</a>
+						<a href="#macready-bravo-8-0-1">MacReady Bravo (8.0.1)</a>
                     </h2>
                     <p>November 14th 2023</p>
 					<h4>Tweaks</h4>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
 					</ul>
 					
 					<h2 id="macready-alfa-8-0-0">
-                      <a href="#macready-alfa-8-0-0">MacReady Alfa (8.0.0)</a>
+						<a href="#macready-alfa-8-0-0">MacReady Alfa (8.0.0)</a>
                     </h2>
                     <p>November 7th 2023</p>
 					<h4>Breaking Change</h4>
