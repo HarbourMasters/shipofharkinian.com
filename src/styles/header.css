@@ -13,7 +13,7 @@
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   #header.transparent {
     background-color: transparent;
     box-shadow: none;
@@ -30,7 +30,7 @@
   padding: 15px 0 10px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   #header .logo {
     padding: 5px 0 0 0;
   }
@@ -66,7 +66,7 @@
   pointer-events: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   #header .menu .menuOverlay {
     opacity: 0;
     pointer-events: none;
@@ -108,7 +108,7 @@
   transform: translate(0, -10px) rotateZ(45deg);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .hamburger {
     display: none;
   }
@@ -130,7 +130,7 @@
   transform: translateX(0);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList {
     display: flex;
     position: relative;
@@ -154,7 +154,7 @@
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList ul li {
     display: inline-block;
   }
@@ -170,15 +170,21 @@
   transition: color 300ms;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList ul li a {
     display: inline-block;
     padding: 30px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 884px) {
+  .menuList ul li a {
     font-size: 14px;
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 933px) {
   .menuList ul li a {
     font-size: 16px;
   }
@@ -188,7 +194,7 @@
   color: #fff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList ul li a::after {
     content: "";
     position: absolute;
@@ -209,7 +215,7 @@
   margin: 10px 10px 0 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList .socials {
     border-top: transparent;
     border-left: 1px solid var(--mainOrange);
@@ -222,7 +228,7 @@
   margin: 0 20px 0 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   .menuList .socials a {
     margin: 0 0 0 20px;
   }
@@ -238,7 +244,7 @@
   fill: var(--mainOrange);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 835px) {
   #header.transparent .menuList ul li a::after {
     height: 2px;
     left: 10px;
