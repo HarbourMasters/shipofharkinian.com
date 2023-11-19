@@ -4,7 +4,7 @@ module.exports = {
       list: ['t'],
       extensions: ['.ts', '.tsx', '.js', '.jsx', '.md', '.mdx']
     },
-    lngs: ['en', 'de', 'fr'],
+    lngs: ['en', 'de', 'fr', 'es'],
     ns: ['common'],
     defaultLng: 'en',
     defaultNs: 'common',
