@@ -21,6 +21,39 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="macready-delta-8-0-3">
+                    <a href="#macready-delta-8-0-3">MacReady Delta (8.0.3)</a>
+                  </h2>
+                  <p>November 29th 2023</p>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>Add Fix for Darunia dancing too fast</li>
+                    <li>
+                      Added ability to drop <code className="code">shipofharkinian.json</code> file over window to load
+                      the configuration from it (Note: This will overwrite your current configuration)
+                    </li>
+                    <li>
+                      Added hidden CVars for racing QoL (<code className="code">gDisableChangingSettings</code> and{' '}
+                      <code className="code">gRandomizerDontGenerateSpoiler</code>)
+                    </li>
+                    <li>Disable Fix Vine Fall when Climb Everything is enabled</li>
+                    <li>Adjustments to Enemy Size Rando to prevent gameplay issues</li>
+                    <li>Disable equip dupe when using &quot;Equip Multiple Arrows at Once&quot; enhancement</li>
+                    <li>Mod OTRs load order is now consistent across all platforms</li>
+                    <li>Tweak to &quot;Bugs don&apos;t despawn&quot; cheat to disable it near soil patches</li>
+                  </ul>
+                  <h4>Bug Fixes</h4>
+                  <ul>
+                    <li>Fix Morpha&apos;s poor poor broken vertex. (Requires OTR regen)</li>
+                    <li>Fix Missing TextIDs for MQ PAL and fix lava size (Requires OTR regen)</li>
+                    <li>Fix for audio cutting off Link&apos;s voice SFX and a others</li>
+                    <li>King Dodongo&apos;s Lava Textures have been fixed and now support HD Textures</li>
+                    <li>Fix kokiri sword unequipping when using switch age cheat/enhancements</li>
+                    <li>Fix Symlinks to Directories in Mods folder not being traversed</li>
+                    <li>Fix crash for Mask Shop Skybox when in entrance randomizer</li>
+                    <li>Various Check Tracker fixes</li>
+                  </ul>
+
                   <h2 id="macready-charlie-8-0-2">
                     <a href="#macready-charlie-8-0-2">MacReady Charlie (8.0.2)</a>
                   </h2>
