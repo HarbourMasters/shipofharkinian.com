@@ -45,9 +45,10 @@ const Home: NextPage = () => {
                   <h4>Bug Fixes</h4>
                   <ul>
                     <li>Fix Morpha&apos;s poor poor broken vertex. (Requires OTR regen)</li>
-                    <li>Fix Missing TextIDs for MQ PAL and fix lava size (Requires OTR regen)</li>
+                    <li>Fix Missing TextIDs for MQ PAL (Requires OTR regen)</li>
                     <li>Fix for audio cutting off Link&apos;s voice SFX and a others</li>
-                    <li>King Dodongo&apos;s Lava Textures have been fixed and now support HD Textures</li>
+                    <li>King Dodongo&apos;s Lava Textures have been fixed and now support HD Textures (Requires updated texture packs)</li>
+                    <li>Fix Alt-Asset toggling making some textures and models stuck as the non-alt version</li>
                     <li>Fix kokiri sword unequipping when using switch age cheat/enhancements</li>
                     <li>Fix Symlinks to Directories in Mods folder not being traversed</li>
                     <li>Fix crash for Mask Shop Skybox when in entrance randomizer</li>
