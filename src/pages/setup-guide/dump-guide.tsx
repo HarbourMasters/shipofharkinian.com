@@ -73,9 +73,9 @@ const Home: NextPage = () => {
                             <p>Ocarina of Time &amp; Master Quest</p>
                           </div>
                           <div className="dumpCell">Ocarina of Time</div>
-                          <div className="dumpCell">1C3AA240</div>
-                          <div className="dumpCell">Master Quest</div>
                           <div className="dumpCell">1E69CB38</div>
+                          <div className="dumpCell">Master Quest</div>
+                          <div className="dumpCell">1C3AA240</div>
                           <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
                           <div className="dumpCell">Ocarina of Time</div>
                           <div className="dumpCell">1C669FC0</div>
