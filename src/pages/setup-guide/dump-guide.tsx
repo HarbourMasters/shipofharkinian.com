@@ -73,9 +73,9 @@ const Home: NextPage = () => {
                             <p>Ocarina of Time &amp; Master Quest</p>
                           </div>
                           <div className="dumpCell">Ocarina of Time</div>
-                          <div className="dumpCell">1C3AA240</div>
-                          <div className="dumpCell">Master Quest</div>
                           <div className="dumpCell">1E69CB38</div>
+                          <div className="dumpCell">Master Quest</div>
+                          <div className="dumpCell">1C3AA240</div>
                           <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
                           <div className="dumpCell">Ocarina of Time</div>
                           <div className="dumpCell">1C669FC0</div>
@@ -97,7 +97,7 @@ const Home: NextPage = () => {
                             <span className={"guideNote"}>Note: If HxD displays a message about <b>changing the file size</b>, click &quot;OK&quot;.</span></li>
                         </ol>
                         <li>Save the file (Ctrl + S) with a <b>.z64</b> extension, and place it in your Ship of Harkinian installation location, next to soh.exe.</li>
-                        <li>Validate your dumped ROM using <Link href={"http://romhacking.net/hash"}>Hasher-js</Link>.</li>
+                        <li>Validate your dumped ROM using <Link href={"https://ship.equipment"}>ship.equipement</Link>.</li>
                         <li>Proceed with <b>setting up Ship of Harkinian</b> as dictated in your <b>Platform Guide</b>.</li>
                       </ol>
                     </p>
