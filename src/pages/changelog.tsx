@@ -21,6 +21,45 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="macready-echo-8-0-4">
+                    <a href="#macready-echo-8-0-4">MacReady Echo (8.0.4)</a>
+                  </h2>
+                  <p>December 17th 2023</p>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>
+                      Adult shooting gallery now correctly only gives reward when you have a bow (Along with a new
+                      message to indicate such)
+                    </li>
+                    <li>Add &quot;Always show Gold Skulltulas&quot; option to the Check Tracker</li>
+                    <li>HD Textures now supported for pause screen dungeon maps</li>
+                  </ul>
+                  <h4>Bug Fixes</h4>
+                  <ul>
+                    <li>
+                      Fix for various issues related to custom models being used in conjuction with the alt-assets
+                      functionality
+                    </li>
+                    <li>Fix regression in FPS calculation causing performance/audio issues on Windows</li>
+                    <li>Fix graphical bug causing color clamping issues with effects like Saria&apos;s Song</li>
+                    <li>Support for more accurate color clamping on Metal GFX backend (Mac Only)</li>
+                    <li>Fix Jabu Jabu MQ minimap chest icons</li>
+                    <li>Fix controller LED crash when using the &quot;Health&quot; option</li>
+                    <li>Retain gameplay stats window size across sessions</li>
+                    <li>More swordless Link fixes when time traveling</li>
+                    <li>Fix bug causing enemies to always be small in Enemy Size Rando</li>
+                    <li>Fix performance issues on file select when an active spoiler was loaded</li>
+                    <li>Performance/Stability fixes to King Dodongo&apos;s lava texture/effect</li>
+                    <li>Fixes to pause screen dungeon maps, including inaccuracy of rooms you&apos;ve traveled to</li>
+                    <li>
+                      Fix initialization of SaveManager happening before something it depended on (hopefully will squash
+                      a crash or two)
+                    </li>
+                    <li>Fix logical error with Darunias door entrance</li>
+                    <li>Fix soft lock when using boots in death animation</li>
+                    <li>Fix usage of static variable in chest code, causing unknown behavior</li>
+                  </ul>
+
                   <h2 id="macready-delta-8-0-3">
                     <a href="#macready-delta-8-0-3">MacReady Delta (8.0.3)</a>
                   </h2>
@@ -47,7 +86,10 @@ const Home: NextPage = () => {
                     <li>Fix Morpha&apos;s poor poor broken vertex. (Requires OTR regen)</li>
                     <li>Fix Missing TextIDs for MQ PAL (Requires OTR regen)</li>
                     <li>Fix for audio cutting off Link&apos;s voice SFX and a others</li>
-                    <li>King Dodongo&apos;s Lava Textures have been fixed and now support HD Textures (Requires updated texture packs)</li>
+                    <li>
+                      King Dodongo&apos;s Lava Textures have been fixed and now support HD Textures (Requires updated
+                      texture packs)
+                    </li>
                     <li>Fix Alt-Asset toggling making some textures and models stuck as the non-alt version</li>
                     <li>Fix kokiri sword unequipping when using switch age cheat/enhancements</li>
                     <li>Fix Symlinks to Directories in Mods folder not being traversed</li>
