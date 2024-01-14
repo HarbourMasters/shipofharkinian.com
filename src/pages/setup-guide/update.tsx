@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                       <a href={"#step-1"}>Download the Latest Version</a>
                     </h2>
                     <p>As you have done before, <a href="https://github.com/HarbourMasters/Shipwright/releases/latest">click here</a> to be taken to the GitHub releases page.
-                      Find and click the download link that matches your <b>desired platform</b>.
+                      Find and click the download link that matches your <b>desired platform</b>. Extract all contents of the download to your existing install folder, overwriting everything when asked (saves and settings will not be affected).
                     </p>
                     <p className={"guideNote"}>Note: Keep in mind, <b>randomizer seeds</b> that you have created on older builds <b>are not guaranteed to operate outside of the build they were generated on</b>.
                       It is recommended that you complete those seeds <b>prior to updating</b>.</p>
