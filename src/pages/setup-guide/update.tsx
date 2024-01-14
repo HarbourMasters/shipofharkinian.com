@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                       <a href={"#step-1"}>Download the Latest Version</a>
                     </h2>
                     <p>As you have done before, <a href="https://github.com/HarbourMasters/Shipwright/releases/latest">click here</a> to be taken to the GitHub releases page.
-                      Find and click the download link that matches your <b>desired platform</b>. Extract all contents of the download to your existing install folder, overwriting everything when asked (saves and settings will not be affected).
+                      Find and click the download link that matches your <b>desired platform</b>. Extract all contents of the download to your existing install folder, overwriting everything when asked (settings and vanilla saves will not be affected).
                     </p>
                     <p className={"guideNote"}>Note: Keep in mind, <b>randomizer seeds</b> that you have created on older builds <b>are not guaranteed to operate outside of the build they were generated on</b>.
                       It is recommended that you complete those seeds <b>prior to updating</b>.</p>
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                     <h2 id={"step-2"}>
                       <a href={"#step-2"}>Determining Next Steps</a>
                     </h2>
-                    <p>If the update requires a fresh extraction of oot.otr/oot-mq.otr, the game will tell you on next run and guide you through the process in the same way as a fresh install. For console platforms, you will be informed and instructed to regen on your PC platform.</p>
+                    <p>If the update requires a fresh extraction of oot.otr/oot-mq.otr, the game will inform you the next time you run it and guide you through the process in the same way as a fresh install. For console platforms, you will be informed and instructed to regen on your PC platform.</p>
 
                   </div>
                 </div>
