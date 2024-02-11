@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                       <li>Online functionality</li>
                       <li>Parity with other randomizers</li>
                       <li>Support for NTSC ROM versions</li>
-					  <li>Support for more custom asset types (soudns, scene geometry, text, etc)</li>
+					  <li>Support for more custom asset types (sounds, scene geometry, text, etc)</li>
                     </ul>
 
                     <h3 id="why-aren-t-etas-given"><a href="#why-aren-t-etas-given">Why aren&apos;t ETAs given?</a></h3>
