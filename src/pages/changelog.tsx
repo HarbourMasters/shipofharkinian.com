@@ -21,6 +21,39 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="macready-foxtrot-8-0-5">
+                    <a href="#macready-foxtrot-8-0-5">MacReady Foxtrot (8.0.5)</a>
+                  </h2>
+                  <p>February 28th 2024</p>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>Move Personal Notes to Save File</li>
+                    <li>Rename Freecam to Free Look</li>
+                    <li>Noclip now only applies to the player actor</li>
+                    <li>Add MessageBoxes to `no_ui` handling</li>
+                    <li>Improved OTR creation process on Mac</li>
+                    <li>Catch save loading errors and notify user</li>
+                    <li>Prevent remember save location in dungeons/boss rooms</li>
+                  </ul>
+                  <h4>Bug Fixes</h4>
+                  <ul>
+                    <li>Fix Check Tracker Area Totals</li>
+                    <li>Fix Starting Triforce Piece Count</li>
+                    <li>Fix Fire Temple Boss Door Logic</li>
+                    <li>Fix Tektite texture not loading for death animation</li>
+                    <li>Restore Original Scene Command Object List Behaviour</li>
+                    <li>Improve pause menu dungeon map performance</li>
+                    <li>Fix some actor culling behavior (This will continue to be iterated on)</li>
+                    <li>Fix some missing &quot;Bombcus in Logic&quot; issues</li>
+                    <li>Fix Rando Reward Count Slider Defaults not registering</li>
+                    <li>Fix RTA timestamp truncation</li>
+                    <li>Fix object dependency issue in Deku Scrub Theatre</li>
+                    <li>Cvars not clearing when Enabled Tricks and Excluded Locations are empty</li>
+                    <li>Fix GS Token giveItemId bleed between rando and vanilla saves</li>
+                    <li>Fix some enhancements not working in debug saves</li>
+                    <li>Fix endianess issue with camera setting data</li>
+                    <li>Fix CVar evaluation for scummed checks being hidden</li>
+                  </ul>
                   <h2 id="macready-echo-8-0-4">
                     <a href="#macready-echo-8-0-4">MacReady Echo (8.0.4)</a>
                   </h2>
