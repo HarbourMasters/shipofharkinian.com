@@ -1,10 +1,13 @@
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import { PageHeader } from '../../components/PageHeader';
 import { PageFooter } from '../../components/PageFooter';
+
+import image5 from './images/image5.png';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -43,7 +46,7 @@ const Home: NextPage = () => {
                       <a href="#step-2">Step 2: Obtaining a ROM (Legally)</a>
                     </h2>
                     <p>Follow Step 2: Obtaining a ROM (Legally) and Step 3: Extracting the Assets and Launching Ship of Harkinian on the PC Platform you selected above.</p>
-                    <image href="images/image5.png"></image>
+                    <Image src={image5} alt="ROM CRC invalid" />
 
                     <h2 id="step-3">
                       <a href="#step-3">Step 3: Extracting the Assets and Launching Ship of Harkinian</a>
@@ -51,11 +54,12 @@ const Home: NextPage = () => {
                     <p>Once the oot.otr file has been generated, you no longer need the <b>PC Platform</b> build. The remainder of the steps here will be using the <b>Wii U files you downloaded earlier in <a href={"#step-1"}>Step 1</a></b>.</p>
                     <p>Create the following <b>folder structure</b> on your <b>SD card</b>:<br />
                       <span className={"folder1"}>sdcard</span><br />
-                      <span className={"folder1"}>└── apps</span><br />
-                      <span className={"folder2"}>└── soh</span><br />
-                      <span className={"folder3"}>└── oot.otr</span><br />
-                      <span className={"folder3"}>└── soh.rpx</span><br />
-                      <span className={"folder3"}>└── soh.otr</span>
+                      <span className={"folder1"}>└── wiiu</span><br />
+                      <span className={"folder2"}>└── apps</span><br />
+                      <span className={"folder3"}>└── soh</span><br />
+                      <span className={"folder4"}>└── oot.otr</span><br />
+                      <span className={"folder4"}>└── soh.rpx</span><br />
+                      <span className={"folder4"}>└── soh.otr</span>
                     </p>
                     <h3>On your Wii U</h3>
                     <p>Insert the SD Card and launch the game via the <b>Homebrew Channel</b>.</p>
