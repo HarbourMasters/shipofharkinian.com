@@ -32,7 +32,7 @@ const Home: NextPage = () => {
                     </p>
 					<h3>GCIE-PS</h3>
 					<p>
-					  We have a script available to run in Windows Powershell (and Linux, if Powershell Core and .NET Core are installed) to make it easy. You can find it <Link href="https://github.com/Spodi/GCIE-PS">here</Link>.<br />
+					  We have a script available to run in Windows Powershell (and Linux, if Powershell Core and .NET Core are installed) to make it easy. You can find it <Link href="https://github.com/Spodi/GCIE-PS">here</Link>. Use it after Step 1 below.<br />
 					  If you can&apos;t run that, then continue reading for a guide using Dolphin emulator.
 					</p>
                     <h3>Requirements</h3>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                     <h3>Procedure</h3>
                     <p>
                       <ol type={"1"}>
-                        <li>Dump your game disc using your <b>modded Wii or Wii U</b>. Transfer the dump to your PC.</li>
+                        <li>Dump your game disc using your <b>modded Wii or Wii U</b>. Transfer the dump to your PC. If using the GCIE script from above, use it now. Otherwise continue the guide.</li>
                         <ol type={"a"}>
                           <li><Link href={"https://wii.guide/dump-games.html"}>Dumping Wii/Gamecube Games</Link> @ Wii Guide</li>
                           <li><Link href={"http://wiki.dolphin-emu.org/index.php?title=Ripping_Games"}>Ripping Games</Link> @ Dolphin Wiki</li>
