@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 					<h3>GCIE-PS</h3>
 					<p>
 					  We have a script available to run in Windows Powershell (and Linux, if Powershell Core and .NET Core are installed) to make it easy. You can find it <Link href="https://github.com/Spodi/GCIE-PS">here</Link>.<br />
-					  If you can't run that, then continue reading for a guide using Dolphin emulator.
+					  If you can&apos;t run that, then continue reading for a guide using Dolphin emulator.
 					</p>
                     <h3>Requirements</h3>
                     <p><ul>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                           <li><Link href={"https://wii.guide/dump-games.html"}>Dumping Wii/Gamecube Games</Link> @ Wii Guide</li>
                           <li><Link href={"http://wiki.dolphin-emu.org/index.php?title=Ripping_Games"}>Ripping Games</Link> @ Dolphin Wiki</li>
                         </ol>
-                        <li>Add the dump to your Dolphin games folders. If you don't have any configured, add one in Options -> Configuration -> Paths. You will need this for the next step.<br />
+                        <li>Add the dump to your Dolphin games folders. If you don&apos;t have any configured, add one in Options -> Configuration -> Paths. You will need this for the next step.<br />
 						  <Image src={image1} alt={"dump dolphin game list"}/>
 						</li>
                         <li>Right-click the game in the list, click Properties, and scroll the tabs to the right to find Filesystem. Find the appropriate TGC file listed below, and extract it into your Dolphin games directory.<br />
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                           <div className="dumpCell">Majora&apos;s Mask</div>
                           <div className="dumpCell">files/tgc/majora_ENG_091003.tgc</div>
                         </div>
-                        <li>Find the TGC file listed in Dolphin's game list, and go to its Filesystem properties like in step 3. Find the .n64 file in there, and extract it to your port folder.</li>
+                        <li>Find the TGC file listed in Dolphin&apos;s game list, and go to its Filesystem properties like in step 3. Find the .n64 file in there, and extract it to your port folder.</li>
                         <ul>
 						  <li> Ocarina of Time (PAL)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zlp_f.n64</li>
 						  <li> OoT Master Quest (PAL) -> urazlp_f.n64</li>
