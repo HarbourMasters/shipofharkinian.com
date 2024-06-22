@@ -7,7 +7,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { PageHeader } from '../../components/PageHeader';
 import { PageFooter } from '../../components/PageFooter';
 
-import image1 from './images/image13.png';
+import image1 from './images/image14.jpg';
+import image2 from './images/image15.jpg';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -25,18 +26,21 @@ const Home: NextPage = () => {
               <div className="column">
                 <div className="textBackground">
                   <div className="textArea">
-
                     <p>The below steps will explain how to <b>obtain a ROM</b> from your <b>legally</b> sourced, official GameCube disc.<br />
                       <span className="guideNoteBold">Reminder: Obtaining the Official Game Disc is your responsibility.</span><br />
-					  You can also get a supported ROM from a PAL N64 cartridge, but that requires specialized hardware and is beyond the scope of this guide.
+					  You can also get a supported ROM from a PAL N64 cartridge, but that requires specialized hardware <Link href="https://github.com/sanni/cartreader">like this</Link> and is beyond the scope of this guide.
                     </p>
-                    <h3>Requirements:</h3>
+					<h3>GCIE-PS</h3>
+					<p>
+					  We have a script available to run in Windows Powershell (and Linux, if Powershell Core and .NET Core are installed) to make it easy. You can find it <Link href="https://github.com/Spodi/GCIE-PS">here</Link>.<br />
+					  If you can't run that, then continue reading for a guide using Dolphin emulator.
+					</p>
+                    <h3>Requirements</h3>
                     <p><ul>
                       <li>Softmodded <Link href={"https://wii.guide/"}>Wii</Link> or <Link href={"https://wiiu.hacks.guide/"}>Wii U</Link></li>
-                      <li>PAL/European Gamecube Disc</li>
+                      <li>GameCube disc of appropriate region, listed below (PAL = European)</li>
                       <li>Windows PC (it could work on Linux/macOS, but is currently untested)</li>
                       <li><Link href={"https://dolphin-emu.org/"}>Dolphin</Link></li>
-                      <li><Link href={"https://mh-nexus.de/en/hxd/"}>HxD</Link> or equivalent hex editor</li>
                       <li>Ship of Harkinian ( <Link href={"https://github.com/HarbourMasters/Shipwright/releases/latest"}>GitHub</Link> | <Link href={"https://discord.com/invite/shipofharkinian"}>Discord</Link> )</li>
                     </ul>
                     </p>
@@ -48,57 +52,38 @@ const Home: NextPage = () => {
                           <li><Link href={"https://wii.guide/dump-games.html"}>Dumping Wii/Gamecube Games</Link> @ Wii Guide</li>
                           <li><Link href={"http://wiki.dolphin-emu.org/index.php?title=Ripping_Games"}>Ripping Games</Link> @ Dolphin Wiki</li>
                         </ol>
-                        <li>Use <b>Dolphin</b> to extract the <b>file system contents</b> of your disc dump.</li>
-                        <ol type={"a"}>
-                          <li><Link href={"http://wiki.vg-resource.com/Dolphin"}>ISO Filesystem Browsing</Link> @ VG Resource Wiki</li>
-                        </ol>
-                        <li>Open the relevant <b>.tgc file</b> in HxD using the information in the table below:</li>
+                        <li>Add the dump to your Dolphin games folders. If you don't have any configured, add one in Options -> Configuration -> Paths. You will need this for the next step.<br />
+						  <Image src={image1} alt={"dump dolphin game list"}/>
+						</li>
+                        <li>Right-click the game in the list, click Properties, and scroll the tabs to the right to find Filesystem. Find the appropriate TGC file listed below, and extract it into your Dolphin games directory.<br />
+						  <Image src={image2} alt={"dump guide select block"}/>
+						</li>
                         <div className="dumpTable">
                           <div className="dumpCell dumpHead1">Disc</div>
                           <div className="dumpCell dumpHead2">Game</div>
                           <div className="dumpCell dumpHead3">Filename</div>
-                          <div className="dumpCell dumpCellLeft">Ocarina of Time & Master Quest</div>
+                          <div className="dumpCell dumpCellLeft">Ocarina of Time & Master Quest (PAL)</div>
                           <div className="dumpCell">Ocarina of Time & Master Quest</div>
                           <div className="dumpCell">files/zlj_f.tgc</div>
-                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
+                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition (PAL)</div>
                           <div className="dumpCell">Ocarina of Time</div>
                           <div className="dumpCell">files/tgc/zelda_PAL_093003.tgc</div>
+                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition (US)</div>
+                          <div className="dumpCell">Majora&apos;s Mask</div>
+                          <div className="dumpCell">files/tgc/majora_ENG_091003.tgc</div>
                         </div>
-                        <li>Open the &quot;Select block&quot; window (Ctrl + E). In the <b>Start-offset</b> field, enter the relevant <b>starting offset</b> from the table below:</li>
-                        <div className="dumpTable">
-                          <div className="dumpCell dumpHead1">Disc</div>
-                          <div className="dumpCell dumpHead2">Game</div>
-                          <div className="dumpCell dumpHead3">Starting Offset</div>
-                          <div className="dumpCell twoRow vertMid dumpCellLeft">
-                            <p>Ocarina of Time &amp; Master Quest</p>
-                          </div>
-                          <div className="dumpCell">Ocarina of Time</div>
-                          <div className="dumpCell">1E69CB38</div>
-                          <div className="dumpCell">Master Quest</div>
-                          <div className="dumpCell">1C3AA240</div>
-                          <div className="dumpCell dumpCellLeft">Zelda Collector&apos;s Edition</div>
-                          <div className="dumpCell">Ocarina of Time</div>
-                          <div className="dumpCell">1C669FC0</div>
-                          <div className="dumpCell twoRow vertMid dumpCellLeft">
-                            <p>AU OoT &amp; Master Quest</p>
-                          </div>
-                          <div className="dumpCell">Ocarina of Time</div>
-                          <div className="dumpCell">1E69EEF4</div>
-                          <div className="dumpCell">Master Quest</div>
-                          <div className="dumpCell">1C3AC5FC</div>
-                        </div>
-                        <li>Ensure the <b>Length</b> and <b>Hex</b> options are checked, then enter <b>2000000 (2,000,000)</b> into the Length field.<br />
-                          <Image src={image1} alt={"dump guide select block"}/></li>
-                        <li>Once you&apos;ve entered the correct <b>Length</b> and <b>Start-offset</b>, click &quot;OK&quot;. The raw bytes of the ROM should be selected.</li>
-                        <li>Copy the selected data (Ctrl + C)</li>
-                        <ol type={"a"}>
-                          <li>Create a new blank file (Ctrl + N)</li>
-                          <li>Paste the data (Ctrl + N)<br />
-                            <span className={"guideNote"}>Note: If HxD displays a message about <b>changing the file size</b>, click &quot;OK&quot;.</span></li>
-                        </ol>
-                        <li>Save the file (Ctrl + S) with a <b>.z64</b> extension, and place it in your Ship of Harkinian installation location, next to soh.exe.</li>
-                        <li>Validate your dumped ROM using <Link href={"https://ship.equipment"}>ship.equipment</Link>.</li>
-                        <li>Proceed with <b>setting up Ship of Harkinian</b> as dictated in your <b>Platform Guide</b>.</li>
+                        <li>Find the TGC file listed in Dolphin's game list, and go to its Filesystem properties like in step 3. Find the .n64 file in there, and extract it to your port folder.</li>
+                        <ul>
+						  <li> Ocarina of Time (PAL)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zlp_f.n64</li>
+						  <li> OoT Master Quest (PAL) -> urazlp_f.n64</li>
+						  <li> Majora&apos;s Mask (US)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zelda2e.n64</li>
+						</ul>
+                        <li>Validate your dumped ROM using one of our verification sites:</li>
+						<ul>
+						  <li>For SoH, use <Link href={"https://ship.equipment"}>ship.equipment</Link></li>
+						  <li>For 2ship, use <Link href={"https://2ship.equipment"}>2ship.equipment</Link></li>
+						</ul>
+                        <li>Proceed with <b>setting up your port</b> as dictated in your <b>Platform Guide</b>.</li>
                       </ol>
                     </p>
 
