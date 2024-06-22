@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                           <li><Link href={"https://wii.guide/dump-games.html"}>Dumping Wii/Gamecube Games</Link> @ Wii Guide</li>
                           <li><Link href={"http://wiki.dolphin-emu.org/index.php?title=Ripping_Games"}>Ripping Games</Link> @ Dolphin Wiki</li>
                         </ol>
-                        <li>Add the dump to your Dolphin games folders. If you don&apos;t have any configured, add one in Options -> Configuration -> Paths. You will need this for the next step.<br />
+                        <li>Add the dump to your Dolphin games folders. If you don&apos;t have any configured, add one in Options -&gt; Configuration -&gt; Paths. You will need this for the next step.<br />
 						  <Image src={image1} alt={"dump dolphin game list"}/>
 						</li>
                         <li>Right-click the game in the list, click Properties, and scroll the tabs to the right to find Filesystem. Find the appropriate TGC file listed below, and extract it into your Dolphin games directory.<br />
@@ -74,9 +74,9 @@ const Home: NextPage = () => {
                         </div>
                         <li>Find the TGC file listed in Dolphin&apos;s game list, and go to its Filesystem properties like in step 3. Find the .n64 file in there, and extract it to your port folder.</li>
                         <ul>
-						  <li> Ocarina of Time (PAL)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zlp_f.n64</li>
-						  <li> OoT Master Quest (PAL) -> urazlp_f.n64</li>
-						  <li> Majora&apos;s Mask (US)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zelda2e.n64</li>
+						  <li> Ocarina of Time (PAL)&emsp;&emsp;-&gt; zlp_f.n64</li>
+						  <li> OoT Master Quest (PAL) &ensp;&nbsp;-&gt; urazlp_f.n64</li>
+						  <li> Majora&apos;s Mask (US)&nbsp;&emsp;&emsp;&emsp;-&gt; zelda2e.n64</li>
 						</ul>
                         <li>Validate your dumped ROM using one of our verification sites</li>
 						<ul>
