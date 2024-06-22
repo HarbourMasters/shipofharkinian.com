@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                   <div className="textArea">
                     <p>The below steps will explain how to <b>obtain a ROM</b> from your <b>legally</b> sourced, official GameCube disc.<br />
                       <span className="guideNoteBold">Reminder: Obtaining the Official Game Disc is your responsibility.</span><br />
-					  You can also get a supported ROM from a PAL N64 cartridge, but that requires specialized hardware <Link href="https://github.com/sanni/cartreader">like this</Link> and is beyond the scope of this guide.
+					  You can also get a supported ROM from an N64 cartridge, but that requires specialized hardware <Link href="https://github.com/sanni/cartreader">like this</Link> and is beyond the scope of this guide.
                     </p>
 					<h3>GCIE-PS</h3>
 					<p>
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
 						  <Image src={image1} alt={"dump dolphin game list"}/>
 						</li>
                         <li>Right-click the game in the list, click Properties, and scroll the tabs to the right to find Filesystem. Find the appropriate TGC file listed below, and extract it into your Dolphin games directory.<br />
-						  <Image src={image2} alt={"dump guide select block"}/>
+						  <Image src={image2} alt={"dump dolphin filesystem"}/>
 						</li>
                         <div className="dumpTable">
                           <div className="dumpCell dumpHead1">Disc</div>
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
 						  <li> OoT Master Quest (PAL) -> urazlp_f.n64</li>
 						  <li> Majora&apos;s Mask (US)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> zelda2e.n64</li>
 						</ul>
-                        <li>Validate your dumped ROM using one of our verification sites:</li>
+                        <li>Validate your dumped ROM using one of our verification sites</li>
 						<ul>
 						  <li>For SoH, use <Link href={"https://ship.equipment"}>ship.equipment</Link></li>
 						  <li>For 2ship, use <Link href={"https://2ship.equipment"}>2ship.equipment</Link></li>
