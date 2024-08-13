@@ -32,9 +32,9 @@ const Home: NextPage = () => {
 					<li>Add Flexible skeleton support to various enemies and bosses (modding-related)</li>
 					<li>&quot;Disable LOD&quot; enhancement now applies to everything, not just Link</li>
 					<li>Clean up Change Age conditions and better persist loadouts per age</li>
-					<li>Reworked Disable Draw Distance application for better performance.</li>
-					<li>Added widescreen culling as a toggle option to allow for actors to behave properly in widescreen.</li>
-					<ul><li>Also added toggle to exclude glitch-helpful actors from culling calculations. They&apos;ll still be visible, but won&apos;t affect tricks and glitches done with them.</li></ul>
+					<li>Rework Disable Draw Distance application for better performance</li>
+					<li>Add widescreen culling as a toggle option to allow for actors to behave properly in widescreen</li>
+					<ul><li>Also add toggle to exclude glitch-helpful actors from culling calculations. They may still be visible, but won&apos;t affect tricks and glitches done with them</li></ul>
                   </ul>
                   <h4>Bug Fixes</h4>
                   <ul>
