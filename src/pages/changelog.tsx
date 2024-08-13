@@ -21,10 +21,10 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
-				  <h2 id="macready-golf-8-0-6">
+                  <h2 id="macready-golf-8-0-6">
                     <a href="#macready-golf-8-0-6">MacReady Golf (8.0.6)</a>
                   </h2>
-                  <p>August 4th 2024</p>
+                  <p>August 12th 2024</p>
                   <h4>Tweaks</h4>
                   <ul>
                     <li>Several small performance improvements, especially for lower-end hardware (like Wii U)</li>
