@@ -21,6 +21,30 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="macready-golf-8-0-6">
+                    <a href="#macready-golf-8-0-6">MacReady Golf (8.0.6)</a>
+                  </h2>
+                  <p>August 12th 2024</p>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>Several small performance improvements, especially for lower-end hardware (like Wii U)</li>
+					<li>Equip swap now works even with &quot;Cursor on any slot in inventory&quot; enabled</li>
+					<li>Add Flexible skeleton support to various enemies and bosses (modding-related)</li>
+					<li>&quot;Disable LOD&quot; enhancement now applies to everything, not just Link</li>
+					<li>Clean up Change Age conditions and better persist loadouts per age</li>
+					<li>Rework Disable Draw Distance application for better performance</li>
+					<li>Add widescreen culling as a toggle option to allow for actors to behave properly in widescreen</li>
+					<ul><li>Also add toggle to exclude glitch-helpful actors from culling calculations. They may still be visible, but won&apos;t affect tricks and glitches done with them</li></ul>
+                  </ul>
+                  <h4>Bug Fixes</h4>
+                  <ul>
+					<li>Fix issues with blocks saving position on the Switch port</li>
+                    <li>Check/Item Trackers no longer spoil Master Quest prematurely</li>
+					<li>Fix in-game language option not saving properly</li>
+					<li>Fix logic issue preventing Gerudo Fortress key rings being placed in any dungeon</li>
+					<li>Graphics menu no longer causes lag</li>
+					<li>Resolve more issues with DPI scaling on Windows (crashing with internal resolution &gt; 100% at 4k resolution, fullscreen sizing, etc)</li>
+                  </ul>
                   <h2 id="macready-foxtrot-8-0-5">
                     <a href="#macready-foxtrot-8-0-5">MacReady Foxtrot (8.0.5)</a>
                   </h2>
