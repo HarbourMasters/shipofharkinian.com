@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 					<li>Fix in-game language option not saving properly</li>
 					<li>Fix logic issue preventing Gerudo Fortress key rings being placed in any dungeon</li>
 					<li>Graphics menu no longer causes lag</li>
-					<li>Resolve more issues with DPI scaling on Windows (crashing with internal resolution > 100% at 4k resolution, fullscreen sizing, etc)</li>
+					<li>Resolve more issues with DPI scaling on Windows (crashing with internal resolution &gt; 100% at 4k resolution, fullscreen sizing, etc)</li>
                   </ul>
                   <h2 id="macready-foxtrot-8-0-5">
                     <a href="#macready-foxtrot-8-0-5">MacReady Foxtrot (8.0.5)</a>
