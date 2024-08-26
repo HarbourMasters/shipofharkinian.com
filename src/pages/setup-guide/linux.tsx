@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                     <p>Open the Folder you extracted from Step 1 and copy the ROM you created in <b>Step 2</b> to this location.</p>
                     <Image src={image11} alt={"Linux ROM not found"} />
                     <p>Launch the soh.appimage file.<br />
-                      <span className={"guideNoteBold"}>Note: You may have to `chmod +x` the appimage via terminal.</span>
+                      <span className={"guideNoteBold"}>Note: You may have to <code>chmod +x</code> the appimage via terminal.</span>
                     </p>
                     <p>Locate the ROM that you <b>dumped in <a href={"#step-2"}>Step 2</a></b> and double click it to begin the Asset Extraction process.</p>
                     <p>Asset Extraction will begin and the <b>oot.otr</b> will be generated. This will happen <b>silently in the background</b>. Once it has completed the Game will <b>automatically launch</b>.</p>
