@@ -88,8 +88,13 @@ const Home: NextPage = () => {
                       To set deadlines would be to create unrealistic expectations that would likely never be met and cause disappointment.
                     </p>
 
-                    <h3 id="will-you-also-port-majora-s-mask"><a href="#will-you-also-port-majora-s-mask">Will you also port Majora&apos;s Mask?</a></h3>
-                    <p>Eventually. Work has begun, but will still take a while. Check back in mid-2024.</p>
+                    <h3 id="will-you-also-port-majora-s-mask">
+                      <a href="#will-you-also-port-majora-s-mask">Will you also port Majora&apos;s Mask?</a>
+                    </h3>
+                    <p>
+                      Yes, the project is called <b>2 Ship 2 Harkinian</b>. 
+                      Download the latest release <a href="https://github.com/HarbourMasters/2ship2harkinian/releases">here</a>.
+                    </p>
 
                     <h3 id="will-you-port-soh-to-x-platform-console"><a href="#will-you-port-soh-to-x-platform-console">Will you port SOH to x platform/console?</a></h3>
                     <p>This primarily relies on someone contributing to the project the work to support x platform/console. If you
