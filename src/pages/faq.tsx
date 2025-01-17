@@ -92,8 +92,8 @@ const Home: NextPage = () => {
                       <a href="#will-you-also-port-majora-s-mask">Will you also port Majora&apos;s Mask?</a>
                     </h3>
                     <p>
-                      Yes, the project is called <b>2ship2harkinian</b>. Check the progress and download the latest version
-                      at our <a href="https://github.com/HarbourMasters/2ship2harkinian/releases">releases page</a>.
+                      Yes, the project is called <b>2 Ship 2 Harkinian</b>. Download the latest release
+                      from our <a href="https://github.com/HarbourMasters/2ship2harkinian/releases">releases page</a>.
                     </p>
 
                     <h3 id="will-you-port-soh-to-x-platform-console"><a href="#will-you-port-soh-to-x-platform-console">Will you port SOH to x platform/console?</a></h3>
