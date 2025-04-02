@@ -55,7 +55,7 @@ const Home: NextPage = () => {
                     <li>Dungeon Chains (via mixing dungeon and boss entrance pools)</li>
                     <li>Fish (fishing pond and pools)</li>
                     <li>Beehives</li>
-                    <li>Swim (entering water you'd have to swim through voids you back to the last entrance you traversed)</li>
+                    <li>Swim (entering water you would have to swim through voids you back to the last entrance you traversed)</li>
                     <li>Overworld door lock</li>
                     <li>Deku stick/nut bags (for initial capacity)</li>
                     <li>Skeleton Key (universal lock removal)</li>
