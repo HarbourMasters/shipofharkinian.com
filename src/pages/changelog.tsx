@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                   <h4>New Shuffles</h4>
                   <ul>
                     <li>Boss Souls (with super fancy soul models!)</li>
-                    <li>Oarina Buttons</li>
+                    <li>Ocarina Buttons</li>
                     <li>Pots</li>
                     <li>Crates</li>
                     <li>Grass</li>
