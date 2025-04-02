@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 					<li>Check availability display</li>
 					<li>Option to show expected logic for a check in the tracker</li>
 					<li>Vanilla Logic generation setting</li>
-					<li>Mysterious Item Shuffle (freestanding/shop items present themselves as a ? until you collect them)</li>
+					<li>Mysterious Item Shuffle (freestanding/shop items present themselves as a question mark until you collect them)</li>
 					<li>Starting heart count implemented</li>
 					<li>Total check info for trackers</li>
 					<li>Pause menu tracker window for tracking miscellaneous collectibles (like boss souls; c-up on Quest Status screen)</li>
