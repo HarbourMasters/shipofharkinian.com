@@ -21,31 +21,31 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
-				  <h2 id="blair-alfa-9-0-0">
+                  <h2 id="blair-alfa-9-0-0">
                     <a href="#blair-alfa-9-0-0">Blair Alfa (9.0.0)</a>
                   </h2>
                   <p>April 2, 2025</p>
                   <h3>Randomizer</h3>
-				  <h4>Features</h4>
+                  <h4>Features</h4>
                   <ul>
-					<li>Blazing fast seed generation</li>
-					<li>Check availability display</li>
-					<li>Option to show expected logic for a check in the tracker</li>
-					<li>Vanilla Logic generation setting</li>
-					<li>Mysterious Item Shuffle (freestanding/shop items present themselves as a question mark until you collect them)</li>
-					<li>Starting heart count implemented</li>
-					<li>Total check info for trackers</li>
-					<li>Pause menu tracker window for tracking miscellaneous collectibles (like boss souls; c-up on Quest Status screen)</li>
-					<li>Simple Plandomizer GUI</li>
-					<li>Check Tracker search/filter (including check and item names)</li>
-					<li>Open Waterfall setting</li>
-					<li>Ability to generate new seed from the same settings within the file select menu</li>
-					<li>New models for keys, keyrings, progressive bags</li>
-					<li>Get Item Animation skip</li>
+                    <li>Blazing fast seed generation</li>
+                    <li>Check availability display</li>
+                    <li>Option to show expected logic for a check in the tracker</li>
+                    <li>Vanilla Logic generation setting</li>
+                    <li>Mysterious Item Shuffle (freestanding/shop items present themselves as a question mark until you collect them)</li>
+                    <li>Starting heart count implemented</li>
+                    <li>Total check info for trackers</li>
+                    <li>Pause menu tracker window for tracking miscellaneous collectibles (like boss souls; c-up on Quest Status screen)</li>
+                    <li>Simple Plandomizer GUI</li>
+                    <li>Check Tracker search/filter (including check and item names)</li>
+                    <li>Open Waterfall setting</li>
+                    <li>Ability to generate new seed from the same settings within the file select menu</li>
+                    <li>New models for keys, keyrings, progressive bags</li>
+                    <li>Get Item Animation skip</li>
                   </ul>
-				  <h4>New Shuffles</h4>
-				  <ul>
-					<li>Boss Souls (with super fancy soul models!)</li>
+                  <h4>New Shuffles</h4>
+                  <ul>
+                    <li>Boss Souls (with super fancy soul models!)</li>
                     <li>Oarina Buttons</li>
                     <li>Pots</li>
                     <li>Crates</li>
@@ -61,38 +61,38 @@ const Home: NextPage = () => {
                     <li>Skeleton Key (universal lock removal)</li>
                     <li>Infinite Capacity Upgrade tiers</li>
                     <li>Up to 7 shop slot shuffle</li>
-				  </ul>
-				  <h4>Tweaks</h4>
-				  <ul>
-					<li>Entrance Tracker has new, more descriptive names, and the entrance display is significantly simplified</li>
+                  </ul>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>Entrance Tracker has new, more descriptive names, and the entrance display is significantly simplified</li>
                     <li>Hookshot/Longshot indicators on the check tracker</li>
                     <li>Map and Compass colors match dungeons option</li>
                     <li>Sparkles for Greg and non-refill bottle items</li>
-				  </ul>
-				  <h4>Fixes</h4>
-				  <ul>
-					<li>Numerous logic fixes</li>
+                  </ul>
+                  <h4>Fixes</h4>
+                  <ul>
+                    <li>Numerous logic fixes</li>
                     <li>Check/Item trackers now properly show or hide Vanilla/MQ status based on shuffle/map settings. Many will show in the tracker when entering a dungeon, but some entrances require collecting an item first</li>
                     <li>Removed some redundant hints</li>
                     <li>Duplicate WotH/Always hints with strong/very strong distribution option now works</li>
-				  </ul>
-				  <h3>Full NTSC Support</h3>
-				  <ul><li>Includes GC and N64 versions, which means all reasonable retail versions are now supported</li></ul>
-				  <h3>New Menu</h3>
-				  <ul>
-					<li>Open with Esc</li>
+                  </ul>
+                  <h3>Full NTSC Support</h3>
+                  <ul><li>Includes GC and N64 versions, which means all reasonable retail versions are now supported</li></ul>
+                  <h3>New Menu</h3>
+                  <ul>
+                    <li>Open with Esc</li>
                     <li>Menubar is no more</li>
-					<li>Option search!</li>
+                    <li>Option search!</li>
                     <li>Larger display size</li>
                     <li>All windows use new fonts and widget styling</li>
                     <li>Advanced Resolution settings implemented</li>
                     <li>Menu buttons rearranged, confirmation placed on menu button for quitting SoH</li>
                     <li>Significant rearrangement of enhancements to utilize new menu</li>
-				  </ul>
-				  <h3>Other</h3>
-				  <h4>New Features</h4>
-				  <ul>
-					<li>Mac improvements: game mode support, game scaling, native fullscreen</li>
+                  </ul>
+                  <h3>Other</h3>
+                  <h4>New Features</h4>
+                  <ul>
+                    <li>Mac improvements: game mode support, game scaling, native fullscreen</li>
                     <li>Vsync can be toggled for Mac and Linux</li>
                     <li>Mouse Input Support!</li>
                     <li>Built-in Time Splits</li>
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
                     <li>Pause menu warping</li>
                     <li>GC Controller support for Linux</li>
                     <li>Option to disable HUD heartbeat animation</li>
-					<li>Options to effectively restore console pause buffer behavior</li>
+                    <li>Options to effectively restore console pause buffer behavior</li>
                     <li>Developer Value and Message Viewers</li>
                     <li>Added stick sensitivity</li>
                     <li>Hurt Container Mode: Start with 20 hearts and lose max health with heart pieces and heart containers down to a minimum of 3</li>
@@ -119,10 +119,10 @@ const Home: NextPage = () => {
                     <li>Boomerang reticle/first-person aiming</li>
                     <li>Timer display window (with many options for timing, including in-game time)</li>
                     <li>Custom tunic loading for each tunic type</li>
-				  </ul>
-				  <h4>Tweaks</h4>
-				  <ul>
-					<li>Remove file slots from fast file select, change to Boot Cycle instead (authentic, skip to file select, otherwise both splash screens play)</li>
+                  </ul>
+                  <h4>Tweaks</h4>
+                  <ul>
+                    <li>Remove file slots from fast file select, change to Boot Cycle instead (authentic, skip to file select, otherwise both splash screens play)</li>
                     <li>Ability to mash through bootup splash screens</li>
                     <li>Allow Linux to use symlinked ROMs</li>
                     <li>Can scale enemy size by amount of health</li>
@@ -141,15 +141,15 @@ const Home: NextPage = () => {
                     <li>Cosmetics editor improvements (more rainbow, options set all given colors to rainbow, etc)</li>
                     <li>Autosave converted to interval saving, with automatic saving on soft reset when autosave is enabled</li>
                     <li>Rumble strength defaults to 50%</li>
-				  </ul>
-				  <h4>Fixes</h4>
-				  <ul>
-					<li>MacOS: Metal audio crackle resolved, fix vanishing paths options not applying</li>
+                  </ul>
+                  <h4>Fixes</h4>
+                  <ul>
+                    <li>MacOS: Metal audio crackle resolved, fix vanishing paths options not applying</li>
                     <li>Pause menu interpolation</li>
                     <li>Hand contortion when holding the hammer</li>
                     <li>Disable lens effect when unequipping with it enabled</li>
                     <li>Most situations of equipping boots and tunics with buttons causing the player to drop/throw held items</li>
-				  </ul>
+                  </ul>
                   <h2 id="macready-golf-8-0-6">
                     <a href="#macready-golf-8-0-6">MacReady Golf (8.0.6)</a>
                   </h2>
