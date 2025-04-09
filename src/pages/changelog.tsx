@@ -35,6 +35,8 @@ const Home: NextPage = () => {
                     <li>Fixed the MQ Water Temple check totals.</li>
                     <li>Fixed an error in the Enemy Randomizer causing incorrect enemies to spawn when specific enemies were selected.</li>
                     <li>Shuffled Grass now respects the &ldquo;Chests of Agony&rdquo; option.</li>
+                    <li>Added a some more randomized currency names.</li>
+                    <li>Fixed the Autoscrolling in the Check Tracker when Only Show Available was selected.</li>
                   </ul>
                   <h3>NTSC</h3>
                   <p>NOTE: The following bugfixes require regenerating your OTR to be applied.</p>
