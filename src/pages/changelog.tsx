@@ -21,6 +21,41 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="blair-bravo-9-0-1">
+                    <a href="#blair-bravo-9-0-1">Blair Bravo (9.0.1)</a>
+                  </h2>
+                  <p>April 2, 2025</p>
+                  <h3>Randomizer</h3>
+                  <ul>
+                    <li>Fixed various randomizer seed generation bugs.</li>
+                    <li>Fixed various randomizer logic bugs.</li>
+                    <li>Fixed the &ldquo;Start with Master Sword&rdquo; option.</li>
+                    <li>Set saving in Ganondorf&apos;s Boss Arena and resetting to respawn you in Ganon&apos;s Tower instead of Link&apos;s House.</li>
+                    <li>Restores the Adult Fishing glitch so it gives you the randomized Adult Fishing reward instead of the Gold Scale.</li>
+                    <li>Fixed the MQ Water Temple check totals.</li>
+                    <li>Fixed an error in the Enemy Randomizer causing incorrect enemies to spawn when specific enemies were selected.</li>
+                    <li>Shuffled Grass now respects the &ldquo;Chests of Agony&rdquo; option.</li>
+                  </ul>
+                  <h3>NTSC</h3>
+                  <p>NOTE: The following bugfixes require regenerating your OTR to be applied.</p>
+                  <ul>
+                    <li>Fixed Morpha&apos;s Water texture being glitched/invisible.</li>
+                    <li>Fixed the door that closes behind you in Gohma&apos;s Boss Arena having glitched/invisible textures.</li>
+                    <li>Fixed the copyright textures for OTRs extracted from the Japanese Gamecube versions of OoT.</li>
+                    <li>Fixed a crash when attempting to use the Message Viewer while an NTSC OTR is loaded.</li>
+                  </ul>
+                  <h3>Other</h3>
+                  <ul>
+                    <li>Added various missing translations and fixes errors in some existing translations.</li>
+                    <li>Fixed the &ldquo;Disable Bomb Billboarding&rdquo; option.</li>
+                    <li>Prevented the Alt Assets checkbox from being cleared when a settings JSON is dropped onto the SoH window.</li>
+                    <li>Fixes some incorrect default values for the Input Viewer window.</li>
+                    <li>Applies the menu theme color to the Item Tracker&apos;s Dungeon Rewards Circle Display view.</li>
+                    <li>Fixed the Gold Skulltula Map combobox in the Save Editor window to remember its previous selection.</li>
+                    <li>Fixed the invisible boulder fragments.</li>
+                    <li>Fixed transparent tracker windows remaining transparent when docked.</li>
+                    <li>Fixed various typos in enhancement descriptions.</li>
+                  </ul>
                   <h2 id="blair-alfa-9-0-0">
                     <a href="#blair-alfa-9-0-0">Blair Alfa (9.0.0)</a>
                   </h2>
