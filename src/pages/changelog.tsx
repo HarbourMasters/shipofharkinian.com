@@ -24,7 +24,7 @@ const Home: NextPage = () => {
                   <h2 id="blair-bravo-9-0-1">
                     <a href="#blair-bravo-9-0-1">Blair Bravo (9.0.1)</a>
                   </h2>
-                  <p>April 2, 2025</p>
+                  <p>April 9, 2025</p>
                   <h3>Randomizer</h3>
                   <ul>
                     <li>Fixed various randomizer seed generation bugs.</li>
