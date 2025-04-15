@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                     <li>Fixed logic issues surrounding the Ganon&apos;s Castle Forest Trial pots, Weird Egg and Ruto&apos;s Letter.</li>
                     <li>Fixed a bug introduced in 9.0.1 where the Hylian Loach was incorrectly being added to the Location Pool.</li>
                     <li>Fixed the Input Viewer&apos;s default position.</li>
-                    <li>Prevent the "Reset All" button in the Cosmetics Editor from resetting the HUD margins.</li>
+                    <li>Prevent the &ldquo;Reset All&rdquo; button in the Cosmetics Editor from resetting the HUD margins.</li>
                     <li>Fixed a softlock introduced in 9.0.1 that could occur when performing the glitch to obtain the Adult Fishing reward as a Child.</li>
                     <li>Fixed a misspelled CVar preventing the Broken Giant&apos;s Knife bugfix from being enabled properly.</li>
                     <li><strong>(NTSC Only, Requires OTR Regen)</strong> Fixed a crash when hovering over a Boss Key in the pause menu.</li>
