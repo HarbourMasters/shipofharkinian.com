@@ -21,6 +21,31 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="blair-charlie-9-0-2">
+                    <a href="#blair-charlie-9-0-2">Blair Charlie (9.0.2)</a>
+                  </h2>
+                  <p>April 15, 2025</p>
+                  <h3>Features</h3>
+                  <ul>
+                    <li>Added the Race Lockout feature to prevent racers from changing settings during a run.</li>
+                    <li>Made the Right Stick aiming as precise as Left Stick aiming.</li>
+                  </ul>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Fixed some lighting/environment related issues encountered while randomizing entrances (i.e. the incorrect lighting on the fake Phantom Ganon).</li>
+                    <li>Fixed logic issues surrounding the Ganon&apos;s Castle Forest Trial pots, Weird Egg and Ruto&apos;s Letter.</li>
+                    <li>Fixed a bug introduced in 9.0.1 where the Hylian Loach was incorrectly being added to the Location Pool.</li>
+                    <li>Fixed the Input Viewer&apos;s default position.</li>
+                    <li>Prevent the &ldquo;Reset All&rdquo; button in the Cosmetics Editor from resetting the HUD margins.</li>
+                    <li>Fixed a softlock introduced in 9.0.1 that could occur when performing the glitch to obtain the Adult Fishing reward as a Child.</li>
+                    <li>Fixed a misspelled CVar preventing the Broken Giant&apos;s Knife bugfix from being enabled properly.</li>
+                    <li><strong>(NTSC Only, Requires OTR Regen)</strong> Fixed a crash when hovering over a Boss Key in the pause menu.</li>
+                  </ul>
+                  <h3>Tweaks</h3>
+                  <ul>
+                    <li>Improved the background opacity of docked Item Tracker windows.</li>
+                    <li>Prevent saving ImGui settings for Notification Windows.</li>
+                  </ul>
                   <h2 id="blair-bravo-9-0-1">
                     <a href="#blair-bravo-9-0-1">Blair Bravo (9.0.1)</a>
                   </h2>

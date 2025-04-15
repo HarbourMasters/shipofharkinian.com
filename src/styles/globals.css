@@ -63,6 +63,10 @@ h1 {
   text-transform: uppercase;
 }
 
+strong {
+  color: var(--mainOrange);
+}
+
 .container {
   display: block;
   width: 100%;
