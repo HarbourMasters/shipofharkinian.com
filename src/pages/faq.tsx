@@ -57,14 +57,14 @@ const Home: NextPage = () => {
                     <h3 id="what-roms-are-supported">
                       <a href="#what-roms-are-supported">What ROMs are supported?</a>
                     </h3>
-                    <p>SoH currently supports all PAL (European/Australian) versions of the game, both N64 cartridges and GC discs. Which you use is entirely up to you as all are equally supported. To make sure you have a supported ROM after dumping your copy, put it into <a href="http://ship.equipment">this tool</a>.</p>
+                    <p>SoH currently supports all NTSC (Japanese/American) and PAL (European/Australian) versions of the game, both N64 cartridges and GC discs. Which you use is entirely up to you as all are equally supported. To make sure you have a supported ROM after dumping your copy, put it into <a href="http://ship.equipment">this tool</a>.</p>
 					
 					<h3 id="why-only-pal-supported">
-						<a href="#why-only-pal-supported">Why are only PAL versions supported?</a>
+						<a href="#why-only-pal-supported">Why were only PAL versions supported before Blair Alfa (9.0.0)?</a>
 					</h3>
 					<p>
 						The decomp started on the debug version because debug statements helped in identifying functionality during the decomp process. The only debug version available was PAL. In adding support for other versions to SoH, other PAL versions were much easier because the underlying functionality (especially with language) was the same.<br />
-						NTSC will take a bit more to get working the first time because of that and other differences, but afterward should be easier to add support for multiple NTSC versions.
+						NTSC support has been added since Blair Alfa (9.0.0).
 					</p>
 
                     <h3 id="is-this-legal"><a href="#is-this-legal">Is this legal?</a></h3>
@@ -78,7 +78,6 @@ const Home: NextPage = () => {
                       <li>Mod support (with scripting language)</li>
                       <li>Online functionality</li>
                       <li>Parity with other randomizers</li>
-                      <li>Support for NTSC ROM versions</li>
 					  <li>Support for more custom asset types (sounds, scene geometry, text, etc)</li>
                     </ul>
 
