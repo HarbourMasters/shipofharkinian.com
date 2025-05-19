@@ -33,9 +33,10 @@ const Home: NextPage = () => {
                     <p className="guideNoteBold">Note: You will need a PC to complete this process.</p>
 
                     <h3>On your PC</h3>
-                    <p><a href="https://github.com/HarbourMasters/Shipwright/releases/latest">Click here</a> to go to the releases page on GitHub, where you will find the links for <b>all latest versions</b> of Ship of Harkinian.
+                    <p><a href="https://github.com/HarbourMasters/Shipwright/releases/tag/8.0.6">Click here</a> to go to the releases page on GitHub, where you will find the links for <b>version 8.0.6</b> of Ship of Harkinian.
                       Find and click the link that matches the <b>PC platform</b> you will be using. Also download the link that has <b>Wii U</b> in the name, you will need this later.<br />
-                      <span className={"guideNoteBold"}>Note: The PC platform version is required to generate the oot.otr that will be used later on the Wii U.</span>
+                      <span className={"guideNoteBold"}>Note: The PC platform version is required to generate the oot.otr that will be used later on the Wii U.</span><br />
+                      <span className={"guideNoteBold"}>Note: Version 8.0.6 (MacReady Golf) is currently the latest version available for the Wii U, be sure to use the same version on PC to generate the otr file.</span>
                     </p>
                     <p><b>Extract the Zip file</b> into a Folder on your <b>Local Hard Drive</b> for later.<br />
                       <span className="guideNoteBold">Note: Do NOT just open the zip and run SoH from there, things will break.</span><br />
