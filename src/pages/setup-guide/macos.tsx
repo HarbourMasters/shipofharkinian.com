@@ -63,9 +63,9 @@ const Home: NextPage = () => {
                     <Image src={image3} alt={"macOS malicious software prompt"} />
                     <h3>On macOS Ventura (13) and later:</h3> 
                     <p>You must first attempt to open the app, and dismiss the warning by clicking 'Done'. </p>
-                    <Image src={image16} alt={"macOS Ventura malicious software prompt"} width={365} height={306}/> 
+                    <Image src={image16} alt={"macOS Ventura malicious software prompt"} /> 
                     <p>Then go to <b>System Settings &gt; Privacy &amp; Security</b> to approve the app.</p>
-                    <Image src={image17} alt={"macOS Ventura security pane"}  width={470} height={179}/>
+                    <Image src={image17} alt={"macOS Ventura security pane"} />
                     <p> Click <b>Open Anyway. </b>
                     <span className="guideNote">This button is available for about an hour after you try to open the app.</span>
                     </p>
