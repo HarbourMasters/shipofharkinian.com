@@ -21,6 +21,50 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+				  <h2 id="blair-delta-9-0-3">
+                    <a href="#blair-delta-9-0-3">Blair Delta (9.0.3)</a>
+                  </h2>
+                  <p>July 21, 2025</p>
+                  <h3>Features</h3>
+                  <ul>
+                    <li>Added entrance shuffle to check availability.</li>
+					<li>Removed all support for previous version randomizer files. The files will be renamed and the user notified if present on startup.
+					  <ul><li>Also notifies user when trying to use a spoiler log from and old version and prevents parsing.</li></ul>
+					</li>
+					<li>Skip Feeding Jabu is now an option for rando.</li>
+                  </ul>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Fixed numerous logic bugs.</li>
+					<li>Fixed several crashes related to randomizer and rando windows.</li>
+					<li>Fixed some ImGui id overlaps.</li>
+					<li>Fixed C-Down positioning with left-side anchor setting.</li>
+					<li>Fixed issues with Dark Link, especially useful in enemy rando.</li>
+					<li>Fixed dpad navigation on Quest Status screen.</li>
+					<li>Fixed cutscene skip setting changes not applying using All or None.</li>
+					<li>Fixed club moblins moving out of bounds, removed from no-clear-room list.</li>
+					<li>Fixed several typos.</li>
+					<li>Fixed several seed-bleed bugs.</li>
+					<li>Fixed LACS options not having a tooltip.</li>
+					<li>Fixed Ganon's Tower Barrier not dispelling when cutscene is skipped.</li>
+                  </ul>
+                  <h3>Tweaks</h3>
+                  <ul>
+                    <li>Improved the background opacity of docked Item Tracker windows.</li>
+					<li>Various hint improvements.</li>
+					<li>Check Tracker now properly hides excluded locations.</li>
+					<li>Ivan the Fairy can pick up Deku Seeds.</li>
+					<li>Added check for OneDrive path to prevent running and inform user to move install.</li>
+					<li>Added cutscene skips:
+						<ul>
+						  <li>Water Temple Dragon Statue</li>
+						  <li>Kakariko and Hyrule Castle gates</li>
+						  <li>Trial barrier dispel</li>
+						</ul>
+					</li>
+					<li>Several smaller improvements to hints.</li>
+					<li>Added some hint translations.</li>
+                  </ul>
                   <h2 id="blair-charlie-9-0-2">
                     <a href="#blair-charlie-9-0-2">Blair Charlie (9.0.2)</a>
                   </h2>
