@@ -14,6 +14,8 @@ import image4 from './images/image1.png';
 import image5 from './images/image10.png';
 import image6 from './images/image9.png';
 import image7 from './images/image8.png';
+import image16 from './images/image16.png';
+import image17 from './images/image17.jpg';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -52,13 +54,23 @@ const Home: NextPage = () => {
                     <p>The ReadMe file <b>included with the download</b> mentioned in <a href="#step-1">Step 1</a> lists out the <b>CRC/SHA1 Hash</b> and a website to verify your version. <span className="guideNoteBold">Incorrect versions are not supported</span> and you will see an error or the game will not load similar to the below screenshot:</p>
 
                     <h2 id="step-3">
-                      <a href="#step-3">Step 3: Extracting the Assets and Launching Ship of Harkinian</a>
+                      <a href="#step-3">Step 3: Launching Ship of Harkinian</a>
                     </h2>
                     <p>Assuming you correctly followed the instructions in <a href={"#step-1"}>Step 1</a> and <a href={"#step-2"}>Step 2</a> you are now ready for the last process.</p>
                     <p>Navigate to your <b>Applications</b> list. <b>Control-click</b> the <b>soh.app</b> file, then click <b>Open</b>.</p>
                     <Image src={image2} alt={"macOS applications list"} />
                     <p>Then click <b>Open</b> on the next prompt that appears.</p>
                     <Image src={image3} alt={"macOS malicious software prompt"} />
+                    <h3>On macOS Ventura (13) and later:</h3> 
+                    <p>You must first attempt to open the app, and dismiss the warning by clicking &apos;Done&apos;. </p>
+                    <Image src={image16} alt={"macOS Ventura malicious software prompt"} /> 
+                    <p>Then go to <b>System Settings &gt; Privacy &amp; Security</b> to approve the app.</p>
+                    <Image src={image17} alt={"macOS Ventura security pane"} />
+                    <p> Click <b>Open Anyway. </b></p>
+                    <span className="guideNote">This button is available for about an hour after you try to open the app.</span>
+                    <h2 id="step-4">
+                    <a href="#step-4">Step 4: Extracting the Assets</a>
+                    </h2> 
                     <p>One the <b>soh.app</b> has been opened for the <b>first time</b>, you will be <b>greeted with a popup window</b>. Select <b>Yes</b> on this prompt:</p>
                     <Image src={image4} alt={"macOS no otr files"} />
                     <p>At the next prompt, select <b>Yes</b> again:</p>
