@@ -46,7 +46,7 @@ const Home: NextPage = () => {
 					<li>Fixed several typos.</li>
 					<li>Fixed several seed-bleed bugs.</li>
 					<li>Fixed LACS options not having a tooltip.</li>
-					<li>Fixed Ganon's Tower Barrier not dispelling when cutscene is skipped.</li>
+					<li>Fixed Ganon&apos;s Tower Barrier not dispelling when cutscene is skipped.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
