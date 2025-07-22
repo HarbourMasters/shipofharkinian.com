@@ -21,6 +21,14 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+				  <h2 id="blair-echo-9-0-4">
+                    <a href="#blair-echo-9-0-3">Blair Echo (9.0.4)</a>
+                  </h2>
+                  <p>July 21, 2025</p>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Fixed false positives in the rando file version flow.</li>
+                  </ul>
                   <h2 id="blair-delta-9-0-3">
                     <a href="#blair-delta-9-0-3">Blair Delta (9.0.3)</a>
                   </h2>
