@@ -21,49 +21,49 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
-				  <h2 id="blair-delta-9-0-3">
+                  <h2 id="blair-delta-9-0-3">
                     <a href="#blair-delta-9-0-3">Blair Delta (9.0.3)</a>
                   </h2>
                   <p>July 21, 2025</p>
                   <h3>Features</h3>
                   <ul>
                     <li>Added entrance shuffle to check availability.</li>
-					<li>Removed all support for previous version randomizer files. The files will be renamed and the user notified if present on startup.
-					  <ul><li>Also notifies user when trying to use a spoiler log from and old version and prevents parsing.</li></ul>
-					</li>
-					<li>Skip Feeding Jabu is now an option for rando.</li>
+                    <li>Removed all support for previous version randomizer files. The files will be renamed and the user notified if present on startup.
+                      <ul><li>Also notifies user when trying to use a spoiler log from and old version and prevents parsing.</li></ul>
+                    </li>
+                    <li>Skip Feeding Jabu is now an option for rando.</li>
                   </ul>
                   <h3>Fixes</h3>
                   <ul>
                     <li>Fixed numerous logic bugs.</li>
-					<li>Fixed several crashes related to randomizer and rando windows.</li>
-					<li>Fixed some ImGui id overlaps.</li>
-					<li>Fixed C-Down positioning with left-side anchor setting.</li>
-					<li>Fixed issues with Dark Link, especially useful in enemy rando.</li>
-					<li>Fixed dpad navigation on Quest Status screen.</li>
-					<li>Fixed cutscene skip setting changes not applying using All or None.</li>
-					<li>Fixed club moblins moving out of bounds, removed from no-clear-room list.</li>
-					<li>Fixed several typos.</li>
-					<li>Fixed several seed-bleed bugs.</li>
-					<li>Fixed LACS options not having a tooltip.</li>
-					<li>Fixed Ganon&apos;s Tower Barrier not dispelling when cutscene is skipped.</li>
+                    <li>Fixed several crashes related to randomizer and rando windows.</li>
+                    <li>Fixed some ImGui id overlaps.</li>
+                    <li>Fixed C-Down positioning with left-side anchor setting.</li>
+                    <li>Fixed issues with Dark Link, especially useful in enemy rando.</li>
+                    <li>Fixed dpad navigation on Quest Status screen.</li>
+                    <li>Fixed cutscene skip setting changes not applying using All or None.</li>
+                    <li>Fixed club moblins moving out of bounds, removed from no-clear-room list.</li>
+                    <li>Fixed several typos.</li>
+                    <li>Fixed several seed-bleed bugs.</li>
+                    <li>Fixed LACS options not having a tooltip.</li>
+                    <li>Fixed Ganon&apos;s Tower Barrier not dispelling when cutscene is skipped.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
                     <li>Improved the background opacity of docked Item Tracker windows.</li>
-					<li>Various hint improvements.</li>
-					<li>Check Tracker now properly hides excluded locations.</li>
-					<li>Ivan the Fairy can pick up Deku Seeds.</li>
-					<li>Added check for OneDrive path to prevent running and inform user to move install.</li>
-					<li>Added cutscene skips:
-						<ul>
-						  <li>Water Temple Dragon Statue</li>
-						  <li>Kakariko and Hyrule Castle gates</li>
-						  <li>Trial barrier dispel</li>
-						</ul>
-					</li>
-					<li>Several smaller improvements to hints.</li>
-					<li>Added some hint translations.</li>
+                    <li>Various hint improvements.</li>
+                    <li>Check Tracker now properly hides excluded locations.</li>
+                    <li>Ivan the Fairy can pick up Deku Seeds.</li>
+                    <li>Added check for OneDrive path to prevent running and inform user to move install.</li>
+                    <li>Added cutscene skips:
+                        <ul>
+                          <li>Water Temple Dragon Statue</li>
+                          <li>Kakariko and Hyrule Castle gates</li>
+                          <li>Trial barrier dispel</li>
+                        </ul>
+                    </li>
+                    <li>Several smaller improvements to hints.</li>
+                    <li>Added some hint translations.</li>
                   </ul>
                   <h2 id="blair-charlie-9-0-2">
                     <a href="#blair-charlie-9-0-2">Blair Charlie (9.0.2)</a>
@@ -264,22 +264,22 @@ const Home: NextPage = () => {
                   <h4>Tweaks</h4>
                   <ul>
                     <li>Several small performance improvements, especially for lower-end hardware (like Wii U)</li>
-					<li>Equip swap now works even with &quot;Cursor on any slot in inventory&quot; enabled</li>
-					<li>Add Flexible skeleton support to various enemies and bosses (modding-related)</li>
-					<li>&quot;Disable LOD&quot; enhancement now applies to everything, not just Link</li>
-					<li>Clean up Change Age conditions and better persist loadouts per age</li>
-					<li>Rework Disable Draw Distance application for better performance</li>
-					<li>Add widescreen culling as a toggle option to allow for actors to behave properly in widescreen</li>
-					<ul><li>Also add toggle to exclude glitch-helpful actors from culling calculations. They may still be visible, but won&apos;t affect tricks and glitches done with them</li></ul>
+                    <li>Equip swap now works even with &quot;Cursor on any slot in inventory&quot; enabled</li>
+                    <li>Add Flexible skeleton support to various enemies and bosses (modding-related)</li>
+                    <li>&quot;Disable LOD&quot; enhancement now applies to everything, not just Link</li>
+                    <li>Clean up Change Age conditions and better persist loadouts per age</li>
+                    <li>Rework Disable Draw Distance application for better performance</li>
+                    <li>Add widescreen culling as a toggle option to allow for actors to behave properly in widescreen</li>
+                    <ul><li>Also add toggle to exclude glitch-helpful actors from culling calculations. They may still be visible, but won&apos;t affect tricks and glitches done with them</li></ul>
                   </ul>
                   <h4>Bug Fixes</h4>
                   <ul>
-					<li>Fix issues with blocks saving position on the Switch port</li>
+                    <li>Fix issues with blocks saving position on the Switch port</li>
                     <li>Check/Item Trackers no longer spoil Master Quest prematurely</li>
-					<li>Fix in-game language option not saving properly</li>
-					<li>Fix logic issue preventing Gerudo Fortress key rings being placed in any dungeon</li>
-					<li>Graphics menu no longer causes lag</li>
-					<li>Resolve more issues with DPI scaling on Windows (crashing with internal resolution &gt; 100% at 4k resolution, fullscreen sizing, etc)</li>
+                    <li>Fix in-game language option not saving properly</li>
+                    <li>Fix logic issue preventing Gerudo Fortress key rings being placed in any dungeon</li>
+                    <li>Graphics menu no longer causes lag</li>
+                    <li>Resolve more issues with DPI scaling on Windows (crashing with internal resolution &gt; 100% at 4k resolution, fullscreen sizing, etc)</li>
                   </ul>
                   <h2 id="macready-foxtrot-8-0-5">
                     <a href="#macready-foxtrot-8-0-5">MacReady Foxtrot (8.0.5)</a>
