@@ -20,9 +20,18 @@ const Home: NextPage = () => {
           <div className="container">
             <div className="column">
               <div className="textBackground">
-                <div className="textArea">
+                <div className="textArea"><h2 id="blair-foxtrot-9-0-5">
+                    <a href="#blair-foxtrot-9-0-5">Blair Foxtrot (9.0.5)</a>
+                  </h2>
+                  <p>July 23, 2025</p>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Fixed more false positives for vanilla saves, and tried to cast a wider net with the checks.</li>
+                    <li>Fixed path for time split data file.</li>
+                    <li>Add play icon to audio editor to better indicate currently playing track in game for accessibility.</li>
+                  </ul>
 				  <h2 id="blair-echo-9-0-4">
-                    <a href="#blair-echo-9-0-3">Blair Echo (9.0.4)</a>
+                    <a href="#blair-echo-9-0-4">Blair Echo (9.0.4)</a>
                   </h2>
                   <p>July 21, 2025</p>
                   <h3>Fixes</h3>
