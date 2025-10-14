@@ -90,6 +90,8 @@ const Home: NextPage = () => {
                     <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
                     <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
                     <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
+					<li>Fixed horizontal resolution slider not showing properly in advanced resolution settings.</li>
+					<li>Fixed Twinrova and Bongo Bongo blue warp cutscene issues.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
