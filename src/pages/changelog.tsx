@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                     <li>Option to remove pre-rendered backgrounds, allowing 3D geometry and textures to be added through mods.</li>
                     <li>Skip Bottling Big Poes: In randomizer, killing a big poe and successfully collecting with a bottle will now add it to a separate counter which can be redeemed at the collector rather than filling the bottle with a big poe.</li>
                     <li>New shuffle: Treesanity</li>
-					<li>Rando: Shuffle Thieves' Hideout entrances</li>
+					<li>Rando: Shuffle Thieves&apos; Hideout entrances</li>
                     <li>Split fairysanity into 4 separate options (fairy fountain, gossip stone, bean patch, and fairy spots).</li>
                     <li>Added ability to create (and re-create) ROM O2R archives via program execution arguments, which enables dragging and dropping the ROM onto the .exe in Windows.</li>
                     <li>Dampe race fire difficulty slider.</li>
