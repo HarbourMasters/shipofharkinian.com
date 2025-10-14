@@ -20,7 +20,100 @@ const Home: NextPage = () => {
           <div className="container">
             <div className="column">
               <div className="textBackground">
-                <div className="textArea"><h2 id="blair-foxtrot-9-0-5">
+                <div className="textArea">
+                  <h2 id="copper-alfa-9.1.0">
+                    <a href="#copper-alfa-9.1.0">Copper Alfa (9.1.0)</a>
+                  </h2>
+                  <p>October 14, 2025</p>
+                  <h3>Features</h3>
+                  <ul>
+                    <li>Built-in Mod Manager
+					  <ul>
+					    <li>Mods placed in the mods folder now default to off. This allows downloading a bunch at a time without worrying about conflicts.</li>
+						<li>Includes ordering functionality, allowing for explicit ordering rather than relying on the lexicographic ordering that existed before. Note: there is currently no method of grouping mods in the manager.</li>
+						<li>Mods list stored in settings file which allows integration with the new Preset Manager.</li>
+					  </ul>
+					</li>
+                    <li>Preset Manager
+					  <ul>
+					    <li>Allows for saving each of the following sections individually or in any combination: Settings, Enhancements (minus Audio and Cosmetics, which are their own sections), Rando, Trackers (including window positions), and Network.</li>
+						<li>Built-in presets use the same system, but can also be hidden in the satellite dropdowns (so only user-defined presets are listed).</li>
+						<li>Each preset is stored in its own file in the &quot;presets&quot; folder, which can then be shared with others by dropping downloaded presets in that folder.</li>
+					  </ul>
+					</li>
+                    <li>Custom Audio using Streamed Formats
+					  <ul>
+					    <li>Can now utilize mods based on streamed audio formats like MP3, WAV, OGG and FLAC.</li>
+						<li>This is accomplished using a new utility, called <a href="https://github.com/Malkierian/future/releases/tag/0.1.0">Future</a></li>
+					  </ul>
+					</li>
+                    <li>Option to remove pre-rendered backgrounds, allowing 3D geometry and textures to be added through mods.</li>
+                    <li>Skip Bottling Big Poes: In randomizer, killing a big poe and successfully collecting with a bottle will now add it to a separate counter which can be redeemed at the collector rather than filling the bottle with a big poe.</li>
+                    <li>New shuffle: Treesanity</li>
+					<li>Rando: Shuffle Thieves' Hideout entrances</li>
+                    <li>Split fairysanity into 4 separate options (fairy fountain, gossip stone, bean patch, and fairy spots).</li>
+                    <li>Added ability to create (and re-create) ROM O2R archives via program execution arguments, which enables dragging and dropping the ROM onto the .exe in Windows.</li>
+                    <li>Dampe race fire difficulty slider.</li>
+                    <li>Faster Bean Patch Skulltula Spawning.</li>
+                    <li>Faster Bottle Emptying.</li>
+                    <li>Rebottling Blue Fire.</li>
+                    <li>Added &quot;Exclude Glitch-Aiding Crawlspaces&quot; for crawl speed enhancement.</li>
+					<li>Numerous new tricks, including glitch-specific ones (like ground jump or Navi dive).</li>
+                    <li>&quot;Skip Amy Puzzle&quot; enhancement (green poe sister in Forest Temple).</li>
+                    <li>&quot;Cuccos to Return&quot; difficulty option, replacing slider in rando settings.</li>
+                    <li>Switch timer multiplier.</li>
+                    <li>Gerudo guards offer to throw you in jail after getting the membership card.</li>
+                    <li>Several Japanese translations.</li>
+                    <li>Enhancement to double pause animation speed.</li>
+                    <li>More enemies for enemy rando (including the invisible ones).</li>
+                    <li>Rework of Closed Forest to only mean Kokiri blocking main exit as well as Mido blocking Deku Tree path, rather than being a forced tutorial mode.</li>
+                    <li>Song title display now uses the notifications system. Max duration for display increased to 20 seconds.</li>
+                    <li>Option to toggle grave hole geometry to add or remove the hopping behavior.</li>
+                    <li>Added an option to randomize Audio and Cosmetics options on rando seed generation.</li>
+                    <li>Cursor automatically hides after 3 seconds and shows again with mouse movement. Option to always have it visible now functions properly.</li>
+                    <li>Cheat: Disable the sandstorm in Haunted Wasteland.</li>
+                    <li>Overworld transition signs now state where their associated entrances go in rando.</li>
+                    <li>Added option for slingshot and bow to break randomized beehives.</li>
+                  </ul>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Removed lockup caused by rapid keyboard inputs.</li>
+                    <li>Re-fixed special characters in paths on Windows.</li>
+                    <li>Fixed dozens of logic issues.</li>
+                    <li>Fixed sound effects not playing (commonly seen in Ganondorf fight), as well as sound clips getting cutoff.</li>
+                    <li>Fixed vibrato and portamento effects on audio.</li>
+                    <li>Removed the ice trap effect from vanilla ice trap chests.</li>
+                    <li>Fixed option to disable tab as the hotkey for alt asset toggling.</li>
+                    <li>Fix Dampe going backwards in certain conditions.</li>
+                    <li>Search field autofocus only happens on fresh menu load. This resolves issues with autofocus and dropdowns in the menu.</li>
+                    <li>Fixed potential crashes with item and check trackers when starting too small to draw antyhing.</li>
+                    <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
+                    <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
+                    <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
+                  </ul>
+                  <h3>Tweaks</h3>
+                  <ul>
+                    <li>Improved target directory handling in Windows.</li>
+                    <li>Improved custom message auto-formatting.</li>
+                    <li>More improvements to generation speed.</li>
+                    <li>Nametag improvements.</li>
+                    <li>Log level selector.</li>
+                    <li>Randomizer Inf flags now all have names.</li>
+                    <li>Gerudo behind Wasteland gate always spawns in rando.</li>
+                    <li>Several text-to-speech improvements.</li>
+                    <li>Numerous translation improvements and cleanups.</li>
+                    <li>Allow TTS on Linux with espeak-ng.</li>
+                    <li>Weird frame data reconstruction (for better accuracy).</li>
+                    <li>Add &quot;Boot to Debug Warp Screen&quot; as a standalone option.</li>
+                    <li>Improved file save process, making it faster and less likely to completely fail both backup and saving.</li>
+                    <li>Search field made brighter to make more obvious.</li>
+                    <li>Restoration for NTSC 1.0 shutter door range.</li>
+                    <li>Search results display has &quot;Clear Search Results&quot; button pinned to the top.</li>
+                    <li>Search results page now uses half width for better widget formatting.</li>
+                    <li>Popout windows now no longer display their entire contents in the search results when their title matches.</li>
+                    <li>Many options within popout windows (including Controls, Tracker Settings, etc) now show in search results.</li>
+                  </ul>
+				  <h2 id="blair-foxtrot-9-0-5">
                     <a href="#blair-foxtrot-9-0-5">Blair Foxtrot (9.0.5)</a>
                   </h2>
                   <p>July 23, 2025</p>
