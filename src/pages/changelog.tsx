@@ -79,14 +79,14 @@ const Home: NextPage = () => {
                   <ul>
                     <li>Removed lockup caused by rapid keyboard inputs.</li>
                     <li>Re-fixed special characters in paths on Windows.</li>
-                    <li>Fixed dozens of logic issues.</li>
+                    <li>Fixed dozens of rando logic issues.</li>
                     <li>Fixed sound effects not playing (commonly seen in Ganondorf fight), as well as sound clips getting cutoff.</li>
                     <li>Fixed vibrato and portamento effects on audio.</li>
                     <li>Removed the ice trap effect from vanilla ice trap chests.</li>
                     <li>Fixed option to disable tab as the hotkey for alt asset toggling.</li>
                     <li>Fix Dampe going backwards in certain conditions.</li>
                     <li>Search field autofocus only happens on fresh menu load. This resolves issues with autofocus and dropdowns in the menu.</li>
-                    <li>Fixed potential crashes with item and check trackers when starting too small to draw antyhing.</li>
+                    <li>Fixed potential crashes with item and check trackers when starting too small to draw anything.</li>
                     <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
                     <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
                     <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
