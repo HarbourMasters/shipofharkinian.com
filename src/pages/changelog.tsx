@@ -89,6 +89,7 @@ const Home: NextPage = () => {
                     <li>Fixed potential crashes with item and check trackers when starting too small to draw anything.</li>
                     <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
                     <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
+					<li>Fixed cursor not locking while mouse capture is on.</li>
                     <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
                     <li>Fixed horizontal resolution slider not showing properly in advanced resolution settings.</li>
                     <li>Fixed Twinrova and Bongo Bongo blue warp cutscene issues.</li>
