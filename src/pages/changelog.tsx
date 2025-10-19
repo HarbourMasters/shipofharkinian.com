@@ -28,29 +28,29 @@ const Home: NextPage = () => {
                   <h3>Features</h3>
                   <ul>
                     <li>Built-in Mod Manager
-					  <ul>
-					    <li>Mods placed in the mods folder now default to off. This allows downloading a bunch at a time without worrying about conflicts.</li>
-						<li>Includes ordering functionality, allowing for explicit ordering rather than relying on the lexicographic ordering that existed before. Note: there is currently no method of grouping mods in the manager.</li>
-						<li>Mods list stored in settings file which allows integration with the new Preset Manager.</li>
-					  </ul>
-					</li>
+                      <ul>
+                        <li>Includes ordering functionality, allowing for explicit ordering rather than relying on the lexicographic ordering that existed before. Note: there is currently no method of grouping mods in the manager.</li>
+                        <li>Mods placed in the mods folder are automatically added to the order at the end. They will take precedence over mods already ordered.</li>
+                        <li>Mod order stored in settings file which allows integration with the new Preset Manager.</li>
+                      </ul>
+                    </li>
                     <li>Preset Manager
-					  <ul>
-					    <li>Allows for saving each of the following sections individually or in any combination: Settings, Enhancements (minus Audio and Cosmetics, which are their own sections), Rando, Trackers (including window positions), and Network.</li>
-						<li>Built-in presets use the same system, but can also be hidden in the satellite dropdowns (so only user-defined presets are listed).</li>
-						<li>Each preset is stored in its own file in the &quot;presets&quot; folder, which can then be shared with others by dropping downloaded presets in that folder.</li>
-					  </ul>
-					</li>
+                      <ul>
+                        <li>Allows for saving each of the following sections individually or in any combination: Settings, Enhancements (minus Audio and Cosmetics, which are their own sections), Rando, Trackers (including window positions), and Network.</li>
+                        <li>Built-in presets use the same system, but can also be hidden in the satellite dropdowns (so only user-defined presets are listed).</li>
+                        <li>Each preset is stored in its own file in the &quot;presets&quot; folder, which can then be shared with others by dropping downloaded presets in that folder.</li>
+                      </ul>
+                    </li>
                     <li>Custom Audio using Streamed Formats
-					  <ul>
-					    <li>Can now utilize mods based on streamed audio formats like MP3, WAV, OGG and FLAC.</li>
-						<li>This is accomplished using a new utility, called <a href="https://github.com/Malkierian/future/releases/tag/0.1.0">Future</a></li>
-					  </ul>
-					</li>
+                      <ul>
+                        <li>Can now utilize mods based on streamed audio formats like MP3, WAV, OGG and FLAC.</li>
+                        <li>This is accomplished using a new utility, called <a href="https://github.com/Malkierian/future/releases/tag/0.1.0">Future</a></li>
+                      </ul>
+                    </li>
                     <li>Option to remove pre-rendered backgrounds, allowing 3D geometry and textures to be added through mods.</li>
                     <li>Skip Bottling Big Poes: In randomizer, killing a big poe and successfully collecting with a bottle will now add it to a separate counter which can be redeemed at the collector rather than filling the bottle with a big poe.</li>
                     <li>New shuffle: Treesanity</li>
-					<li>Rando: Shuffle Thieves&apos; Hideout entrances</li>
+                    <li>Rando: Shuffle Thieves&apos; Hideout entrances</li>
                     <li>Split fairysanity into 4 separate options (fairy fountain, gossip stone, bean patch, and fairy spots).</li>
                     <li>Added ability to create (and re-create) ROM O2R archives via program execution arguments, which enables dragging and dropping the ROM onto the .exe in Windows.</li>
                     <li>Dampe race fire difficulty slider.</li>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                     <li>Faster Bottle Emptying.</li>
                     <li>Rebottling Blue Fire.</li>
                     <li>Added &quot;Exclude Glitch-Aiding Crawlspaces&quot; for crawl speed enhancement.</li>
-					<li>Numerous new tricks, including glitch-specific ones (like ground jump or Navi dive).</li>
+                    <li>Numerous new tricks, including glitch-specific ones (like ground jump or Navi dive).</li>
                     <li>&quot;Skip Amy Puzzle&quot; enhancement (green poe sister in Forest Temple).</li>
                     <li>&quot;Cuccos to Return&quot; difficulty option, replacing slider in rando settings.</li>
                     <li>Switch timer multiplier.</li>
@@ -90,8 +90,11 @@ const Home: NextPage = () => {
                     <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
                     <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
                     <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
-					<li>Fixed horizontal resolution slider not showing properly in advanced resolution settings.</li>
-					<li>Fixed Twinrova and Bongo Bongo blue warp cutscene issues.</li>
+                    <li>Fixed horizontal resolution slider not showing properly in advanced resolution settings.</li>
+                    <li>Fixed Twinrova and Bongo Bongo blue warp cutscene issues.</li>
+                    <li>Fixed Kak potion shop backdoor not being open at night with Shops Always Open.</li>
+                    <li>Fixed conditions for Personal Notes showing/hiding.</li>
+                    <li>Fixed Barinade blue warp destination in rando when entering more than once.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
@@ -114,8 +117,9 @@ const Home: NextPage = () => {
                     <li>Search results page now uses half width for better widget formatting.</li>
                     <li>Popout windows now no longer display their entire contents in the search results when their title matches.</li>
                     <li>Many options within popout windows (including Controls, Tracker Settings, etc) now show in search results.</li>
+                    <li>Removed &quot;Vanilla&quot; randomizer preset and functionality.</li>
                   </ul>
-				  <h2 id="blair-foxtrot-9-0-5">
+                  <h2 id="blair-foxtrot-9-0-5">
                     <a href="#blair-foxtrot-9-0-5">Blair Foxtrot (9.0.5)</a>
                   </h2>
                   <p>July 23, 2025</p>
@@ -125,7 +129,7 @@ const Home: NextPage = () => {
                     <li>Fixed path for time split data file.</li>
                     <li>Add play icon to audio editor to better indicate currently playing track in game for accessibility.</li>
                   </ul>
-				  <h2 id="blair-echo-9-0-4">
+                  <h2 id="blair-echo-9-0-4">
                     <a href="#blair-echo-9-0-4">Blair Echo (9.0.4)</a>
                   </h2>
                   <p>July 21, 2025</p>
