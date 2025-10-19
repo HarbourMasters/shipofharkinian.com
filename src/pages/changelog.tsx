@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                     <li>Built-in Mod Manager
                       <ul>
                         <li>Includes ordering functionality, allowing for explicit ordering rather than relying on the lexicographic ordering that existed before. Note: there is currently no method of grouping mods in the manager.</li>
-                        <li>Mods placed in the mods folder are automatically added to the order at the end. They will take precedence over mods already ordered.</li>
+                        <li>Mods placed in the mods folder and not manually disabled with extension changes are automatically added to the order at the top. They will take precedence over mods already ordered.</li>
                         <li>Mod order stored in settings file which allows integration with the new Preset Manager.</li>
                       </ul>
                     </li>
