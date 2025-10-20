@@ -24,7 +24,7 @@ const Home: NextPage = () => {
                   <h2 id="copper-alfa-9.1.0">
                     <a href="#copper-alfa-9.1.0">Copper Alfa (9.1.0)</a>
                   </h2>
-                  <p>October 14, 2025</p>
+                  <p>October 20, 2025</p>
                   <h3>Features</h3>
                   <ul>
                     <li>Built-in Mod Menu
@@ -97,6 +97,9 @@ const Home: NextPage = () => {
                     <li>Fixed Kak potion shop backdoor not being open at night with Shops Always Open.</li>
                     <li>Fixed conditions for Personal Notes showing/hiding.</li>
                     <li>Fixed Barinade blue warp destination in rando when entering more than once.</li>
+					<li>Fixed Gold Skulltula locations not being marked as collected when tokens aren&apos;t shuffled.</li>
+					<li>Fixed hints for bridge requirements in rando.</li>
+					<li>Fixed cursor still moving when hidden despite mouse capture being on.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
