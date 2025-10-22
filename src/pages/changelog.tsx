@@ -24,7 +24,7 @@ const Home: NextPage = () => {
                   <h2 id="copper-alfa-9.1.0">
                     <a href="#copper-alfa-9.1.0">Copper Alfa (9.1.0)</a>
                   </h2>
-                  <p>October 20, 2025</p>
+                  <p>October 22, 2025</p>
                   <h3>Features</h3>
                   <ul>
                     <li>Built-in Mod Menu
