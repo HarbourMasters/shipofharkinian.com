@@ -21,6 +21,31 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+                  <h2 id="copper-bravo-9.1.1">
+                    <a href="#copper-bravo-9.1.0">Copper Bravo (9.1.1)</a>
+                  </h2>
+                  <p>November 4, 2025</p>
+                  <h3>Rando</h3>
+                  <ul>
+                    <li>Fixed Deku Tree logic expecting going through basement torch room to the roller room without a fire source.</li>
+                    <li>Fixed adult access to some grass in Zora River itemless without a trick.</li>
+                    <li>Fixed songs not being given in saves created from spoilers when Song Shuffle was set to Off.</li>
+                    <li>Fixed Master Quest Bottom of the Well&apos;s door crystal switch being toggleable.</li>
+                    <li>Fixed adult spawn crashing or instant credits when starting a new seed with Remember Save Location turned on.</li>
+                  </ul>
+                  <h3>Menu/UI</h3>
+                  <ul>
+                    <li>Fixed Enable Mods showing twice in search results.</li>
+                    <li>Fixed &quot;Show Hookshot Identifiers&quot; having the wrong CVar associated with the checkbox.</li>
+                    <li>Force disabled the enhancement for skipping feeding Jabu-Jabu when in rando, since it doesn&apos;t change any functionality in rando.</li>
+                    <li>Added Cuccos to Return enhancement to rando-focused enhancement preset with a value of 1.</li>
+                  </ul>
+                  <h3>Other</h3>
+                  <ul>
+                    <li>Fix a couple enhancements not being disabled when unchecked.</li>
+                    <li>Applied lexicographic sorting for initial mod listing and subsequent mod additions to reflect previous user expectations.</li>
+                    <li>Fixed logging output to file.</li>
+                  </ul>
                   <h2 id="copper-alfa-9.1.0">
                     <a href="#copper-alfa-9.1.0">Copper Alfa (9.1.0)</a>
                   </h2>
@@ -32,7 +57,7 @@ const Home: NextPage = () => {
                         <li>Includes ordering functionality, allowing for explicit ordering rather than relying on the lexicographic ordering that existed before. Note: there is currently no method of grouping mods in the manager.</li>
                         <li>Mods placed in the mods folder and not manually disabled with extension changes are automatically added to the order at the top. They will take precedence over mods already ordered.</li>
                         <li>Mod order stored in settings file which allows integration with the new Preset Manager.</li>
-						<li>Enable Mods and Tab Hotkey checkboxes now reside in this menu.</li>
+                        <li>Enable Mods and Tab Hotkey checkboxes now reside in this menu.</li>
                       </ul>
                     </li>
                     <li>Preset Manager
@@ -90,16 +115,16 @@ const Home: NextPage = () => {
                     <li>Fixed potential crashes with item and check trackers when starting too small to draw anything.</li>
                     <li>Fixed generation issues surrounding Gerudo Membership Card.</li>
                     <li>Fixed cursor hiding/autocapture with additional options. Default off.</li>
-					<li>Fixed cursor not locking while mouse capture is on.</li>
+                    <li>Fixed cursor not locking while mouse capture is on.</li>
                     <li>Fixed Jabu Jabu being unresponsive when Jabu Without Fish is on.</li>
                     <li>Fixed horizontal resolution slider not showing properly in advanced resolution settings.</li>
                     <li>Fixed Twinrova and Bongo Bongo blue warp cutscene issues.</li>
                     <li>Fixed Kak potion shop backdoor not being open at night with Shops Always Open.</li>
                     <li>Fixed conditions for Personal Notes showing/hiding.</li>
                     <li>Fixed Barinade blue warp destination in rando when entering more than once.</li>
-					<li>Fixed Gold Skulltula locations not being marked as collected when tokens aren&apos;t shuffled.</li>
-					<li>Fixed hints for bridge requirements in rando.</li>
-					<li>Fixed cursor still moving when hidden despite mouse capture being on.</li>
+                    <li>Fixed Gold Skulltula locations not being marked as collected when tokens aren&apos;t shuffled.</li>
+                    <li>Fixed hints for bridge requirements in rando.</li>
+                    <li>Fixed cursor still moving when hidden despite mouse capture being on.</li>
                   </ul>
                   <h3>Tweaks</h3>
                   <ul>
