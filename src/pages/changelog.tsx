@@ -22,7 +22,7 @@ const Home: NextPage = () => {
               <div className="textBackground">
                 <div className="textArea">
                   <h2 id="copper-bravo-9.1.1">
-                    <a href="#copper-bravo-9.1.0">Copper Bravo (9.1.1)</a>
+                    <a href="#copper-bravo-9.1.1">Copper Bravo (9.1.1)</a>
                   </h2>
                   <p>November 4, 2025</p>
                   <h3>Rando</h3>
