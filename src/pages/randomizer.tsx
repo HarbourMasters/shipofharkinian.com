@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                       </h3>
                       <ol>
                         <li>Go to the file select screen</li>
-                        <li>Open the &quot;Randomizer Settings&quot; menu through the F1 menu under &quot;Randomizer&quot;.</li>
+                        <li>Open the &quot;Randomizer Settings&quot; menu through the Esc menu under &quot;Randomizer&quot;.</li>
                         <li>Set desired settings in the same window</li>
                         <li>Hit the &quot;Generate Seed&quot; button</li>
                         <li>You will see several item icons at the top of your screen on the file select menu as well as hear a jingle indicating that it worked properly.</li>
