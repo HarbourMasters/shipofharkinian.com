@@ -21,6 +21,28 @@ const Home: NextPage = () => {
             <div className="column">
               <div className="textBackground">
                 <div className="textArea">
+				  <h2 id="copper-charlie-9.1.2">
+                    <a href="#copper-charlie-9.1.2">Copper Charlie (9.1.2)</a>
+                  </h2>
+                  <p>January 18, 2026</p>
+                  <h3>Tweaks</h3>
+                  <ul>
+                    <li>Made Dampe&apos;s Hut stay open when Dampe is out all night.</li>
+                    <li>Disabled autosave after save file is deleted and between getting the Ocarina of Time and Song of Time.</li>
+                    <li>Add shields to &quot;Assignable Tunic and Boots&quot;</li>
+					<li>Added toggle for displaying shuffled entrance destinations on signs.</li>
+                  </ul>
+                  <h3>Fixes</h3>
+                  <ul>
+                    <li>Multiple rando tracker and availability fixes.</li>
+                    <li>Multiple rando generation fixes.</li>
+                    <li>Several rando logic fixes.</li>
+                    <li>Further fixed and improved logging.</li>
+                    <li>Fixed some errors that occurred from disabling 2D prerenders.</li>
+                    <li>Fixed destination displayed on sign outside of Dodongo&apos;s Cavern.</li>
+                    <li>Fixed enemy health bars.</li>
+					<li>Fixed crash editing empty mod list.</li>
+                  </ul>
                   <h2 id="copper-bravo-9.1.1">
                     <a href="#copper-bravo-9.1.1">Copper Bravo (9.1.1)</a>
                   </h2>
