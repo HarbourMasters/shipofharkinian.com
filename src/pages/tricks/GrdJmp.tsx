@@ -6,37 +6,37 @@ import Image from 'next/image';
 import { PageHeader } from '../../components/PageHeader';
 import { PageFooter } from '../../components/PageFooter';
 
-import SFMOuter from './images/GrdJmpSFMOuter.png';
-import SFMInner from './images/GrdJmpSFMInner.png';
-import Dampe from './images/GrdJmpDampe.png';
-import Windmill from './images/GrdJmpWindmill.png';
-import GFTower from './images/GrdJmpGFTower.png';
-import GFLowerVine from './images/GrdJmpGFLowerVine.png';
-import DekuB1 from './images/GrdJmpDekuB1.png';
-import DCLobby from './images/GrdJmpDCLobby.png';
-import DCSpikes from './images/GrdJmpDCSpikes.png';
-import DCLoop1 from './images/GrdJmpDCLoop1.png';
-import DCLoop2 from './images/GrdJmpDCLoop2.png';
-import ForestBlock from './images/GrdJmpForestBlock.png';
-import FlareDancer from './images/GrdJmpFlareDancer.png';
-import BigLava from './images/GrdJmpBigLava.png';
-import FireShortcut from './images/GrdJmpFireShortcut.png';
-import FireMazePillar from './images/GrdJmpFireMazePillar.png';
-import ForestTrial from './images/GrdJmpForestTrial.png';
-import WaterTrial from './images/GrdJmpWaterTrial.png';
-import LightTrial from './images/GrdJmpLightTrial.png';
-import IceBlock1 from './images/GrdJmpIceBlock1.png';
-import IceBlock2 from './images/GrdJmpIceBlock2.png';
-import IceBlock3 from './images/GrdJmpIceBlock3.png';
-import GTG from './images/GrdJmpGTG.png';
-import GFChild from './images/GrdJmpGFChild.png';
-import JabuJiggly from './images/GrdJmpJabuJiggly.png';
-import FireTempleMQSkull from './images/GrdJmpFireTempleMQSkull.png';
-import WaterCage from './images/GrdJmpWaterCage.png';
-import ShadowScythe from './images/GrdJmpShadowScythe.png';
-import SpiritBoulder from './images/GrdJmpSpiritBoulder.png';
-import BotW1 from './images/GrdJmpBotW1.png';
-import BotW2 from './images/GrdJmpBotW2.png';
+import SFMOuter from './images/GrdJmpSFMOuter.jpg';
+import SFMInner from './images/GrdJmpSFMInner.jpg';
+import Dampe from './images/GrdJmpDampe.jpg';
+import Windmill from './images/GrdJmpWindmill.jpg';
+import GFTower from './images/GrdJmpGFTower.jpg';
+import GFLowerVine from './images/GrdJmpGFLowerVine.jpg';
+import DekuB1 from './images/GrdJmpDekuB1.jpg';
+import DCLobby from './images/GrdJmpDCLobby.jpg';
+import DCSpikes from './images/GrdJmpDCSpikes.jpg';
+import DCLoop1 from './images/GrdJmpDCLoop1.jpg';
+import DCLoop2 from './images/GrdJmpDCLoop2.jpg';
+import ForestBlock from './images/GrdJmpForestBlock.jpg';
+import FlareDancer from './images/GrdJmpFlareDancer.jpg';
+import BigLava from './images/GrdJmpBigLava.jpg';
+import FireShortcut from './images/GrdJmpFireShortcut.jpg';
+import FireMazePillar from './images/GrdJmpFireMazePillar.jpg';
+import ForestTrial from './images/GrdJmpForestTrial.jpg';
+import WaterTrial from './images/GrdJmpWaterTrial.jpg';
+import LightTrial from './images/GrdJmpLightTrial.jpg';
+import IceBlock1 from './images/GrdJmpIceBlock1.jpg';
+import IceBlock2 from './images/GrdJmpIceBlock2.jpg';
+import IceBlock3 from './images/GrdJmpIceBlock3.jpg';
+import GTG from './images/GrdJmpGTG.jpg';
+import GFChild from './images/GrdJmpGFChild.jpg';
+import JabuJiggly from './images/GrdJmpJabuJiggly.jpg';
+import FireTempleMQSkull from './images/GrdJmpFireTempleMQSkull.jpg';
+import WaterCage from './images/GrdJmpWaterCage.jpg';
+import ShadowScythe from './images/GrdJmpShadowScythe.jpg';
+import SpiritBoulder from './images/GrdJmpSpiritBoulder.jpg';
+import BotW1 from './images/GrdJmpBotW1.jpg';
+import BotW2 from './images/GrdJmpBotW2.jpg';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                     <p>This jump can be used to grab ledges too high to simply climb where there is not normally a ledge to jump from. Logic assumes using the animation for Link standing up from a crouch by pressing Z to perform the trick, as it requires no additional items.
                     </p>
                     <video controls width="853" height="480">
-                      <source src="./../trickvids/GrdJmpDemo.mp4" type="video/mp4"/>
+                      <source src="./../trickvids/GrdJmpDemo.webm" type="video/webm"/>
                     </video>
                     <h3>List of relevant uses:
                     </h3>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                     <p>In MQ Forest, you can use Ground Jumps to reach even higher without climb by pushing a block and jumping on it. This allows for the use of other tricks or jumpslashing into the switch to then use hover boots to reach the ledge.
                     </p>
                     <video controls width="853" height="480">
-                      <source src="./../trickvids/GrdJmpMQForestCLimb.mp4" type="video/mp4"/>
+                      <source src="./../trickvids/GrdJmpMQForestClimb.webm" type="video/webm"/>
                     </video>
                     <p>Child needs a Ground Jump to reach the chest spawned by defeating Flare Dancer on the lower loop of Fire Temple.
                     </p>
