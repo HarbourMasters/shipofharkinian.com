@@ -36,31 +36,31 @@ const Home: NextPage = () => {
                     </h2>
                     <p>Ledge Climbing into the back of Impa&apos;s House as Adult from the chicken coop.
                     </p>
-                    <p>Dodongo&apos;s Cavern MQ opening the chest in the back Poe room without pulling the grave.
+                    <p>Dodongo&apos;s Cavern Master Quest opening the chest in the back Poe room without pulling the grave.
                     </p>
                     <p>Hitting the rusted switch that opens the cage holding Highest Goron in Fire Temple without moving the Song of Time Block.
                     </p>
-                    <p>Hitting the rusted switch that raises the hookshot targets in MQ Fire Temple Lizalfos Maze without blowing up the wall.
+                    <p>Hitting the rusted switch that raises the hookshot targets in Master Quest Fire Temple Lizalfos Maze without blowing up the wall.
                     </p>
-                    <p>Killing the Gold Skultulla under the Burning Block at the top of MQ Fire Temple without pushing the block and using Hookshot to get the token.
+                    <p>Killing the Gold Skultulla under the Burning Block at the top of Master Quest Fire Temple without pushing the block and using Hookshot to get the token.
                     </p>
-                    <p>Getting the Gold Skulltula in the Hidden Switch room of MQ water without being able to break crates.
+                    <p>Getting the Gold Skulltula in the Hidden Switch room of Master Quest water without being able to break crates.
                     </p>
                     <p>If Fire Rings is enabled, you can use the Fire Rings trick combined with a jumpslash to get the freestanding items in child spirit without hitting the eye target. 
                     </p>
                     <p>Destroying the boulder in the crawlspace that stops Child from climbing into Sun on Floor Room as Adult. 
                     </p>
-                    <p>Hitting the rusted switch in MQ Spirit Trial without hitting the eye target to drop the Iron Knuckle.
+                    <p>Hitting the rusted switch in Master Quest Spirit Trial without hitting the eye target to drop the Iron Knuckle.
                     </p>
                     <p>Breaking pots frozen in Red ice in Ice Cavern without melting the ice or using explosives.
                     </p>
-                    <p>Killing the Gold Skulltula in MQ Bottom of the Well West inner Room without pulling the Grave.
+                    <p>Killing the Gold Skulltula in Master Quest Bottom of the Well West inner Room without pulling the Grave.
                     </p>
                     <h2>List of uses recorded and added to logic, but not believed to be currently relevant:
                     </h2>
                     <p>Walking through the gate lowered by the Truth Spinner in Shadow Temple backwards. 
                     </p>
-                    <p>Walking through the gate to Stone Umbrella room in MQ Shadow Temple backwards. 
+                    <p>Walking through the gate to Stone Umbrella room in Master Quest Shadow Temple backwards. 
                     </p>
                     <p>Hitting the rusted switch in Water Trial without using Blue Fire to melt the ice.
                     </p>

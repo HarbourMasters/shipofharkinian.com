@@ -48,9 +48,9 @@ const Home: NextPage = () => {
                     </p>
                     <p>Dodongo&quot;s Cavern, jackflipping onto the armos in order to reach the raised switch without climb.
                     </p>
-                    <p>Dodongo&quot;s Cavern, jumping from the top of the ladder to one of the pillar in spike trap room, and from there to the chest. Note that in MQ using the blocks to start the jump instead is not a trick but requires Grab.
+                    <p>Dodongo&quot;s Cavern, jumping from the top of the ladder to one of the pillar in spike trap room, and from there to the chest. Note that in Master Quest using the blocks to start the jump instead is not a trick but requires Grab.
                     </p>
-                    <p>Dodongo&quot;s Cavern, pulling one of the graves in the back of MQ and using that to roll jump onto the ledge where the Gold Skulltula is. This combined with the pots nearby can be used to get that GS Check without a weapon.
+                    <p>Dodongo&quot;s Cavern, pulling one of the graves in the back of Master Quest and using that to roll jump onto the ledge where the Gold Skulltula is. This combined with the pots nearby can be used to get that GS Check without a weapon.
                     </p>
                     <p>Jabu Jabu&quot;s Belly, jumping from the lift as Adult in order  to dive deeper and skip Silver Scale, as Adult&quot;s larger hitbox prevents them form simply diving under.
                     </p>

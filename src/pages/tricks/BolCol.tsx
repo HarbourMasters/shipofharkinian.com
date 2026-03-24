@@ -25,24 +25,40 @@ const Home: NextPage = () => {
                     <h2 id="explaination">
                       <a href="#explaination">Distant Boulder Collision</a>
                     </h2>
-                    <p>The collision on Boulders is disabled when link is far away, this can be used to fire projectiles and longshot through them in order to interact with things behind them like Gold Skultullas, chests and Bomb Flowers.
+                    <p>The collision on Boulders is disabled when Link is far away, this can be taken advantage of to fire projectiles and Longshot through them in order to interact with objects behind them like Gold Skultullas, chests and Bomb Flowers.
                     </p>
-                    <h2>List of relevant uses:
-                    </h2>
-                    <p>Skipping the puzzle in the torch slug and doors room in Spirit Temple by running into the fire to open the chest
+                    <h3>List of relevant uses:
+                    </h3>
+                    <p>The DMT boulder Gold Skulltulas can both be grabbed with Longshot, or killed with Bow or Slingshot and grabbed with a different trick.
                     </p>
-                    <p>The DMT boulder Gold Skulltulas can both be grabbed with longshot, or killed with Bow and grabbed with a different Trick.
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColDMTLower.webm" type="video/webm"/>
+                    </video>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColDMTUpper.webm" type="video/webm"/>
+                    </video>
+                    <p>You can Longshot the chest in Gerudo Valley to skip needing to break the boulders.
                     </p>
-                    <p>You can longshot the hammer rocks chest in Gerudo Valley to skip needing to break the boulders.
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColGV.webm" type="video/webm"/>
+                    </video>
+                    <h3>List of uses that may become relevant on alternate builds or with future shuffles/tricks:
+                    </h3>
+                    <p>In Master Quest Dodongo&quot;s Cavern, you can hit the bomb flower under the boulder on the lower right side with a bow to blow up the boulder.
                     </p>
-                    <h2>List of uses that may become relevant on alternate builds or with future shuffles/tricks:
-                    </h2>
-                    <p>In MQ Dodongo&quot;s Cavern, you can hit the bomb flower under the boulder on the lower right side with a bow to blow up the boulder.
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColMQDC.webm" type="video/webm"/>
+                    </video>
+                    <p>In Master Quest Jabu Jabu&quot;s Belly, you can hit the cow in holes room with sling without breaking the boulders
                     </p>
-                    <p>In MQ Jabu, you can hit the cow in holes room with sling without breaking the boulders
-                    </p>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColMQJabu.webm" type="video/webm"/>
+                    </video>
                     <p>In Bottom of the Well, you can shoot the Bomb Flower in B3 with an arrow through the rocks to detonate it and blow up the boulders.
                     </p>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/BolColBotW.webm" type="video/webm"/>
+                    </video>
                   </div>
                 </div>
               </div>

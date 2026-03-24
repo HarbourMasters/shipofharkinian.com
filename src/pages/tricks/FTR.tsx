@@ -29,80 +29,147 @@ const Home: NextPage = () => {
                     <p>Normally, if a heat timer or breath timer would appear outside of Death Mountain Crater, you logically need a tunic.
                     </p>
                     <p>If Fewer Tunic Requirements is enabled, you restrictions are looser, and the number of hearts the game expects from you in Death Mountain Crater is reduced.
-                       Specifically you are expected to do everything except the Fire Temple Block and Geyser room, Volvagia and Central pillar.
+                       Specifically you are expected to do everything except the Fire Temple Block and Geyser room, Volvagia and Central Pillar without a Tunic.
                     </p>
-                    <h2>Heat Timers.
-                    </h2>
-                    <h2>Hearts needed for Death Mountain Crater.
-                    </h2>
-                    <p>The number of hearts needed for the task without this trick are in brackets. Doing checks near the entrance you entered by never needs hearts or a tunic. Only common requirements are listed here due to the number of possibilities.
+                    <p>Except for near the Bolero Pad, you never need a specific number of hearts to do checks immediately around the entrance,
                     </p>
-                    <p>Reaching Rock Grotto from the Upper Entrance: 1(2) hearts
-                    </p>
-                    <p>Reaching the Deku Scrub, Wall Freestanding or Gossip Stone from the Upper Entrance: 2(3) hearts
-                    </p>
-                    <p>Reaching the Child Crate or Wall Freestanding from the Rock Grotto: 1(2) hearts
-                    </p>
-                    <p>Reaching the Gossip Stone, Deku Scrub, or jumping down to the Far Scarecrow Platform from the Rock Grotto: 2(3) hearts
-                    </p>
-                    <p>Reaching the Blocked Exit from the Rock Grotto: 4(6) hearts
-                    </p>
-                    <p>Reaching the Pots from the Rock Grotto or Upper Entrance: 4(6) hearts
-                    </p>
-                    <p>Entering the Hammer Boulder Grotto from the Pot Entrance: 1(2) hearts
-                    </p>
-                    <p>Reaching the Bolero Pad checks from the Pots: 4(6) hearts
-                    </p>
-                    <p>Reaching Temple Entrance from the Pots: 5(8) hearts
-                    </p>
-                    <p>Reaching Far Platform from from the Pots: 5(8) hearts via the Scarecrow, 4(6) to climb up and jump down from the Gossip Stone.
-                    </p>
-                    <p>Reaching Temple Entrance or getting the Bean Patch Checks from the Bolero pad: 2(3) hearts
-                    </p>
-                    <p>Reaching Far Platform from from the Bolero Pad: 2(3) hearts via the Scarecrow, 3(5) to use the Bean Patch, 7(11) Hearts to go all the way around then jump down or 5(8)hearts to use &quot;Crater&apos;s Bean PoH with Hover Boots&quot;, Longshot across and then jump down. 
-                    </p>
-                    <h2>Hearts needed for Fire Temple with this Trick.
-                    </h2>
-                    <p>Reaching the boss door or entering the dungeon through it: 2 Hearts
-                    </p>
-                    <p>Reaching the Open Side Door in Vanilla Big Lava Room: 3 Hearts
-                    </p>
-                    <p>Reaching the Block Side Door or high side Door in Vanilla Big Lava Room: 4 Hearts
-                    </p>
-                    <p>Reaching the Open Side Door or high side door with bow in Big Lava Room in MQ: 4 Hearts
-                    </p>
-                    <p>Reaching the Blocked Side Door in MQ Big Lava Room: 6 Hearts
-                    </p>
-                    <p>Performing the trick &quot;Fire Temple MQ Boss Key Chest without Bow&quot;: 7 Hearts
-                    </p>
-                    <h2>Hearts needed for Fire Trial with this Trick.
-                    </h2>
-                    <p>Getting the freestanding item in Vanilla: 2 Hearts
-                    </p>
-                    <p>Opening the door in Vanilla: 6 Hearts
-                    </p>
-                    <p>Opening the door in MQ: 9 Hearts
-                    </p>
-                    <h2>Breath Timer
-                    </h2>
-                    <p>Only common heart requirements are included due to the large number of possibilities.
-                    </p>
-                    <p>Fountain Lakebed: 2 Hearts
-                    </p>
-                    <p>Forest temple, getting checks in the well without draining it: 1 Heart
-                    </p>
-                    <p>Forest temple, Moving through the well without draining it: 2 Hearts
-                    </p>
-                    <p>Forest temple, Moving through the well without draining it: 2 Hearts
-                    </p>
-                    <p>Water temple, Reaching the Low Water Emblem or basement areas without known low water: 2 Hearts
-                    </p>
-                    <p>Water temple, Reaching the Jet Chest with Swim: 2 Hearts
-                    </p>
-                    <p>Water temple, Getting checks from River without swim: 2 Hearts
-                    </p>
-                    <p>Water temple, Getting past river without swim: 4 Hearts
-                    </p>
+                    <h3>Common Heat Timers in Death Mountain Crater with and without Fewer Tunic Requirements.
+                    </h3>
+                      <div className="FTRDMCTable">
+                        <div className="dumpCell dumpHead1">Entrance</div>
+                        <div className="dumpCell dumpHead2">Exit/Check</div>
+                        <div className="dumpCell dumpHead2">Default Hearts</div>
+                        <div className="dumpCell dumpHead3">FTR Hearts</div>
+                        <div className="dumpCell dumpCellLeft">Upper Entrance</div>
+                        <div className="dumpCell">Rocks Grotto</div>
+                        <div className="dumpCell">1</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Upper Entrance</div>
+                        <div className="dumpCell">Deku Scrub, Wall PoH, Gossip Stone</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell dumpCellLeft">Rocks Grotto</div>
+                        <div className="dumpCell">Child Crate, Wall PoF</div>
+                        <div className="dumpCell">1</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Rocks Grotto</div>
+                        <div className="dumpCell">Deku Scrub, Gossip Stone, Jumping down to Far Platform</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell dumpCellLeft">Rocks Grotto</div>
+                        <div className="dumpCell">Blocked Exit</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Upper Entrance, Rocks Grotto</div>
+                        <div className="dumpCell">Pots and Pots Exit</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Pots Entrance</div>
+                        <div className="dumpCell">Hammer Boulder Grotto</div>
+                        <div className="dumpCell">1</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Pots Entrance</div>
+                        <div className="dumpCell">Bolero and nearby checks</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Pots Entrance</div>
+                        <div className="dumpCell">Temple Exit</div>
+                        <div className="dumpCell">5</div>
+                        <div className="dumpCell">8</div>
+                        <div className="dumpCell dumpCellLeft">Pots Entrance</div>
+                        <div className="dumpCell">Jumping Down to Far Platform</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Pots Entrance</div>
+                        <div className="dumpCell">Far Platform, via the Scarecrow</div>
+                        <div className="dumpCell">5</div>
+                        <div className="dumpCell">8</div>
+                        <div className="dumpCell dumpCellLeft">Bolero Pad</div>
+                        <div className="dumpCell">Temple Exit, Checks near Bolero Pad, Pots Exit</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell dumpCellLeft">Bolero Pad</div>
+                        <div className="dumpCell">Far Platform, via the Scarecrow</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell dumpCellLeft">Bolero Pad</div>
+                        <div className="dumpCell">Far Platform, using the Bean patch</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell">5</div>
+                        <div className="dumpCell dumpCellLeft">Bolero Pad</div>
+                        <div className="dumpCell">Far Platform, climbing around and jumping down</div>
+                        <div className="dumpCell">7</div>
+                        <div className="dumpCell">11</div>
+                      </div>
+                    <h3>Hearts needed for Vanilla Fire Temple with this Trick.
+                    </h3>
+                      <div className="FTROtherTable">
+                        <div className="dumpCell dumpHead1">Task</div>
+                        <div className="dumpCell dumpHead3">Hearts Needed</div>
+                        <div className="dumpCell dumpCellLeft">Crossing Near Boss Room</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Reaching the Open Side Door in Big Lava Room:</div>
+                        <div className="dumpCell">3</div>
+                        <div className="dumpCell dumpCellLeft">Reaching Blocked or High Side Doors in Big Lava Room:</div>
+                        <div className="dumpCell">4</div>
+                      </div>
+                    <h3>Hearts needed for Master Quest Fire Temple with this Trick.
+                    </h3>
+                      <div className="FTROtherTable">
+                        <div className="dumpCell dumpHead1">Task</div>
+                        <div className="dumpCell dumpHead3">Hearts Needed</div>
+                        <div className="dumpCell dumpCellLeft">Crossing Near Boss Room</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Reaching the Open Side Door in Big Lava Room:</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell dumpCellLeft">Reaching High Side Door in Big Lava Room with Bow:</div>
+                        <div className="dumpCell">4</div>
+                        <div className="dumpCell dumpCellLeft">Reaching Blocked Side Door in Big Lava Room</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Performing the trick &quot;Fire Temple Master Quest Boss Key Chest without Bow&quot;</div>
+                        <div className="dumpCell">7</div>
+                      </div>
+                    <h3>Hearts needed for Fire Trial with this Trick.
+                    </h3>
+                      <div className="FTROtherTable">
+                        <div className="dumpCell dumpHead1">Task</div>
+                        <div className="dumpCell dumpHead3">Hearts Needed</div>
+                        <div className="dumpCell dumpCellLeft">Getting the freestanding item</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Opening the door in Vanilla</div>
+                        <div className="dumpCell">6</div>
+                        <div className="dumpCell dumpCellLeft">Opening the door in MQ</div>
+                        <div className="dumpCell">9</div>
+                      </div><h3>Hearts needed for Vanilla Fire Trial with this Trick.
+                    </h3>
+                      <div className="FTROtherTable">
+                        <div className="dumpCell dumpHead1">Task</div>
+                        <div className="dumpCell dumpHead3">Hearts Needed</div>
+                        <div className="dumpCell dumpCellLeft">Getting the freestanding item</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Opening the door in Vanilla</div>
+                        <div className="dumpCell">6</div>
+                      </div>
+                    <h3>Breath Timers
+                    </h3>
+                    <div className="FTROtherTable">
+                        <div className="dumpCell dumpHead1">Task</div>
+                        <div className="dumpCell dumpHead3">Hearts Needed</div>
+                        <div className="dumpCell dumpCellLeft">Getting checks on Zora Fountain&apos;s lakebed</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Getting Checks in the Forest Temple Well without draining it</div>
+                        <div className="dumpCell">1</div>
+                        <div className="dumpCell dumpCellLeft">Moving through the Forest Temple Well without draining it</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Reaching Low Water Emblem from the Entrance</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Reaching Water Temple Jet Chest with Swimming</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Getting checks in Water Temple River without Swimming</div>
+                        <div className="dumpCell">2</div>
+                        <div className="dumpCell dumpCellLeft">Making it past Water Temple River without Swimming</div>
+                        <div className="dumpCell">4</div>
+                      </div>
                   </div>
                 </div>
               </div>

@@ -25,9 +25,14 @@ const Home: NextPage = () => {
                     <h2 id="explaination">
                       <a href="#explaination">Bombchu Beehives</a>
                     </h2>
-                    {/*TODO expand upon with videos*/}
                     <p>By timing your bombchus to detonate at the correct time, or using Deku Nuts, you can detonate the chu next to the beehive to get the check.
                     </p>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/ChuBee1.webm" type="video/webm"/>
+                    </video>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/ChuBee2.webm" type="video/webm"/>
+                    </video>
                   </div>
                 </div>
               </div>

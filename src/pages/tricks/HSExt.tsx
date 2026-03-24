@@ -37,21 +37,21 @@ const Home: NextPage = () => {
                     </p>
                     <p>In Water Temple, the switch in a cage with a Gold Skulltula can be hit with Bow or Slingshot through the grate using Extension.
                     </p>
-                    <p>In MQ Shadow Temple, you can use Bow or Slingshot extension to shoot into the Song of Time block and shoot the eye target behind it without playing the song, spawning a hookshot target.
+                    <p>In Master Quest Shadow Temple, you can use Bow or Slingshot extension to shoot into the Song of Time block and shoot the eye target behind it without playing the song, spawning a hookshot target.
                     </p>
                     <p>You can shoot the switch on 4f of Spirit Temple through the bars with Hookshot (as Adult), Bow or Slingshot using Extension.
                     </p>
                     <p>You can shoot the switch in Spirit Trial using bow or Slingshot with extension.
                     </p>
-                    <p>You can break the pot in Ice Cavern Map Room without melting the ice with hookshot Extension. The MQ gold skulltula in the same spot can also be grabbed 
+                    <p>You can break the pot in Ice Cavern Map Room without melting the ice with hookshot Extension. The Master Quest gold skulltula in the same spot can also be grabbed 
                     </p>
-                    <p>You can use Extension to hit the eye target behind the boulder near the start of MQ Bottom of the Well either with Slingshot or as Child using a Bow.
+                    <p>You can use Extension to hit the eye target behind the boulder near the start of Master Quest Bottom of the Well either with Slingshot or as Child using a Bow.
                     </p>
                     <h2>List of uses that may become relevant on alternate builds or with future shuffles/tricks:
                     </h2>
-                    <p>You can reach the Stone Umbrella room in MQ shadow by using Extension with a Bow or Slingshot to shoot through the grate.
+                    <p>You can reach the Stone Umbrella room in Master Quest shadow by using Extension with a Bow or Slingshot to shoot through the grate.
                     </p>
-                    <p>You can kill the Gold Skulltula in the red ice in MQ Ice Cavern from the Song of Time blocks as Adult. This is more precise than most due to the small gap between the block and the ice.
+                    <p>You can kill the Gold Skulltula in the red ice in Master Quest Ice Cavern from the Song of Time blocks as Adult. This is more precise than most due to the small gap between the block and the ice.
                     </p>
                   </div>
                 </div>
