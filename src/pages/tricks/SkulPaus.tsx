@@ -25,9 +25,13 @@ const Home: NextPage = () => {
                     <h2 id="explaination">
                       <a href="#explaination">Big Skulltula Pause Lift</a>
                     </h2>
-                    <p> After dropping down to block you, Big Skulltulas have an idle animation that moves them up and down. When you pause they stop moving but the animation that separately tracks the direction the spider should move keeps changing.
-                        by pausing when the animation should be moving down, and unpausing when it should be moving up, you can slowly cause the enemy to rise too high to block Link&quot;s progress without using items.
+                    <p>After dropping down to block you, Big Skulltulas have an idle animation that moves them up and down. When you pause they stop moving but the timer that separately tracks the direction the spider should move keeps ticking.
                     </p>
+                    <p>By pausing when the animation should be moving down, and unpausing when it moves up, you can slowly cause the enemy to rise too high to block Link&apos;s progress.
+                    </p>
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/SkulLift.webm" type="video/webm"/>
+                    </video>
                   </div>
                 </div>
               </div>

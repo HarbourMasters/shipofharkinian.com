@@ -28,10 +28,10 @@ const Home: NextPage = () => {
                     </h2>
                     <p>Normally, if a heat timer or breath timer would appear outside of Death Mountain Crater, you logically need a tunic.
                     </p>
-                    <p>If Fewer Tunic Requirements is enabled, you restrictions are looser, and the number of hearts the game expects from you in Death Mountain Crater is reduced.
+                    <p>If Fewer Tunic Requirements is enabled, the restrictions are looser, and the number of hearts the game expects from you in Death Mountain Crater is reduced.
                        Specifically you are expected to do everything except the Fire Temple Block and Geyser room, Volvagia and Central Pillar without a Tunic.
                     </p>
-                    <p>Except for near the Bolero Pad, you never need a specific number of hearts to do checks immediately around the entrance,
+                    <p>Except for near the Bolero Pad, you never need a specific number of hearts to do checks immediately around the place you have entered from.
                     </p>
                     <h3>Common Heat Timers in Death Mountain Crater with and without Fewer Tunic Requirements.
                     </h3>

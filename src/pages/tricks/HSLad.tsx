@@ -4,7 +4,23 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import { PageHeader } from '../../components/PageHeader';
 import { PageFooter } from '../../components/PageFooter';
+import Image from 'next/image';
 
+import HF1 from './images/HSLadHF1.jpg';
+import HF2 from './images/HSLadHF2.jpg';
+import DMC from './images/HSLadDMC.jpg';
+import LW from './images/HSLadLW.jpg';
+import SFM1 from './images/HSLadSFM1.jpg';
+import SFM2 from './images/HSLadSFM2.jpg';
+import ZR from './images/HSLadZR.jpg';
+import DCPlatform from './images/HSLadDCPlatform.jpg';
+import Shadow from './images/HSLadShadow.jpg';
+import ZD from './images/HSLadZD.jpg';
+import DCSpikes1 from './images/HSLadDCSpikes1.jpg';
+import DCSpikes2 from './images/HSLadDCSpikes2.jpg';
+import BotWEntrance from './images/HSLadBotWEntrance.jpg';
+import BotWB31 from './images/HSLadBotWB31.jpg';
+import BotWB32 from './images/HSLadBotWB32.jpg';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -27,66 +43,80 @@ const Home: NextPage = () => {
                       <a href="#explaination">Hookshot Ladders</a>
                     </h2>
                     <p>You can skip climb for hookshottable ladders can be skipped by hookshotting the top of the ladder from the correct distance and angle and holding forward to ledge grab.</p>
-                    <p>This is more difficult for some ladders than others due to the quirks of geometory and Link&apos;s ledge grab, and a few are not possible.</p>
+                    <p>This is more difficult for some ladders than others due to the quirks of geometory and Link&apos;s ledge grab.</p>
                     <p>Hookshotting climbable walls in the same way is not a trick, as it is trivial to get an angle that correctly ledge grabs.</p>
-                    <p>Unless specified otherwise, an easy way to get a good angle is to drop off the ladder, backflip, then sidehop and from there aim for the top middle of the ladder.</p>
-                    <h2>List of currently relevant ladders and their hookshot locations:
-                    </h2>
-                    {/*TODO add images*/}
-                    <p>Hyrule Field, entering and leaving via the Fence Entrance (Lake Hylia):
+                    <p>Unless specified otherwise an easy way to get a good angle is to drop off the ladder, backflip, then sidehop and from there aim for the top of the ladder.</p>
+                    <h3>List of currently relevant ladders
+                    </h3>
+                    <p>Hyrule Field, entering and leaving via the south path.
                     </p>
-                    <p>Kokiri Forest, Ladder to Link&apos;s Porch:
+                    <Image src={HF1} alt="Hyrule Field Ladder" />
+                    <Image src={HF2} alt="Hyrule Field Ladder" />
+                    <p>Kokiri Forest, ladder to Link&apos;s Porch
                     </p>
-                    <p>This ladder is very precise as Adult, the setup is backflip 3 times, sidehop right once, then aim hookshot above the right prong of the ladder (so there&apos;s no reticle):
+                    <p>This ladder is very precise so the setup, and thus killing the Deku Baba if Forest Temple is not cleared, is logically required. Stunning it does not last long enough to perform the trick.
                     </p>
-                    <p>Lost Woods, from the bridge to the Main area:
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/HSLadLinksPorch.webm" type="video/webm"/>
+                    </video>
+                    <p>Lost Woods, from the bridge to the Main area
                     </p>
-                    <p>Note that this is only for climb the ladder, Hookshotting it, dropping down and getting checks from the Gossip Stone is not a trick.
+                    <p>Note that this is only for climbing the ladder, Hookshotting it, dropping down and getting checks from the Gossip Stone is not a trick.
                     </p>
-                    <p>Sacred Forest Meadow Ladders to the upper level:
+                    <Image src={LW} alt="Lost Woods Ladder" />
+                    <p>Sacred Forest Meadow Ladders to the upper level.
                     </p>
-                    <p>Walls and the grotto interfere with the setup, but these are pretty easy to eyeball.
+                    <Image src={SFM1} alt="Sacred Forest Meadow Ladder" />
+                    <Image src={SFM2} alt="Sacred Forest Meadow Ladder" />
+                    <p>Zora&apos;s River ladder to the Grottos.
                     </p>
-                    <p>Death Mountain Crater From the Scrub Area to the Upper Area:
+                    <Image src={ZR} alt="Zora's River Ladder" />
+                    <p>Death Mountain Crater From the Scrub Region to the Upper Region.
                     </p>
                     <p>Note that if &quot;Crater&apos;s Bean PoH with Hover Boots&quot; is on, you may be asked to Longshot from that Heart Piece to the big climbing wall even without this trick.
                     </p>
-                    <p>Gerudo Fortress ladder onto the tower:
+                    <Image src={DMC} alt="Death Mountain Crater Ladder" />
+                    <p>Gerudo Fortress ladder onto the tower.
                     </p>
-                    <p>One of the most awkward ladders, a reliable setup is to start at the right side of the inside gate, then sidehop left, backflip 3 times, then sidehop right, before aiming at the top of the right prong of the ladder.
+                    <p>One of the most awkward ladders, using the setup is recommended.
                     </p>
-                    <p>Dodongo&apos;s Cavern, ladder leading to the bridge:
+                    <video controls width="853" height="480">
+                      <source src="./../trickvids/HSLadGF.webm" type="video/webm"/>
+                    </video>
+                    <p>Dodongo&apos;s Cavern Spike Room, ladder leading to the bridge.
                     </p>
                     <p>The setup is blocked by the environment, but the gap between the pillars is perfectly spaced for an easy hook.
                     </p>
-                    <p>Shadow Temple Dock:
+                    <Image src={DCSpikes1} alt="Dodongo's Cavern Spikes Ladder" />
+                    <p>Shadow Temple Dock.
                     </p>
-                    <p>The setup is impossible as the ladder does not reach the ground, but it&apos;s one of the easier ones to grab. Adult can also jump to the wheel, but it&apos;s Unintuitive.
+                    <Image src={Shadow} alt="Shadow Dock Ladder" />
+                    <h3>List of ladders that may become relevant on alternate builds or with future Tricks or Shuffles
+                    </h3>
+                    <p>Zora&apos;s Domain, escaping the grotto Island as Child without swimming.
                     </p>
-                    <h2>List of ladders that may become relevant on alternate builds or with future Shuffles/Tricks:
-                    </h2>
-                    <p>Zora&apos;s River ladder to Grottos:
+                    <p>Adult can simply walk over the ice, and with Longshot you can hook one of the chest torches which is not a trick.
                     </p>
-                    <p>The tiny ledge prevents the normal setup, but you can make it by getting close to the water, and going right just enough that you can aim slightly over the middle of the ladder, hooking a transparent part of the ladder hitbox.
+                    <Image src={ZD} alt="Zora's Domain Ladder" />
+                    <p>Dodongo&apos;s Cavern, climbing to the Switch Platform.
                     </p>
-                    <p>Zora&apos;s Domain, escaping the grotto Island as Child with Hookshot and no swim:
+                    <p>Adult gets there with just a ledge climb, skipping the ladder entirely.
                     </p>
-                    <p>Adult can simply walk over the ice, and with Longshot you can reach one of the chest torches. Has to be done setupless due to the water.
-                    </p>
-                    <p>Dodongo&apos;s cavern, climbing to this platform in MQ:
-                    </p>
-                    <p>Adult gets there with just a ledge climb, but this could be required to defeat the Dodongos with bomb flowers if child hookshot was ever logical.
-                    </p>
-                    <p>Dodongo&apos;s cavern, ladder towards upper lizalfos:
+                    <Image src={DCPlatform} alt="Dodongo's Cavern Platform Ladder" />
+                    <p>Dodongo&apos;s Cavern, ladder towards Upper Lizalfos Loop.
                     </p>
                     <p>This ladder can be skipped using blocks to platform to the ledge instead.
                     </p>
-                    <p>Bottom of the Well, Entrance Ladder:
+                    <Image src={DCSpikes2} alt="Dodongo's Cavern Spikes Ladder" />
+                    <p>Bottom of the Well, Entrance Ladder
                     </p>
-                    <p>Bottom of the Well, Leaving B3:
+                    <Image src={BotWEntrance} alt="Bottom of the Well Entrance Ladder" />
+                    <p>Bottom of the Well, Leaving B3
                     </p>
                     <p>The slime messes with the setup, but standing on the edge of the wood works fine.
                     </p>
+                    <Image src={BotWB31} alt="Bottom of the Well B3 Ladder" />
+                    <Image src={BotWB32} alt="Bottom of the Well B3 Ladder" />
                   </div>
                 </div>
               </div>

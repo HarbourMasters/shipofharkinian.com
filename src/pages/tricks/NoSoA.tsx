@@ -1,10 +1,24 @@
 import type { NextPage } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Image from 'next/image';
 
 import { PageHeader } from '../../components/PageHeader';
 import { PageFooter } from '../../components/PageFooter';
 
+import InsideFence from './images/InsideFenceGrotto.jpg';
+import HFNearValley from './images/HFNearValleyGrotto.jpg';
+import HFNearBridge from './images/HFNearBridgeGrotto.jpg';
+import HFLoneTree from './images/HFLoneTreeGrotto.jpg';
+import KFStorms from './images/KFStormsGrotto.jpg';
+import SFMWolfos from './images/SFMWolfosGrotto.jpg';
+import SFMStorms from './images/SFMStormsGrotto.jpg';
+import KakCentral from './images/KakCentralGrotto.jpg';
+import DMTStorms from './images/DMTStormsGrotto.jpg';
+import ZRStorms from './images/ZRStormsGrotto.jpg';
+import ZDStorms from './images/ZDGrotto.jpg';
+import GVTent from './images/GVTentGrotto.jpg';
+import GF from './images/GFGrotto.jpg';
 
 const Home: NextPage = () => {
   const { t } = useTranslation();
@@ -26,45 +40,55 @@ const Home: NextPage = () => {
                     <h2 id="explaination">
                       <a href="#explaination">Grottos Without Stone of Agony</a>
                     </h2>
-                    <p>This trick makes it so that you do not need Stone of Agony to locate and enter hidden grottos.\n
+                    <p>This trick makes it so that you do not need Stone of Agony to locate and enter hidden grottos.
                     </p>
-                    <p>Grottos that exist under boulders are not counter, but those within stone circles or other environmental clues hints are, 
-                        and this affects both grottos you blast/hammer open and those opened via Song of Storms. 
+                    <p>Grottos that exist under boulders are not counted (except for Hyrule Field Near Valley Grotto as Adult), but those within stone circles or other environmental clues hints are, 
+                        and this affects both grottos you blast or hammer open and those opened via Song of Storms. 
                     </p>
                     <p> If grottos are randomised it affects the ability to enter the grotto and reach the area shuffled to be behind it,
                         not the vanilla grottos that would have been located there.
                     </p>
-                    <p>Grottos that exist under boulders are not counted, but those within stone circles or other environmental clues hints are, and this affects both grottos you blast/hammer open and those opened via Song of Storms.
+                    <h3>List of Affected Grottos
+                    </h3>
+                    <p>Hyrule Field Inner Fence Grotto.
                     </p>
-                    <h2>List of Affected Grottos:
-                    </h2>
-                    {/*TODO add images*/}
-                    <p>Hyrule Field Inner Fence Grotto: 
+                    <Image src={InsideFence} alt="Inside Fence Grotto" />
+                    <p>Hyrule Field Near Valley Grotto, even as Adult when the Boulder exists.
                     </p>
-                    <p>Hyrule Field Near Valley Grotto, even as Adult when the rock exists:
+                    <Image src={HFNearValley} alt="Hyrule Field Near Valley Grotto" />
+                    <p>Hyrule Field Near Bridge Grotto.
                     </p>
-                    <p>Hyrule Field Near Stairs Tree Grotto:
+                    <Image src={HFNearBridge} alt="Hyrule Field Near Bridge Grotto" />
+                    <p>Hyrule Field Lone Tree Grotto.
                     </p>
-                    <p>Hyrule Field Lone Tree Grotto:
+                    <Image src={HFLoneTree} alt="Hyrule Field Lone Tree Grotto" />
+                    <p>Kokiri Forest Storms Grotto.
                     </p>
-                    <p>Kokiri Forest Storms Grotto:
+                    <Image src={KFStorms} alt="Kokiri Forest Storms Grotto" />
+                    <p>Sacred Forest Meadow Wolfos Grotto.
                     </p>
-                    <p>Sacred Forest Meadow Wolfos Grotto:
+                    <Image src={SFMWolfos} alt="Sacred Forest Meadow Storms Grotto" />
+                    <p>Sacred Forest Meadow Storms Grotto.
                     </p>
-                    <p>Sacred Forest Meadow Storms Grotto:
+                    <Image src={SFMStorms} alt="Sacred Forest Meadow Storms Grotto" />
+                    <p>Kakariko Village Central Grotto.
                     </p>
-                    <p>Kakariko Village Central Grotto:
+                    <Image src={KakCentral} alt="Sacred Forest Meadow Storms Grotto" />
+                    <p>Death Mountain Trail Storms Grotto.
                     </p>
-                    <p>Death Mountain Trail Storms Grotto:
+                    <Image src={DMTStorms} alt="Death Mountain Trail Storms Grotto" />
+                    <p>Zora&apos;s River Storms Grotto.
                     </p>
-                    <p>Zora&apos;s Domain Grotto:
+                    <Image src={ZRStorms} alt="Zora's River Storms Grotto" />
+                    <p>Zora&apos;s Domain Grotto.
                     </p>
-                    <p>Zora&apos;s River Storms Grotto:
+                    <Image src={ZDStorms} alt="Zora's Domain Grotto" />
+                    <p>Gerudo Valley Behind Tent Grotto.
                     </p>
-                    <p>Gerudo Fortress Grotto:
+                    <Image src={GVTent} alt="Gerudo Valley Tent Grotto" />
+                    <p>Gerudo Fortress Grotto.
                     </p>
-                    <p>Gerudo Valley Behind Tent Grotto:
-                    </p>
+                    <Image src={GF} alt="Gerudo Fortress Grotto" />
                   </div>
                 </div>
               </div>
