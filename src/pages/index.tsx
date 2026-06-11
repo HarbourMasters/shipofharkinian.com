@@ -22,8 +22,8 @@ const Home: NextPage = () => {
           <div className="splashImage" style={{ backgroundImage: 'url("/splash_poster.jpg")' }}> </div>
           <div className="splashVideo">
             <video autoPlay loop muted poster="/splash_poster.jpg">
-              <source src="./splash.mp4" type="video/mp4" />
-              <source src="./splash.webm" type="video/webm" />
+              <source src="https://pub-cb993091fde242b695aedeb9f17b8816.r2.dev/splash.mp4" type="video/mp4" />
+              <source src="https://pub-cb993091fde242b695aedeb9f17b8816.r2.dev/splash.webm" type="video/webm" />
             </video>
           </div>
           <div className="splashOverlay"> </div>
