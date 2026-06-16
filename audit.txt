@@ -1,0 +1,160 @@
+# npm audit report
+
+@babel/runtime  <7.26.10
+Severity: moderate
+Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups - https://github.com/advisories/GHSA-968p-4wvh-cqc8
+fix available via `npm audit fix`
+node_modules/@babel/runtime
+
+@babel/runtime-corejs3  <7.26.10
+Severity: moderate
+Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups - https://github.com/advisories/GHSA-968p-4wvh-cqc8
+fix available via `npm audit fix`
+node_modules/@babel/runtime-corejs3
+
+ajv  <8.18.0
+Severity: moderate
+ajv has ReDoS when using `$data` option - https://github.com/advisories/GHSA-2g4f-4pwh-qvx6
+fix available via `npm audit fix --force`
+Will install eslint@4.1.1, which is a breaking change
+node_modules/ajv
+  @eslint/eslintrc  *
+  Depends on vulnerable versions of ajv
+  node_modules/@eslint/eslintrc
+    eslint  >=4.2.0
+    Depends on vulnerable versions of @eslint/eslintrc
+    Depends on vulnerable versions of ajv
+    Depends on vulnerable versions of eslint-utils
+    node_modules/eslint
+      @typescript-eslint/parser  *
+      Depends on vulnerable versions of eslint
+      node_modules/@typescript-eslint/parser
+        eslint-config-next  >=10.2.1-canary.2
+        Depends on vulnerable versions of @typescript-eslint/parser
+        Depends on vulnerable versions of eslint
+        node_modules/eslint-config-next
+      eslint-config-prettier  >=7.0.0
+      Depends on vulnerable versions of eslint
+      node_modules/eslint-config-prettier
+      eslint-utils  >=3.0.0
+      Depends on vulnerable versions of eslint
+      node_modules/eslint-utils
+  ajv-keywords  2.1.1 - 4.0.1
+  Depends on vulnerable versions of ajv
+  node_modules/ajv-keywords
+    schema-utils  <=3.3.0
+    Depends on vulnerable versions of ajv
+    Depends on vulnerable versions of ajv-keywords
+    node_modules/schema-utils
+      terser-webpack-plugin  1.0.2 - 5.3.10
+      Depends on vulnerable versions of schema-utils
+      node_modules/terser-webpack-plugin
+      webpack  4.0.0-alpha.0 - 5.104.0
+      Depends on vulnerable versions of schema-utils
+      node_modules/webpack
+
+brace-expansion  1.0.0 - 1.1.11
+brace-expansion Regular Expression Denial of Service vulnerability - https://github.com/advisories/GHSA-v6h2-p8h4-qcjw
+fix available via `npm audit fix`
+node_modules/brace-expansion
+
+braces  <3.0.3
+Severity: high
+Uncontrolled resource consumption in braces - https://github.com/advisories/GHSA-grv7-fg5c-xmjg
+fix available via `npm audit fix`
+node_modules/braces
+
+cross-spawn  7.0.0 - 7.0.4
+Severity: high
+Regular Expression Denial of Service (ReDoS) in cross-spawn - https://github.com/advisories/GHSA-3xgq-45jj-v275
+fix available via `npm audit fix`
+node_modules/cross-spawn
+
+diff  5.0.0 - 5.2.1
+jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch - https://github.com/advisories/GHSA-73rr-hh4g-fpgx
+fix available via `npm audit fix`
+node_modules/diff
+
+js-yaml  4.0.0 - 4.1.0
+Severity: moderate
+js-yaml has prototype pollution in merge (<<) - https://github.com/advisories/GHSA-mh29-5h37-fv8m
+fix available via `npm audit fix`
+node_modules/js-yaml
+
+json5  <1.0.2
+Severity: high
+Prototype Pollution in JSON5 via Parse Method - https://github.com/advisories/GHSA-9c47-m6qq-7p4h
+fix available via `npm audit fix`
+node_modules/json5
+
+lodash  4.0.0 - 4.17.21
+Severity: moderate
+Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions - https://github.com/advisories/GHSA-xxjr-mmjv-4gpg
+fix available via `npm audit fix`
+node_modules/lodash
+
+micromatch  <4.0.8
+Severity: moderate
+Regular Expression Denial of Service (ReDoS) in micromatch - https://github.com/advisories/GHSA-952p-6rrq-rcjv
+fix available via `npm audit fix`
+node_modules/micromatch
+
+nanoid  <3.3.8
+Severity: moderate
+Predictable results in nanoid generation when given non-integer values - https://github.com/advisories/GHSA-mwcw-c2x4-8c55
+fix available via `npm audit fix`
+node_modules/nanoid
+
+next  0.9.9 - 15.5.9
+Severity: critical
+Next.js missing cache-control header may lead to CDN caching empty reply - https://github.com/advisories/GHSA-c59h-r6p8-q9wc
+Denial of Service condition in Next.js image optimization - https://github.com/advisories/GHSA-g77x-44xx-532m
+Next.js Affected by Cache Key Confusion for Image Optimization API Routes - https://github.com/advisories/GHSA-g5qg-72qw-gw5v
+Next.js authorization bypass vulnerability - https://github.com/advisories/GHSA-7gfc-8cq8-jh5f
+Next.js Improper Middleware Redirect Handling Leads to SSRF - https://github.com/advisories/GHSA-4342-x723-ch2f
+Next.js Content Injection Vulnerability for Image Optimization - https://github.com/advisories/GHSA-xv57-4mr9-wg8v
+Next.js Race Condition to Cache Poisoning - https://github.com/advisories/GHSA-qpjv-v59x-3qc4
+Authorization Bypass in Next.js Middleware - https://github.com/advisories/GHSA-f82v-jwr5-mffw
+Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration - https://github.com/advisories/GHSA-9g9p-9gw9-jx7f
+Depends on vulnerable versions of postcss
+fix available via `npm audit fix --force`
+Will install next@16.1.6, which is a breaking change
+node_modules/next
+
+postcss  <8.4.31
+Severity: moderate
+PostCSS line return parsing error - https://github.com/advisories/GHSA-7fh5-64p2-3v2j
+fix available via `npm audit fix --force`
+Will install next@16.1.6, which is a breaking change
+node_modules/next/node_modules/postcss
+node_modules/postcss
+
+semver  6.0.0 - 6.3.0 || 7.0.0 - 7.5.1
+Severity: high
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+semver vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+fix available via `npm audit fix`
+node_modules/eslint-plugin-jsx-a11y/node_modules/semver
+node_modules/eslint-plugin-react/node_modules/semver
+node_modules/semver
+
+serialize-javascript  6.0.0 - 6.0.1
+Severity: moderate
+Cross-site Scripting (XSS) in serialize-javascript - https://github.com/advisories/GHSA-76p7-773f-r4q5
+fix available via `npm audit fix`
+node_modules/serialize-javascript
+
+
+word-wrap  <1.2.4
+Severity: moderate
+word-wrap vulnerable to Regular Expression Denial of Service - https://github.com/advisories/GHSA-j8xg-fqg3-53r7
+fix available via `npm audit fix`
+node_modules/word-wrap
+
+27 vulnerabilities (2 low, 19 moderate, 4 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force

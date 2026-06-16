@@ -27,13 +27,12 @@ export function PageHeader(props:{pageName: string}) {
   return (
     <>
       <MetaHeader pageName={props.pageName} />
-
       <section id="header" className={headerClass}>
     		<div className="container">
           <div className="column left">
             <div className="logo">
               <Link href="/">
-                <a><Image src={logo} alt="Ship of Harkinian Logo" /></a>
+                <Image src={logo} alt="Ship of Harkinian Logo" />
               </Link>
             </div>
           </div>
@@ -42,7 +41,6 @@ export function PageHeader(props:{pageName: string}) {
           </div>
     		</div>
       </section>
-
     </>
   );
 }

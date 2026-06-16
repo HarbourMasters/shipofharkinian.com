@@ -1,5 +1,10 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[typescriptreact]": { "editor.formatOnSave": true },
-    "[typescript]": { "editor.formatOnSave": true },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "cSpell.words": [
+        "hitbox"
+    ],
 }

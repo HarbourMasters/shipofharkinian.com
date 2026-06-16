@@ -200,3 +200,17 @@
   font-weight: bold;
   color: #dd1;
 }
+
+.FTRDMCTable {
+   display: grid;
+   grid-template-columns: 29% 45% 15% 11%;
+   grid-auto-rows: auto;
+   grid-gap: 0;
+ }
+
+.FTROtherTable {
+   display: grid;
+   grid-template-columns: 85% 15%;
+   grid-auto-rows: auto;
+   grid-gap: 0;
+ }

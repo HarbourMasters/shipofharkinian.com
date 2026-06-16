@@ -8,6 +8,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disabled because we are doing a static export
   },
+  turbopack: {},
   i18n,
 };
 
