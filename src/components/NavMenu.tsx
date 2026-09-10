@@ -33,7 +33,7 @@ export function NavMenu() {
               <li><Link href="/randomizer/"><a>{t('RANDOMIZER')}</a></Link></li>
             </ul>
             <div className="socials">
-              <Link href="https://discord.com/invite/shipofharkinian">
+              <Link href="https://discord.com/invite/harbourmasters">
                 <a target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-169 292.9 256 198.2">
                     <title>Discord</title>
