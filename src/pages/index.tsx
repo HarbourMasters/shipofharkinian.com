@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               <span className="quote">{t('Proof that the unofficial option is sometimes the best option')}</span>
               <span className="author">- The Verge</span>
               <span className="buttonCont">
-			    <Link href="https://discord.com/invite/shipofharkinian">
+                <Link href="https://discord.com/invite/harbourmasters">
                   <a className="splashButton splashButtonFirst" target="_blank">
                     <span>{t('Discuss on')}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="-169 292.9 256 198.2">
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                     </svg>
                   </a>
                 </Link>
-			    <Link href="https://github.com/HarbourMasters/Shipwright/releases/latest">
+                <Link href="https://github.com/HarbourMasters/Shipwright/releases/latest">
                   <a className="splashButton" target="_blank">
                     <span>{t('Download on')}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.6 31.8">
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                     </svg>
                   </a>
                 </Link>
-			  </span>
+              </span>
             </div>
           </div>
         </div>
