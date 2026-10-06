@@ -29,7 +29,6 @@ export function NavMenu() {
               <li><Link href="/"><a>{t('HOME')}</a></Link></li>
               <li><Link href="/setup-guide/"><a>{t('SETUP GUIDE')}</a></Link></li>
               <li><Link href="/faq/"><a>{t('FAQ')}</a></Link></li>
-              <li><Link href="/changelog/"><a>{t('CHANGELOG')}</a></Link></li>
               <li><Link href="/randomizer/"><a>{t('RANDOMIZER')}</a></Link></li>
             </ul>
             <div className="socials">
